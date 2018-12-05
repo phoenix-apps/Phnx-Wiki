@@ -684,6 +684,10 @@ body .toc {
     font-size: 12px;
 }
 
+.affix ul {
+    word-break: break-all;
+}
+
 .affix>ul.level1 {
     display: block;
     overflow: hidden;
