@@ -1,0 +1,600 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class OneWayStream
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class OneWayStream
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream">
+  
+  
+  <h1 id="Phnx_Security_Tests_TestHelpers_OneWayStream" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream" class="text-break">Class OneWayStream
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.MarshalByRefObject</span></div>
+    <div class="level2"><span class="xref">System.IO.Stream</span></div>
+    <div class="level3"><span class="xref">OneWayStream</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.IO.Stream.Null</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.BeginRead(System.Byte[], System.Int32, System.Int32, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.BeginWrite(System.Byte[], System.Int32, System.Int32, System.AsyncCallback, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.CopyTo(System.IO.Stream)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.CopyTo(System.IO.Stream, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.CopyToAsync(System.IO.Stream)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.CopyToAsync(System.IO.Stream, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.CopyToAsync(System.IO.Stream, System.Int32, System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.Close()</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.CreateWaitHandle()</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.EndRead(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.EndWrite(System.IAsyncResult)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.FlushAsync()</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.FlushAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.ObjectInvariant()</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.ReadAsync(System.Byte[], System.Int32, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.ReadAsync(System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.ReadByte()</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.Synchronized(System.IO.Stream)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.WriteAsync(System.Byte[], System.Int32, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.WriteAsync(System.Byte[], System.Int32, System.Int32, System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.WriteByte(System.Byte)</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.CanTimeout</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.ReadTimeout</span>
+    </div>
+    <div>
+      <span class="xref">System.IO.Stream.WriteTimeout</span>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.GetLifetimeService()</span>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.InitializeLifetimeService()</span>
+    </div>
+    <div>
+      <span class="xref">System.MarshalByRefObject.MemberwiseClone(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Security.Tests.TestHelpers.html">Phnx.Security.Tests.TestHelpers</a></div>
+  <div><strong>Assembly</strong>: Phnx.Security.Tests.dll</div>
+  
+  <h5 id="Phnx_Security_Tests_TestHelpers_OneWayStream_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public class OneWayStream : Stream, IDisposable</code></pre>
+  <h3 id="constructors">
+  	Constructors
+  </h3>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream__ctor_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.#ctor*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream__ctor_System_Boolean_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.#ctor(System.Boolean)">OneWayStream(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public OneWayStream(bool output)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">output</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">
+  	Properties
+  </h3>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_BaseStream_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.BaseStream*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_BaseStream" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.BaseStream">BaseStream</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public MemoryStream BaseStream { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.MemoryStream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_CanRead_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.CanRead*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_CanRead" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.CanRead">CanRead</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override bool CanRead { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.IO.Stream.CanRead</span></div>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_CanSeek_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.CanSeek*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_CanSeek" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.CanSeek">CanSeek</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override bool CanSeek { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.IO.Stream.CanSeek</span></div>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_CanWrite_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.CanWrite*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_CanWrite" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.CanWrite">CanWrite</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override bool CanWrite { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.IO.Stream.CanWrite</span></div>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_Length_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Length*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_Length" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Length">Length</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override long Length { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.IO.Stream.Length</span></div>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_Position_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Position*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_Position" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Position">Position</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override long Position { get; set; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.IO.Stream.Position</span></div>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_Flush_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Flush*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_Flush" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Flush">Flush()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override void Flush()</code></pre>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.IO.Stream.Flush()</span></div>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_Read_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Read*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_Read_System_Byte___System_Int32_System_Int32_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Read(System.Byte[],System.Int32,System.Int32)">Read(Byte[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override int Read(byte[] buffer, int offset, int count)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.IO.Stream.Read(System.Byte[], System.Int32, System.Int32)</span></div>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_Seek_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Seek*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_Seek_System_Int64_System_IO_SeekOrigin_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Seek(System.Int64,System.IO.SeekOrigin)">Seek(Int64, SeekOrigin)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override long Seek(long offset, SeekOrigin origin)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.SeekOrigin</span></td>
+        <td><span class="parametername">origin</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.IO.Stream.Seek(System.Int64, System.IO.SeekOrigin)</span></div>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_SetLength_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.SetLength*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_SetLength_System_Int64_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.SetLength(System.Int64)">SetLength(Int64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override void SetLength(long value)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.IO.Stream.SetLength(System.Int64)</span></div>
+  	<a id="Phnx_Security_Tests_TestHelpers_OneWayStream_Write_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Write*"></a>
+  <h4 id="Phnx_Security_Tests_TestHelpers_OneWayStream_Write_System_Byte___System_Int32_System_Int32_" data-uid="Phnx.Security.Tests.TestHelpers.OneWayStream.Write(System.Byte[],System.Int32,System.Int32)">Write(Byte[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override void Write(byte[] buffer, int offset, int count)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.IO.Stream.Write(System.Byte[], System.Int32, System.Int32)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Security/Phnx.Security.Tests/TestHelpers/OneWayStream.cs/#L5" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

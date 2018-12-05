@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class ObjectExtensions
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class ObjectExtensions
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Serialization.ObjectExtensions">
+  
+  
+  <h1 id="Phnx_Serialization_ObjectExtensions" data-uid="Phnx.Serialization.ObjectExtensions" class="text-break">Class ObjectExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Object</span> related to serialization</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ObjectExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Serialization.html">Phnx.Serialization</a></div>
+  <div><strong>Assembly</strong>: Phnx.Serialization.dll</div>
+  
+  <h5 id="Phnx_Serialization_ObjectExtensions_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public static class ObjectExtensions</code></pre>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Serialization_ObjectExtensions_DeepCopy_" data-uid="Phnx.Serialization.ObjectExtensions.DeepCopy*"></a>
+  <h4 id="Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_" data-uid="Phnx.Serialization.ObjectExtensions.DeepCopy``1(``0)">DeepCopy&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Deep clones an object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static T DeepCopy&lt;T&gt;(this T valueToCopy)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">valueToCopy</span></td>
+        <td><p>The object to serialize</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>A deep copy of <code data-dev-comment-type="paramref" class="paramref">valueToCopy</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object to serialize</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Phnx_Serialization_ObjectExtensions_DeepCopy__1___0__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This works by copying the entire object to JSON, and then copying it back from JSON to a new object</p>
+</div>
+  	<a id="Phnx_Serialization_ObjectExtensions_ShallowCopy_" data-uid="Phnx.Serialization.ObjectExtensions.ShallowCopy*"></a>
+  <h4 id="Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_" data-uid="Phnx.Serialization.ObjectExtensions.ShallowCopy``1(``0)">ShallowCopy&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Shallow clones an object, copying its members</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static T ShallowCopy&lt;T&gt;(this T valueToCopy)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">valueToCopy</span></td>
+        <td><p>The object to shallow clone</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>A shallow copy of <code data-dev-comment-type="paramref" class="paramref">valueToCopy</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object to shallow clone</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Serialization/Phnx.Serialization/Extensions/ObjectExtensions.cs/#L9" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,441 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class LazyDictionary&lt;TKey, TValue&gt;
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class LazyDictionary&lt;TKey, TValue&gt;
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2">
+  
+  
+  <h1 id="Phnx_Data_LazyLoad_LazyDictionary_2" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2" class="text-break">Class LazyDictionary&lt;TKey, TValue&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>A lazy loaded dictionary, which is thread-safe</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">LazyDictionary&lt;TKey, TValue&gt;</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Data.LazyLoad.html">Phnx.Data.LazyLoad</a></div>
+  <div><strong>Assembly</strong>: Phnx.Data.dll</div>
+  
+  <h5 id="Phnx_Data_LazyLoad_LazyDictionary_2_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public class LazyDictionary&lt;TKey, TValue&gt;</code></pre>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The type of identifier for this value</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>The type of data in this table</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">
+  	Constructors
+  </h3>
+  	<a id="Phnx_Data_LazyLoad_LazyDictionary_2__ctor_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.#ctor*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDictionary_2__ctor_System_Func__0__1__" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.#ctor(System.Func{`0,`1})">LazyDictionary(Func&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Data.LazyLoad.LazyDictionary-2.html">LazyDictionary&lt;TKey, TValue&gt;</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public LazyDictionary(Func&lt;TKey, TValue&gt; getFromExternalSource)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">getFromExternalSource</span></td>
+        <td><p>The method to use when loading an item from an external source. This is called only once per value, when the value is first loaded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDictionary_2__ctor_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.#ctor*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDictionary_2__ctor_System_Func__0__1__System_TimeSpan_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.#ctor(System.Func{`0,`1},System.TimeSpan)">LazyDictionary(Func&lt;TKey, TValue&gt;, TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Data.LazyLoad.LazyDictionary-2.html">LazyDictionary&lt;TKey, TValue&gt;</a> with a maximum lifetime for any entries</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public LazyDictionary(Func&lt;TKey, TValue&gt; getFromExternalSource, TimeSpan cacheLifetime)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">getFromExternalSource</span></td>
+        <td><p>The method to use when getting an itemfrom an external source. This is called once per value when the value is first loaded, and when the value is loaded, but has expired</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">cacheLifetime</span></td>
+        <td><p>The maximum lifetime for any record in the cache. If a record is older than the maximum lifetime, it is automatically reloaded from the external source next time it is requested</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">
+  	Properties
+  </h3>
+  	<a id="Phnx_Data_LazyLoad_LazyDictionary_2_CachedCount_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.CachedCount*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDictionary_2_CachedCount" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.CachedCount">CachedCount</h4>
+  <div class="markdown level1 summary"><p>The number of items cached. This includes expired records if a timeout has been set</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public int CachedCount { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDictionary_2_ValuesHaveMaximumLifetime_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.ValuesHaveMaximumLifetime*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDictionary_2_ValuesHaveMaximumLifetime" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.ValuesHaveMaximumLifetime">ValuesHaveMaximumLifetime</h4>
+  <div class="markdown level1 summary"><p>Whether this <a class="xref" href="Phnx.Data.LazyLoad.LazyDictionary-2.html">LazyDictionary&lt;TKey, TValue&gt;</a> has been set up with an auto-expiration for entries</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool ValuesHaveMaximumLifetime { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDictionary_2_ValuesMaximumLifetime_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.ValuesMaximumLifetime*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDictionary_2_ValuesMaximumLifetime" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.ValuesMaximumLifetime">ValuesMaximumLifetime</h4>
+  <div class="markdown level1 summary"><p>The maximum lifetime for entries in the cache. This is <span class="xref">null</span> if there is no maximum lifetime</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public TimeSpan? ValuesMaximumLifetime { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Data_LazyLoad_LazyDictionary_2_AddOrUpdate_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.AddOrUpdate*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDictionary_2_AddOrUpdate__0__1_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.AddOrUpdate(`0,`1)">AddOrUpdate(TKey, TValue)</h4>
+  <div class="markdown level1 summary"><p>Add or update an value in the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void AddOrUpdate(TKey key, TValue value)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to the value to add or update</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to add or update</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDictionary_2_Clear_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.Clear*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDictionary_2_Clear" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Forcibly clears all items from the cache, regardless of any cache lifetime settings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  	<a id="Phnx_Data_LazyLoad_LazyDictionary_2_Get_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.Get*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDictionary_2_Get__0_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.Get(`0)">Get(TKey)</h4>
+  <div class="markdown level1 summary"><p>Get the value which belongs to <code data-dev-comment-type="paramref" class="paramref">key</code> from the cache, or loads it from the external source if it does not exist or has expired</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public TValue Get(TKey key)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to the item to get</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><p>Returns the item belonging to <code data-dev-comment-type="paramref" class="paramref">key</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDictionary_2_TryRemove_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.TryRemove*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDictionary_2_TryRemove__0_" data-uid="Phnx.Data.LazyLoad.LazyDictionary`2.TryRemove(`0)">TryRemove(TKey)</h4>
+  <div class="markdown level1 summary"><p>Remove an value from the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool TryRemove(TKey key)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to the item to remove from the cache</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Data/Data/Phnx.Data/LazyLoad/LazyDictionary.cs/#L12" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

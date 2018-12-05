@@ -1,0 +1,824 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class LazyDatabase
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class LazyDatabase
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Data.LazyLoad.LazyDatabase">
+  
+  
+  <h1 id="Phnx_Data_LazyLoad_LazyDatabase" data-uid="Phnx.Data.LazyLoad.LazyDatabase" class="text-break">Class LazyDatabase
+  </h1>
+  <div class="markdown level0 summary"><p>A thread-safe lazy loaded database, with tables seperated by model types</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">LazyDatabase</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Data.LazyLoad.html">Phnx.Data.LazyLoad</a></div>
+  <div><strong>Assembly</strong>: Phnx.Data.dll</div>
+  
+  <h5 id="Phnx_Data_LazyLoad_LazyDatabase_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public class LazyDatabase</code></pre>
+  <h3 id="constructors">
+  	Constructors
+  </h3>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase__ctor_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.#ctor*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase__ctor" data-uid="Phnx.Data.LazyLoad.LazyDatabase.#ctor">LazyDatabase()</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Data.LazyLoad.LazyDatabase.html">LazyDatabase</a> without a default cache lifetime policy</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public LazyDatabase()</code></pre>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase__ctor_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.#ctor*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase__ctor_System_TimeSpan_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.#ctor(System.TimeSpan)">LazyDatabase(TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Data.LazyLoad.LazyDatabase.html">LazyDatabase</a> with a default cache lifetime policy</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public LazyDatabase(TimeSpan globalLifetime)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">globalLifetime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">
+  	Properties
+  </h3>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_EntriesDefaultMaximumLifetime_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.EntriesDefaultMaximumLifetime*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_EntriesDefaultMaximumLifetime" data-uid="Phnx.Data.LazyLoad.LazyDatabase.EntriesDefaultMaximumLifetime">EntriesDefaultMaximumLifetime</h4>
+  <div class="markdown level1 summary"><p>The default maximum lifetime for entries in the cache. This is <span class="xref">null</span> if there is no default maximum lifetime</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public TimeSpan? EntriesDefaultMaximumLifetime { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_EntriesHaveDefaultMaximumLifetime_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.EntriesHaveDefaultMaximumLifetime*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_EntriesHaveDefaultMaximumLifetime" data-uid="Phnx.Data.LazyLoad.LazyDatabase.EntriesHaveDefaultMaximumLifetime">EntriesHaveDefaultMaximumLifetime</h4>
+  <div class="markdown level1 summary"><p>Whether this <a class="xref" href="Phnx.Data.LazyLoad.LazyDictionary-2.html">LazyDictionary&lt;TKey, TValue&gt;</a> has been set up with an auto-expiration by default for entries</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool EntriesHaveDefaultMaximumLifetime { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_TotalTablesCount_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TotalTablesCount*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_TotalTablesCount" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TotalTablesCount">TotalTablesCount</h4>
+  <div class="markdown level1 summary"><p>Get the total number of tables that have been cached</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public int TotalTablesCount { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_AddOrUpdate_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.AddOrUpdate*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_AddOrUpdate__2___0___1_System_Func___0___1__" data-uid="Phnx.Data.LazyLoad.LazyDatabase.AddOrUpdate``2(``0,``1,System.Func{``0,``1})">AddOrUpdate&lt;TKey, TEntry&gt;(TKey, TEntry, Func&lt;TKey, TEntry&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add or update an entry in the cache, configuring the cache table if it&apos;s not already configured</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void AddOrUpdate&lt;TKey, TEntry&gt;(TKey id, TEntry value, Func&lt;TKey, TEntry&gt; getFromExternalSource)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id of the entry to add or update</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TEntry</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to add or update</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TKey, TEntry&gt;</td>
+        <td><span class="parametername">getFromExternalSource</span></td>
+        <td><p>The method to use to load values from an external source. This is only used if no items have been loaded from this table before, and the table has not been added using <a class="xref" href="Phnx.Data.LazyLoad.LazyDatabase.html#Phnx_Data_LazyLoad_LazyDatabase_TryAddTable__2_System_Func___0___1__">TryAddTable&lt;TKey, TValue&gt;(Func&lt;TKey, TValue&gt;)</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The type of id for the object to add or update</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEntry</span></td>
+        <td><p>The type of entry to add or update</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">getFromExternalSource</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_Clear_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.Clear*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_Clear" data-uid="Phnx.Data.LazyLoad.LazyDatabase.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clear the entire cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_Get_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.Get*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_Get__2___0_System_Func___0___1__" data-uid="Phnx.Data.LazyLoad.LazyDatabase.Get``2(``0,System.Func{``0,``1})">Get&lt;TKey, TEntry&gt;(TKey, Func&lt;TKey, TEntry&gt;)</h4>
+  <div class="markdown level1 summary"><p>Lazy load an entry from the cache, configuring the cache table if it&apos;s not already configured</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public TEntry Get&lt;TKey, TEntry&gt;(TKey id, Func&lt;TKey, TEntry&gt; getFromExternalSource)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id of the entry to load</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TKey, TEntry&gt;</td>
+        <td><span class="parametername">getFromExternalSource</span></td>
+        <td><p>The method to call if the value is not already in the cache</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntry</span></td>
+        <td><p>The lazy loaded value with the primary key of <code data-dev-comment-type="paramref" class="paramref">id</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The type of id for the object to load</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEntry</span></td>
+        <td><p>The type of entry to load</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_TableItemsCachedCount_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TableItemsCachedCount*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_TableItemsCachedCount__1" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TableItemsCachedCount``1">TableItemsCachedCount&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Get the number of items cached in a specific table</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public int TableItemsCachedCount&lt;T&gt;()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of items cached in a specific table. Returns 0 if the cache is not configured</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the table to get the total items cached in</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_TryAddOrUpdate_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryAddOrUpdate*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_TryAddOrUpdate__2___0___1_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryAddOrUpdate``2(``0,``1)">TryAddOrUpdate&lt;TKey, TEntry&gt;(TKey, TEntry)</h4>
+  <div class="markdown level1 summary"><p>Add or update an entry in the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool TryAddOrUpdate&lt;TKey, TEntry&gt;(TKey id, TEntry value)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id of the entry to add or update</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TEntry</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to add or update</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The type of id for the object to add or update</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEntry</span></td>
+        <td><p>The type of entry to add or update</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_TryAddTable_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryAddTable*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_TryAddTable__2_System_Func___0___1__" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryAddTable``2(System.Func{``0,``1})">TryAddTable&lt;TKey, TValue&gt;(Func&lt;TKey, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add a lazy loading table to the dictionary if it is not already loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool TryAddTable&lt;TKey, TValue&gt;(Func&lt;TKey, TValue&gt; getFromExternalSource)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">getFromExternalSource</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the table was added to the cache database</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_TryAddTable_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryAddTable*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_TryAddTable__2_System_Func___0___1__System_Nullable_System_TimeSpan__" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryAddTable``2(System.Func{``0,``1},System.Nullable{System.TimeSpan})">TryAddTable&lt;TKey, TValue&gt;(Func&lt;TKey, TValue&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add a lazy loading table to the dictionary if it is not already loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool TryAddTable&lt;TKey, TValue&gt;(Func&lt;TKey, TValue&gt; getFromExternalSource, TimeSpan? overrideLifetime)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">getFromExternalSource</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
+        <td><span class="parametername">overrideLifetime</span></td>
+        <td><p>The new lifetime for objects in this table only. This overrides <a class="xref" href="Phnx.Data.LazyLoad.LazyDatabase.html#Phnx_Data_LazyLoad_LazyDatabase_EntriesDefaultMaximumLifetime">EntriesDefaultMaximumLifetime</a>. If this is <span class="xref">null</span>, this table&apos;s entries are set to never expire</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the table was added to the cache database</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_TryGet_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryGet*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_TryGet__2___0___1__" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryGet``2(``0,``1@)">TryGet&lt;TKey, TEntry&gt;(TKey, out TEntry)</h4>
+  <div class="markdown level1 summary"><p>Lazy load an entry from the cache. Returns <span class="xref">false</span> if the table for <code data-dev-comment-type="typeparamref" class="typeparamref">TEntry</code> is not configured</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool TryGet&lt;TKey, TEntry&gt;(TKey id, out TEntry value)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id of the entry to load</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TEntry</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value that was loaded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value was successfully loaded. This is <span class="xref">false</span> if the table for <code data-dev-comment-type="typeparamref" class="typeparamref">TEntry</code> is not configured</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The type of id for the object to load</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEntry</span></td>
+        <td><p>The type of entry to load</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_TryRemove_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryRemove*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_TryRemove__2___0_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryRemove``2(``0)">TryRemove&lt;TKey, TEntry&gt;(TKey)</h4>
+  <div class="markdown level1 summary"><p>Remove an entry from the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool TryRemove&lt;TKey, TEntry&gt;(TKey id)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id of the entry to remove</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the record was removed from the cache</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The type of id for the object to remove</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEntry</span></td>
+        <td><p>The type of entry to remove</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_LazyLoad_LazyDatabase_TryRemoveTable_" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryRemoveTable*"></a>
+  <h4 id="Phnx_Data_LazyLoad_LazyDatabase_TryRemoveTable__1" data-uid="Phnx.Data.LazyLoad.LazyDatabase.TryRemoveTable``1">TryRemoveTable&lt;TEntry&gt;()</h4>
+  <div class="markdown level1 summary"><p>Try to remove a table from the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool TryRemoveTable&lt;TEntry&gt;()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the table was removed from the cache</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TEntry</span></td>
+        <td><p>The type of entries in the table to remove</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Data/Data/Phnx.Data/LazyLoad/LazyDatabase.cs/#L9" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

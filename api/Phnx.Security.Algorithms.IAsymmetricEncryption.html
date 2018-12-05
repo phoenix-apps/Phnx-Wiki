@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Interface IAsymmetricEncryption
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Interface IAsymmetricEncryption
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Security.Algorithms.IAsymmetricEncryption">
+  
+  
+  <h1 id="Phnx_Security_Algorithms_IAsymmetricEncryption" data-uid="Phnx.Security.Algorithms.IAsymmetricEncryption" class="text-break">Interface IAsymmetricEncryption
+  </h1>
+  <div class="markdown level0 summary"><p>An asymmetric encryption algorithm where seperate keys are used for encrypting and decrypting. Suitable for sending data to 3rd parties (such as sending messages), but not suited if the same user is encrypting and decrypting the data. Consider using <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryption.html">ISymmetricEncryption</a> if you don&apos;t need seperate keys for encrypting and decrypting data</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IEncryption.html#Phnx_Security_Algorithms_IEncryption_Encrypt_System_Byte___System_Byte___">IEncryption.Encrypt(Byte[], Byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IEncryption.html#Phnx_Security_Algorithms_IEncryption_Decrypt_System_Byte___System_Byte___">IEncryption.Decrypt(Byte[], Byte[])</a>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Security.Algorithms.html">Phnx.Security.Algorithms</a></div>
+  <div><strong>Assembly</strong>: Phnx.Security.dll</div>
+  
+  <h5 id="Phnx_Security_Algorithms_IAsymmetricEncryption_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public interface IAsymmetricEncryption : IEncryption</code></pre>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Security_Algorithms_IAsymmetricEncryption_CreateRandomKeys_" data-uid="Phnx.Security.Algorithms.IAsymmetricEncryption.CreateRandomKeys*"></a>
+  <h4 id="Phnx_Security_Algorithms_IAsymmetricEncryption_CreateRandomKeys_System_Int32_System_Byte____System_Byte____" data-uid="Phnx.Security.Algorithms.IAsymmetricEncryption.CreateRandomKeys(System.Int32,System.Byte[]@,System.Byte[]@)">CreateRandomKeys(Int32, out Byte[], out Byte[])</h4>
+  <div class="markdown level1 summary"><p>Create a random pair of keys to use when encrypting (<code data-dev-comment-type="paramref" class="paramref">publicKey</code>) and decrypting (<code data-dev-comment-type="paramref" class="paramref">privateKey</code>)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">void CreateRandomKeys(int keySize, out byte[] publicKey, out byte[] privateKey)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">keySize</span></td>
+        <td><p>The size of the asymetric key to generate. This does not guarantee the size of <code data-dev-comment-type="paramref" class="paramref">publicKey</code> or <code data-dev-comment-type="paramref" class="paramref">privateKey</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">publicKey</span></td>
+        <td><p>The key to use when encrypting data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">privateKey</span></td>
+        <td><p>The key to use when decrypting data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IEncryptionExtensions.html#Phnx_Security_Algorithms_IEncryptionExtensions_Encrypt_Phnx_Security_Algorithms_IEncryption_System_String_System_Byte___System_Text_Encoding_">IEncryptionExtensions.Encrypt(IEncryption, String, Byte[], Encoding)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IEncryptionExtensions.html#Phnx_Security_Algorithms_IEncryptionExtensions_Decrypt_Phnx_Security_Algorithms_IEncryption_System_Byte___System_Byte___System_Text_Encoding_">IEncryptionExtensions.Decrypt(IEncryption, Byte[], Byte[], Encoding)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Security/Phnx.Security/Algorithms/Interfaces/IAsymmetricEncryption.cs/#L6" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

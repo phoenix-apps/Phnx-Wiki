@@ -1,0 +1,902 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class DateTimeExtensions
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class DateTimeExtensions
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.DateTimeExtensions">
+  
+  
+  <h1 id="Phnx_DateTimeExtensions" data-uid="Phnx.DateTimeExtensions" class="text-break">Class DateTimeExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.DateTime</span></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DateTimeExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.html">Phnx</a></div>
+  <div><strong>Assembly</strong>: Phnx.dll</div>
+  
+  <h5 id="Phnx_DateTimeExtensions_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public static class DateTimeExtensions</code></pre>
+  <h3 id="fields">
+  	Fields
+  </h3>
+  <h4 id="Phnx_DateTimeExtensions_Epoch" data-uid="Phnx.DateTimeExtensions.Epoch">Epoch</h4>
+  <div class="markdown level1 summary"><p>1st of January, 1970. Used by JavaScript to represent when time began</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static readonly DateTime Epoch</code></pre>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_DateTimeExtensions_Age_" data-uid="Phnx.DateTimeExtensions.Age*"></a>
+  <h4 id="Phnx_DateTimeExtensions_Age_System_DateTime_System_DateTime_" data-uid="Phnx.DateTimeExtensions.Age(System.DateTime,System.DateTime)">Age(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"><p>Get a person&apos;s age from their date of birth</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static int Age(this DateTime dob, DateTime now)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dob</span></td>
+        <td><p>The person&apos;s date of birth</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">now</span></td>
+        <td><p>The current <span class="xref">System.DateTime</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_AsDateString_" data-uid="Phnx.DateTimeExtensions.AsDateString*"></a>
+  <h4 id="Phnx_DateTimeExtensions_AsDateString_System_DateTime_System_Boolean_" data-uid="Phnx.DateTimeExtensions.AsDateString(System.DateTime,System.Boolean)">AsDateString(DateTime, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Converts <code data-dev-comment-type="paramref" class="paramref">dt</code> to a string, displaying only the <span class="xref">System.DateTime.Date</span> component, using the <span class="xref">System.Globalization.CultureInfo.CurrentCulture</span> for formatting</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static string AsDateString(this DateTime dt, bool shortDate = true)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to convert</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">shortDate</span></td>
+        <td><p>Whether to show the date in a short format (e.g 1/1/2001) or a long format (e.g 1st January 2001)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_AsDateString_" data-uid="Phnx.DateTimeExtensions.AsDateString*"></a>
+  <h4 id="Phnx_DateTimeExtensions_AsDateString_System_DateTime_System_IFormatProvider_System_Boolean_" data-uid="Phnx.DateTimeExtensions.AsDateString(System.DateTime,System.IFormatProvider,System.Boolean)">AsDateString(DateTime, IFormatProvider, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Converts <code data-dev-comment-type="paramref" class="paramref">dt</code> to a string, displaying only the <span class="xref">System.DateTime.Date</span> component</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static string AsDateString(this DateTime dt, IFormatProvider formatProvider, bool shortFormat = true)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to convert</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IFormatProvider</span></td>
+        <td><span class="parametername">formatProvider</span></td>
+        <td><p>The format provider to define how the date will be formatted</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">shortFormat</span></td>
+        <td><p>Whether to show the date in a short format (e.g 1/1/2001) or a long format (e.g 1st January 2001)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_AsTimeString_" data-uid="Phnx.DateTimeExtensions.AsTimeString*"></a>
+  <h4 id="Phnx_DateTimeExtensions_AsTimeString_System_DateTime_System_Boolean_" data-uid="Phnx.DateTimeExtensions.AsTimeString(System.DateTime,System.Boolean)">AsTimeString(DateTime, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Converts <code data-dev-comment-type="paramref" class="paramref">dt</code> to a string, displaying only the <span class="xref">System.DateTime.TimeOfDay</span> component, using the <span class="xref">System.Globalization.CultureInfo.CurrentCulture</span> for formatting</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static string AsTimeString(this DateTime dt, bool shortFormat = true)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to convert</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">shortFormat</span></td>
+        <td><p>Whether to show the time in a short format (e.g 00:00 vs 00:00:00)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_AsTimeString_" data-uid="Phnx.DateTimeExtensions.AsTimeString*"></a>
+  <h4 id="Phnx_DateTimeExtensions_AsTimeString_System_DateTime_System_IFormatProvider_System_Boolean_" data-uid="Phnx.DateTimeExtensions.AsTimeString(System.DateTime,System.IFormatProvider,System.Boolean)">AsTimeString(DateTime, IFormatProvider, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Converts <code data-dev-comment-type="paramref" class="paramref">dt</code> to a string, displaying only the <span class="xref">System.DateTime.Date</span> component</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static string AsTimeString(this DateTime dt, IFormatProvider formatProvider, bool shortFormat = true)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to convert</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IFormatProvider</span></td>
+        <td><span class="parametername">formatProvider</span></td>
+        <td><p>The format provider to define how the date will be formatted</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">shortFormat</span></td>
+        <td><p>Whether to show the time in a short format (e.g 00:00 vs 00:00:00)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_EndOfDay_" data-uid="Phnx.DateTimeExtensions.EndOfDay*"></a>
+  <h4 id="Phnx_DateTimeExtensions_EndOfDay_System_DateTime_" data-uid="Phnx.DateTimeExtensions.EndOfDay(System.DateTime)">EndOfDay(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Gets a <span class="xref">System.DateTime</span> representing the time of the very end of the day that <code data-dev-comment-type="paramref" class="paramref">dt</code> is within</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static DateTime EndOfDay(this DateTime dt)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to get the end of the day of</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_EndOfMonth_" data-uid="Phnx.DateTimeExtensions.EndOfMonth*"></a>
+  <h4 id="Phnx_DateTimeExtensions_EndOfMonth_System_DateTime_" data-uid="Phnx.DateTimeExtensions.EndOfMonth(System.DateTime)">EndOfMonth(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Gets a <span class="xref">System.DateTime</span> representing the time of the very end of the month that <code data-dev-comment-type="paramref" class="paramref">dt</code> is within</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static DateTime EndOfMonth(this DateTime dt)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to get the end of the month of</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_EndOfWeek_" data-uid="Phnx.DateTimeExtensions.EndOfWeek*"></a>
+  <h4 id="Phnx_DateTimeExtensions_EndOfWeek_System_DateTime_System_Boolean_" data-uid="Phnx.DateTimeExtensions.EndOfWeek(System.DateTime,System.Boolean)">EndOfWeek(DateTime, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets a <span class="xref">System.DateTime</span> representing the very end of the week</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static DateTime EndOfWeek(this DateTime dt, bool weekStartMonday = true)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to get the end of the week of</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">weekStartMonday</span></td>
+        <td><p>Whether the week starts on a Monday (<span class="xref">true</span>) or Sunday (<span class="xref">false</span>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_EndOfYear_" data-uid="Phnx.DateTimeExtensions.EndOfYear*"></a>
+  <h4 id="Phnx_DateTimeExtensions_EndOfYear_System_DateTime_" data-uid="Phnx.DateTimeExtensions.EndOfYear(System.DateTime)">EndOfYear(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Gets a <span class="xref">System.DateTime</span> representing the time of the very end of the year that <code data-dev-comment-type="paramref" class="paramref">dt</code> is within</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static DateTime EndOfYear(this DateTime dt)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to get the end of the year of</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_GetTimeSinceEpoch_" data-uid="Phnx.DateTimeExtensions.GetTimeSinceEpoch*"></a>
+  <h4 id="Phnx_DateTimeExtensions_GetTimeSinceEpoch_System_DateTime_" data-uid="Phnx.DateTimeExtensions.GetTimeSinceEpoch(System.DateTime)">GetTimeSinceEpoch(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Converts <code data-dev-comment-type="paramref" class="paramref">dt</code> to a <span class="xref">System.TimeSpan</span> after <a class="xref" href="Phnx.DateTimeExtensions.html#Phnx_DateTimeExtensions_Epoch">Epoch</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static TimeSpan GetTimeSinceEpoch(this DateTime dt)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to convert</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_IsAfternoon_" data-uid="Phnx.DateTimeExtensions.IsAfternoon*"></a>
+  <h4 id="Phnx_DateTimeExtensions_IsAfternoon_System_DateTime_" data-uid="Phnx.DateTimeExtensions.IsAfternoon(System.DateTime)">IsAfternoon(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Gets whether <code data-dev-comment-type="paramref" class="paramref">dt</code> is in the afternoon</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static bool IsAfternoon(this DateTime dt)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_IsMorning_" data-uid="Phnx.DateTimeExtensions.IsMorning*"></a>
+  <h4 id="Phnx_DateTimeExtensions_IsMorning_System_DateTime_" data-uid="Phnx.DateTimeExtensions.IsMorning(System.DateTime)">IsMorning(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Gets whether <code data-dev-comment-type="paramref" class="paramref">dt</code> is in the morning</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static bool IsMorning(this DateTime dt)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_IsSameDay_" data-uid="Phnx.DateTimeExtensions.IsSameDay*"></a>
+  <h4 id="Phnx_DateTimeExtensions_IsSameDay_System_DateTime_System_DateTime_" data-uid="Phnx.DateTimeExtensions.IsSameDay(System.DateTime,System.DateTime)">IsSameDay(DateTime, DateTime)</h4>
+  <div class="markdown level1 summary"><p>Gets whether <code data-dev-comment-type="paramref" class="paramref">dt</code> (UTC) is within today</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static bool IsSameDay(this DateTime dt, DateTime sameDayAs)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to check</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">sameDayAs</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to check whether <code data-dev-comment-type="paramref" class="paramref">dt</code> is on the same day as</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_IsWeekend_" data-uid="Phnx.DateTimeExtensions.IsWeekend*"></a>
+  <h4 id="Phnx_DateTimeExtensions_IsWeekend_System_DateTime_" data-uid="Phnx.DateTimeExtensions.IsWeekend(System.DateTime)">IsWeekend(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Gets whether <code data-dev-comment-type="paramref" class="paramref">dt</code> is within a weekend</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static bool IsWeekend(this DateTime dt)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_SetTime_" data-uid="Phnx.DateTimeExtensions.SetTime*"></a>
+  <h4 id="Phnx_DateTimeExtensions_SetTime_System_DateTime_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="Phnx.DateTimeExtensions.SetTime(System.DateTime,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32})">SetTime(DateTime, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the time of <code data-dev-comment-type="paramref" class="paramref">dt</code> to a value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static DateTime SetTime(this DateTime dt, int? hour = default(int? ), int? minute = default(int? ), int? second = default(int? ), int? millisecond = default(int? ))</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to change</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">hour</span></td>
+        <td><p>The hour to assign</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">minute</span></td>
+        <td><p>The minute to assign</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">second</span></td>
+        <td><p>The second to assign</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">millisecond</span></td>
+        <td><p>The millisecond to assign</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_DateTimeExtensions_StartOfWeek_" data-uid="Phnx.DateTimeExtensions.StartOfWeek*"></a>
+  <h4 id="Phnx_DateTimeExtensions_StartOfWeek_System_DateTime_System_Boolean_" data-uid="Phnx.DateTimeExtensions.StartOfWeek(System.DateTime,System.Boolean)">StartOfWeek(DateTime, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets a <span class="xref">System.DateTime</span> representing the start of the week</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static DateTime StartOfWeek(this DateTime dt, bool weekStartMonday = true)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>The <span class="xref">System.DateTime</span> to get the start of the week of</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">weekStartMonday</span></td>
+        <td><p>Whether the week starts on a Monday (<span class="xref">true</span>) or Sunday (<span class="xref">false</span>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Phnx/Phnx/Extensions/Time/DateTimeExtensions.cs/#L9" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

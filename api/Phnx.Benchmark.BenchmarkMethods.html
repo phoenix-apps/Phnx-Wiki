@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class BenchmarkMethods
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class BenchmarkMethods
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Benchmark.BenchmarkMethods">
+  
+  
+  <h1 id="Phnx_Benchmark_BenchmarkMethods" data-uid="Phnx.Benchmark.BenchmarkMethods" class="text-break">Class BenchmarkMethods
+  </h1>
+  <div class="markdown level0 summary"><p>Benchmark a function or series of functions, timing how long each function takes to run a certain number of times</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BenchmarkMethods</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Benchmark.html">Phnx.Benchmark</a></div>
+  <div><strong>Assembly</strong>: Phnx.Benchmark.dll</div>
+  
+  <h5 id="Phnx_Benchmark_BenchmarkMethods_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public class BenchmarkMethods</code></pre>
+  <h3 id="constructors">
+  	Constructors
+  </h3>
+  	<a id="Phnx_Benchmark_BenchmarkMethods__ctor_" data-uid="Phnx.Benchmark.BenchmarkMethods.#ctor*"></a>
+  <h4 id="Phnx_Benchmark_BenchmarkMethods__ctor_System_Action___System_Action_System_String__" data-uid="Phnx.Benchmark.BenchmarkMethods.#ctor(System.Action[],System.Action{System.String})">BenchmarkMethods(Action[], Action&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Benchmark.BenchmarkMethods.html">BenchmarkMethods</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public BenchmarkMethods(Action[] computeMethods, Action&lt;string&gt; log = null)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>[]</td>
+        <td><span class="parametername">computeMethods</span></td>
+        <td><p>The methods to benchmark</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">log</span></td>
+        <td><p>The function called when events such as &quot;values generated&quot; occur, with the event description passed in</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">
+  	Properties
+  </h3>
+  	<a id="Phnx_Benchmark_BenchmarkMethods_ComputeMethods_" data-uid="Phnx.Benchmark.BenchmarkMethods.ComputeMethods*"></a>
+  <h4 id="Phnx_Benchmark_BenchmarkMethods_ComputeMethods" data-uid="Phnx.Benchmark.BenchmarkMethods.ComputeMethods">ComputeMethods</h4>
+  <div class="markdown level1 summary"><p>The methods that are being benchmarked</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public IEnumerable&lt;Action&gt; ComputeMethods { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Action</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Benchmark_BenchmarkMethods_LogIfVerbose_" data-uid="Phnx.Benchmark.BenchmarkMethods.LogIfVerbose*"></a>
+  <h4 id="Phnx_Benchmark_BenchmarkMethods_LogIfVerbose_System_String_" data-uid="Phnx.Benchmark.BenchmarkMethods.LogIfVerbose(System.String)">LogIfVerbose(String)</h4>
+  <div class="markdown level1 summary"><p>Logs to the logging method if <span class="xref">Phnx.Benchmark.BenchmarkMethods.WriteToLog</span> is <span class="xref">true</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">protected void LogIfVerbose(string message)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to log</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Benchmark_BenchmarkMethods_Run_" data-uid="Phnx.Benchmark.BenchmarkMethods.Run*"></a>
+  <h4 id="Phnx_Benchmark_BenchmarkMethods_Run_System_Int64_" data-uid="Phnx.Benchmark.BenchmarkMethods.Run(System.Int64)">Run(Int64)</h4>
+  <div class="markdown level1 summary"><p>Benchmarks all methods, and returns how long each of the <a class="xref" href="Phnx.Benchmark.BenchmarkMethods.html#Phnx_Benchmark_BenchmarkMethods_ComputeMethods">ComputeMethods</a> took to compute all methods in a <span class="xref">System.TimeSpan</span> array</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public TimeSpan[] Run(long timesToExecuteEachMethod = 1L)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timesToExecuteEachMethod</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span>[]</td>
+        <td><p>How long each <span class="xref">Phnx.Benchmark.BenchmarkMethods._computeMethods</span> took to process all values</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Benchmark/Phnx.Benchmark/BenchmarkMethodsWithoutInput.cs/#L10" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

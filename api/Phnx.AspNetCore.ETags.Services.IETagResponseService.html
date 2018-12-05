@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Interface IETagResponseService
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Interface IETagResponseService
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService">
+  
+  
+  <h1 id="Phnx_AspNetCore_ETags_Services_IETagResponseService" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService" class="text-break">Interface IETagResponseService
+  </h1>
+  <div class="markdown level0 summary"><p>Formulates various ETag related responses</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.AspNetCore.ETags.Services.html">Phnx.AspNetCore.ETags.Services</a></div>
+  <div><strong>Assembly</strong>: Phnx.AspNetCore.ETags.dll</div>
+  
+  <h5 id="Phnx_AspNetCore_ETags_Services_IETagResponseService_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public interface IETagResponseService</code></pre>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_AspNetCore_ETags_Services_IETagResponseService_AddETag_" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.AddETag*"></a>
+  <h4 id="Phnx_AspNetCore_ETags_Services_IETagResponseService_AddETag_System_String_" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.AddETag(System.String)">AddETag(String)</h4>
+  <div class="markdown level1 summary"><p>Append the ETag to the response. Weak ETags should be formatted as W/&quot;eTag&quot;, and strong ETags should be formatted as &quot;eTag&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">void AddETag(string eTag)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">eTag</span></td>
+        <td><p>The ETag to add</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">eTag</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_AspNetCore_ETags_Services_IETagResponseService_AddStrongestETagForModel_" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.AddStrongestETagForModel*"></a>
+  <h4 id="Phnx_AspNetCore_ETags_Services_IETagResponseService_AddStrongestETagForModel_System_Object_" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.AddStrongestETagForModel(System.Object)">AddStrongestETagForModel(Object)</h4>
+  <div class="markdown level1 summary"><p>Add a strong ETag if <code data-dev-comment-type="paramref" class="paramref">savedData</code> supports it, or a weak tag if it does not</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">void AddStrongestETagForModel(object savedData)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">savedData</span></td>
+        <td><p>The data to add the ETag for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_AspNetCore_ETags_Services_IETagResponseService_AddWeakETagForModel_" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.AddWeakETagForModel*"></a>
+  <h4 id="Phnx_AspNetCore_ETags_Services_IETagResponseService_AddWeakETagForModel_System_Object_" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.AddWeakETagForModel(System.Object)">AddWeakETagForModel(Object)</h4>
+  <div class="markdown level1 summary"><p>Add a weak ETag for <code data-dev-comment-type="paramref" class="paramref">savedData</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">void AddWeakETagForModel(object savedData)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">savedData</span></td>
+        <td><p>The data to add the ETag for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_AspNetCore_ETags_Services_IETagResponseService_CreateDataHasChangedResponse_" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.CreateDataHasChangedResponse*"></a>
+  <h4 id="Phnx_AspNetCore_ETags_Services_IETagResponseService_CreateDataHasChangedResponse" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.CreateDataHasChangedResponse">CreateDataHasChangedResponse()</h4>
+  <div class="markdown level1 summary"><p>Create a response describing that the data has been changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">StatusCodeResult CreateDataHasChangedResponse()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.StatusCodeResult</span></td>
+        <td><p>A response describing that the data has been changed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_AspNetCore_ETags_Services_IETagResponseService_CreateDataHasNotChangedResponse_" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.CreateDataHasNotChangedResponse*"></a>
+  <h4 id="Phnx_AspNetCore_ETags_Services_IETagResponseService_CreateDataHasNotChangedResponse" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.CreateDataHasNotChangedResponse">CreateDataHasNotChangedResponse()</h4>
+  <div class="markdown level1 summary"><p>Create a response describing that the data has not been changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">StatusCodeResult CreateDataHasNotChangedResponse()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.StatusCodeResult</span></td>
+        <td><p>A response describing that the data has not been changed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_AspNetCore_ETags_Services_IETagResponseService_TryAddStrongETagForModel_" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.TryAddStrongETagForModel*"></a>
+  <h4 id="Phnx_AspNetCore_ETags_Services_IETagResponseService_TryAddStrongETagForModel_System_Object_" data-uid="Phnx.AspNetCore.ETags.Services.IETagResponseService.TryAddStrongETagForModel(System.Object)">TryAddStrongETagForModel(Object)</h4>
+  <div class="markdown level1 summary"><p>Add a strong ETag if <code data-dev-comment-type="paramref" class="paramref">savedData</code> supports it</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">bool TryAddStrongETagForModel(object savedData)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">savedData</span></td>
+        <td><p>The data to add the ETag for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/AspNetCore/ETags/Phnx.AspNetCore.ETags/Services/Interfaces/IETagResponseService.cs/#L9" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

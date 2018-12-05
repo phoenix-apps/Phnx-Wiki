@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Namespace Phnx.Security.Algorithms
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Namespace Phnx.Security.Algorithms
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Security.Algorithms">
+  
+  <h1 id="Phnx_Security_Algorithms" data-uid="Phnx.Security.Algorithms" class="text-break">Namespace Phnx.Security.Algorithms
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.AesEncryption.html">AesEncryption</a></h4>
+      <section><p>An AES symmetric encryption algorithm. Suitable for password protecting documents, but not suited for storing passwords or sending data to 3rd parties. Consider using <a class="xref" href="Phnx.Security.Algorithms.Pbkdf2Hash.html">Pbkdf2Hash</a> for storing passwords, or <a class="xref" href="Phnx.Security.Algorithms.RsaEncryption.html">RsaEncryption</a> for sending data to 3rd parties. If you&apos;re using AES with user entered passwords, you&apos;ll need to hash the passwords to a valid key length (see <a class="xref" href="Phnx.Security.Algorithms.AesEncryption.html#Phnx_Security_Algorithms_AesEncryption_KeyBits">KeyBits</a>). Consider using an algorithm <a class="xref" href="Phnx.Security.Algorithms.Pbkdf2Hash.html">Pbkdf2Hash</a> for getting the password to a key of a valid size. An easy way to do this is with <a class="xref" href="Phnx.Security.PasswordProtectedEncryptionService.html">PasswordProtectedEncryptionService</a></p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.IEncryptionExtensions.html">IEncryptionExtensions</a></h4>
+      <section><p>Extension for <a class="xref" href="Phnx.Security.Algorithms.IEncryption.html">IEncryption</a></p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.IHashExtensions.html">IHashExtensions</a></h4>
+      <section><p>Extension for <a class="xref" href="Phnx.Security.Algorithms.IHashWithSalt.html">IHashWithSalt</a> and <a class="xref" href="Phnx.Security.Algorithms.IHashWithoutSalt.html">IHashWithoutSalt</a></p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html">ISymmetricEncryptionExtensions</a></h4>
+      <section><p>Extensions for <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryption.html">ISymmetricEncryption</a></p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.Pbkdf2Hash.html">Pbkdf2Hash</a></h4>
+      <section><p>A PBKDF2 hashing algorithm. Suitable for passwords, but generally too slow for checksums. Consider using <a class="xref" href="Phnx.Security.Algorithms.Sha256Hash.html">Sha256Hash</a> if you&apos;re generating checksums</p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.RsaEncryption.html">RsaEncryption</a></h4>
+      <section><p>An RSA asymmetric encryption algorithm</p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.Sha256Hash.html">Sha256Hash</a></h4>
+      <section><p>A 256 bit SHA2 hashing algorithm. Suitable for checksums, but generally not secure for passwords. Consider using <a class="xref" href="Phnx.Security.Algorithms.Pbkdf2Hash.html">Pbkdf2Hash</a> if you&apos;re hashing passwords</p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.SymmetricEncryption.html">SymmetricEncryption</a></h4>
+      <section><p>A helper implementation of <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryption.html">ISymmetricEncryption</a> for using <span class="xref">byte[]</span> instead of <span class="xref">System.IO.Stream</span> for output, and other overloads</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.IAsymmetricEncryption.html">IAsymmetricEncryption</a></h4>
+      <section><p>An asymmetric encryption algorithm where seperate keys are used for encrypting and decrypting. Suitable for sending data to 3rd parties (such as sending messages), but not suited if the same user is encrypting and decrypting the data. Consider using <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryption.html">ISymmetricEncryption</a> if you don&apos;t need seperate keys for encrypting and decrypting data</p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.IEncryption.html">IEncryption</a></h4>
+      <section><p>Two way encryption for encrypting and decrypting data using a key</p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.IHashWithoutSalt.html">IHashWithoutSalt</a></h4>
+      <section><p>One way hashing without a salt. Useful for generating checksums for data at a fixed length</p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.IHashWithSalt.html">IHashWithSalt</a></h4>
+      <section><p>One way hashing using a salt. Useful for storing passwords</p>
+</section>
+      <h4><a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryption.html">ISymmetricEncryption</a></h4>
+      <section><p>A symmetric encryption algorithm. Suitable for password protecting documents, but not suited for storing passwords or sending data to 3rd parties. Consider using <a class="xref" href="Phnx.Security.Algorithms.IHashWithSalt.html">IHashWithSalt</a> for storing passwords, or <a class="xref" href="Phnx.Security.Algorithms.IAsymmetricEncryption.html">IAsymmetricEncryption</a> for sending data to 3rd parties. If you&apos;re using user created password keys instead of random keys, you&apos;ll need to hash the passwords to the algorithm&apos;s required key length first. Consider using <a class="xref" href="Phnx.Security.Algorithms.IHashWithoutSalt.html">IHashWithoutSalt</a> for this</p>
+</section>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

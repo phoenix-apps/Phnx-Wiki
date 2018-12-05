@@ -1,0 +1,1065 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class ArrayExtensions
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class ArrayExtensions
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Collections.ArrayExtensions">
+  
+  
+  <h1 id="Phnx_Collections_ArrayExtensions" data-uid="Phnx.Collections.ArrayExtensions" class="text-break">Class ArrayExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>Extension for <span class="xref">System.Array</span></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ArrayExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Collections.html">Phnx.Collections</a></div>
+  <div><strong>Assembly</strong>: Phnx.Collections.dll</div>
+  
+  <h5 id="Phnx_Collections_ArrayExtensions_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public static class ArrayExtensions</code></pre>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Collections_ArrayExtensions_BinarySearch_" data-uid="Phnx.Collections.ArrayExtensions.BinarySearch*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_BinarySearch__1___0_____0_" data-uid="Phnx.Collections.ArrayExtensions.BinarySearch``1(``0[],``0)">BinarySearch&lt;T&gt;(T[], T)</h4>
+  <div class="markdown level1 summary"><p>Searches a range of elements in a sorted array for a value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static int BinarySearch&lt;T&gt;(this T[] source, T value)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object to search for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The index of the specified <code data-dev-comment-type="paramref" class="paramref">value</code> in the specified <code data-dev-comment-type="paramref" class="paramref">source</code>, if <code data-dev-comment-type="paramref" class="paramref">value</code> is found; otherwise, a negative number. If <code data-dev-comment-type="paramref" class="paramref">value</code> is not found and <code data-dev-comment-type="paramref" class="paramref">value</code> is less than one or more elements in <code data-dev-comment-type="paramref" class="paramref">source</code>, the negative number returned is the bitwise complement of the index of the first element that is larger than <code data-dev-comment-type="paramref" class="paramref">value</code>. If <code data-dev-comment-type="paramref" class="paramref">value</code> is not found and <code data-dev-comment-type="paramref" class="paramref">value</code> is greater than all elements in <code data-dev-comment-type="paramref" class="paramref">source</code>, the negative number returned is the bitwise complement of the index of the last element plus 1. If this method is called with a non-sorted <code data-dev-comment-type="paramref" class="paramref">source</code>, the return value can be incorrect and a negative number could be returned, even if <code data-dev-comment-type="paramref" class="paramref">value</code> is present in <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the elements of the array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code> does not implement <span class="xref">System.IComparable`1</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_BinarySearch_" data-uid="Phnx.Collections.ArrayExtensions.BinarySearch*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_BinarySearch__1___0_____0_System_Collections_Generic_IComparer___0__" data-uid="Phnx.Collections.ArrayExtensions.BinarySearch``1(``0[],``0,System.Collections.Generic.IComparer{``0})">BinarySearch&lt;T&gt;(T[], T, IComparer&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Searches a range of elements in a one-dimensional sorted array for a value, using the specified <span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> generic interface</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static int BinarySearch&lt;T&gt;(this T[] source, T value, IComparer&lt;T&gt; comparer)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The object to search for</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;T&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>The <span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> implementation to use when comparing elements or <span class="xref">null</span> to use the <span class="xref">System.IComparable`1</span> implementation of each element</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The index of the specified <code data-dev-comment-type="paramref" class="paramref">value</code> in the specified <code data-dev-comment-type="paramref" class="paramref">source</code>, if <code data-dev-comment-type="paramref" class="paramref">value</code> is found; otherwise, a negative number. If <code data-dev-comment-type="paramref" class="paramref">value</code> is not found and <code data-dev-comment-type="paramref" class="paramref">value</code> is less than one or more elements in <code data-dev-comment-type="paramref" class="paramref">source</code>, the negative number returned is the bitwise complement of the index of the first element that is larger than <code data-dev-comment-type="paramref" class="paramref">value</code>. If <code data-dev-comment-type="paramref" class="paramref">value</code> is not found and <code data-dev-comment-type="paramref" class="paramref">value</code> is greater than all elements in <code data-dev-comment-type="paramref" class="paramref">source</code>, the negative number returned is the bitwise complement of (the index of the last element plus 1). If this method is called with a non-sorted <code data-dev-comment-type="paramref" class="paramref">source</code>, the return value can be incorrect and a negative number could be returned, even if <code data-dev-comment-type="paramref" class="paramref">value</code> is present in <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the elements of the array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">comparer</code> is <span class="xref">null</span>, and <code data-dev-comment-type="paramref" class="paramref">value</code> is of a type that is not compatible with the elements of <code data-dev-comment-type="paramref" class="paramref">source</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">comparer</code> is <span class="xref">null</span>, and <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> does not implement the <span class="xref">System.IComparable`1</span> generic interface.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_Clear_" data-uid="Phnx.Collections.ArrayExtensions.Clear*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_Clear_System_Array_" data-uid="Phnx.Collections.ArrayExtensions.Clear(System.Array)">Clear(Array)</h4>
+  <div class="markdown level1 summary"><p>Sets a range of elements in an array to the default value of each element type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static void Clear(this Array source)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Array</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to clear the elements of</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_Fill_" data-uid="Phnx.Collections.ArrayExtensions.Fill*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_Fill_System_Array_System_Object_" data-uid="Phnx.Collections.ArrayExtensions.Fill(System.Array,System.Object)">Fill(Array, Object)</h4>
+  <div class="markdown level1 summary"><p>Fill this array with a value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static void Fill(this Array source, object fillWith)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Array</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to fill</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">fillWith</span></td>
+        <td><p>The value to fill the array with</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidCastException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">fillWith</code> cannot be cast to the element type of <code data-dev-comment-type="paramref" class="paramref">source</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> does not have exactly 1 dimension</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_Fill_" data-uid="Phnx.Collections.ArrayExtensions.Fill*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_Fill__1___0_____0_" data-uid="Phnx.Collections.ArrayExtensions.Fill``1(``0[],``0)">Fill&lt;T&gt;(T[], T)</h4>
+  <div class="markdown level1 summary"><p>Fill this array with a value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static void Fill&lt;T&gt;(this T[] source, T fillWith)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to fill</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">fillWith</span></td>
+        <td><p>The value to fill the array with</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_IndexOf_" data-uid="Phnx.Collections.ArrayExtensions.IndexOf*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_IndexOf__1___0_____0_" data-uid="Phnx.Collections.ArrayExtensions.IndexOf``1(``0[],``0)">IndexOf&lt;T&gt;(T[], T)</h4>
+  <div class="markdown level1 summary"><p>Gets the index of the first occurance of a value within an array. Returns -1 if the value is not in the array</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static int IndexOf&lt;T&gt;(this T[] source, T value)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to search</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to search for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a 0 based index of the first occurance of the value in the array. If it is not found, returns -1</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of array and value to get</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_Join_" data-uid="Phnx.Collections.ArrayExtensions.Join*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_Join__1___0_____0_____" data-uid="Phnx.Collections.ArrayExtensions.Join``1(``0[],``0[][])">Join&lt;T&gt;(T[], T[][])</h4>
+  <div class="markdown level1 summary"><p>Joins arrays onto this one</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static T[] Join&lt;T&gt;(this T[] arr, params T[][] arraysToJoin)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">arr</span></td>
+        <td><p>The array to place at the beginning of the new array</p>
+</td>
+      </tr>
+      <tr>
+        <td>T[][]</td>
+        <td><span class="parametername">arraysToJoin</span></td>
+        <td><p>The arrays to append onto <code data-dev-comment-type="paramref" class="paramref">arr</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><p>A single array containing all the elements of <code data-dev-comment-type="paramref" class="paramref">arr</code> and <code data-dev-comment-type="paramref" class="paramref">arraysToJoin</code> in order</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of elements in the arrays</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_LastIndexOf_" data-uid="Phnx.Collections.ArrayExtensions.LastIndexOf*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_LastIndexOf__1___0_____0_" data-uid="Phnx.Collections.ArrayExtensions.LastIndexOf``1(``0[],``0)">LastIndexOf&lt;T&gt;(T[], T)</h4>
+  <div class="markdown level1 summary"><p>Gets the index of the last occurance of a value within an array. Returns -1 if the value is not in the array</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static int LastIndexOf&lt;T&gt;(this T[] source, T value)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to search</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to search for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Returns a 0 based index of the first occurance of the value in the array. If it is not found, returns -1</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of array and value to get</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_Resize_" data-uid="Phnx.Collections.ArrayExtensions.Resize*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_Resize__1___0___System_Int32_" data-uid="Phnx.Collections.ArrayExtensions.Resize``1(``0[],System.Int32)">Resize&lt;T&gt;(T[], Int32)</h4>
+  <div class="markdown level1 summary"><p>Changes the number of elements in the array to the specified new size</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static T[] Resize&lt;T&gt;(this T[] source, int newSize)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to resize</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">newSize</span></td>
+        <td><p>The size of the new array</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of the elements in the array</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">newSize</code> is less than zero</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_Reverse_" data-uid="Phnx.Collections.ArrayExtensions.Reverse*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_Reverse__1___0___" data-uid="Phnx.Collections.ArrayExtensions.Reverse``1(``0[])">Reverse&lt;T&gt;(T[])</h4>
+  <div class="markdown level1 summary"><p>Reverse the sequence of the elements within the array</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static void Reverse&lt;T&gt;(this T[] source)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to reverse</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_Reverse_" data-uid="Phnx.Collections.ArrayExtensions.Reverse*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_Reverse__1___0___System_Int32_System_Int32_" data-uid="Phnx.Collections.ArrayExtensions.Reverse``1(``0[],System.Int32,System.Int32)">Reverse&lt;T&gt;(T[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Reverse the sequence of a range of elements within the array</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static void Reverse&lt;T&gt;(this T[] source, int startIndex, int length)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to reverse</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">startIndex</span></td>
+        <td><p>The starting index of the section to reverse</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
+        <td><p>The number of elements in the section to reverse</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">startIndex</code> is less than the lower bound of <code data-dev-comment-type="paramref" class="paramref">source</code> or <code data-dev-comment-type="paramref" class="paramref">length</code> is less than zero</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">startIndex</code> and <code data-dev-comment-type="paramref" class="paramref">length</code> do not specify a valid range in <code data-dev-comment-type="paramref" class="paramref">source</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_ShallowCopy_" data-uid="Phnx.Collections.ArrayExtensions.ShallowCopy*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_ShallowCopy__1___0___" data-uid="Phnx.Collections.ArrayExtensions.ShallowCopy``1(``0[])">ShallowCopy&lt;T&gt;(T[])</h4>
+  <div class="markdown level1 summary"><p>Creates a shallow copy of the given array</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static T[] ShallowCopy&lt;T&gt;(this T[] source)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The array to copy</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><p>A shallow copy of <code data-dev-comment-type="paramref" class="paramref">source</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of entries within the array</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_ArrayExtensions_Sort_" data-uid="Phnx.Collections.ArrayExtensions.Sort*"></a>
+  <h4 id="Phnx_Collections_ArrayExtensions_Sort__1___0___" data-uid="Phnx.Collections.ArrayExtensions.Sort``1(``0[])">Sort&lt;T&gt;(T[])</h4>
+  <div class="markdown level1 summary"><p>Sorts the elements in an <span class="xref">System.Array</span> using the <span class="xref">System.IComparable</span> implementation of each element of the <span class="xref">System.Array</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static void Sort&lt;T&gt;(this T[] source)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The <span class="xref">System.Array</span> to sort</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>One or more elements in <code data-dev-comment-type="paramref" class="paramref">source</code> do not implement the <span class="xref">System.IComparable</span> interface</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Collections/Phnx.Collections/Extensions/ArrayExtensions.cs/#L9" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

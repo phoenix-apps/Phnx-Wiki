@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Interface ISymmetricEncryption
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Interface ISymmetricEncryption
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Security.Algorithms.ISymmetricEncryption">
+  
+  
+  <h1 id="Phnx_Security_Algorithms_ISymmetricEncryption" data-uid="Phnx.Security.Algorithms.ISymmetricEncryption" class="text-break">Interface ISymmetricEncryption
+  </h1>
+  <div class="markdown level0 summary"><p>A symmetric encryption algorithm. Suitable for password protecting documents, but not suited for storing passwords or sending data to 3rd parties. Consider using <a class="xref" href="Phnx.Security.Algorithms.IHashWithSalt.html">IHashWithSalt</a> for storing passwords, or <a class="xref" href="Phnx.Security.Algorithms.IAsymmetricEncryption.html">IAsymmetricEncryption</a> for sending data to 3rd parties. If you&apos;re using user created password keys instead of random keys, you&apos;ll need to hash the passwords to the algorithm&apos;s required key length first. Consider using <a class="xref" href="Phnx.Security.Algorithms.IHashWithoutSalt.html">IHashWithoutSalt</a> for this</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IEncryption.html#Phnx_Security_Algorithms_IEncryption_Encrypt_System_Byte___System_Byte___">IEncryption.Encrypt(Byte[], Byte[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IEncryption.html#Phnx_Security_Algorithms_IEncryption_Decrypt_System_Byte___System_Byte___">IEncryption.Decrypt(Byte[], Byte[])</a>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Security.Algorithms.html">Phnx.Security.Algorithms</a></div>
+  <div><strong>Assembly</strong>: Phnx.Security.dll</div>
+  
+  <h5 id="Phnx_Security_Algorithms_ISymmetricEncryption_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public interface ISymmetricEncryption : IEncryption</code></pre>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Security_Algorithms_ISymmetricEncryption_CreateRandomIv_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryption.CreateRandomIv*"></a>
+  <h4 id="Phnx_Security_Algorithms_ISymmetricEncryption_CreateRandomIv" data-uid="Phnx.Security.Algorithms.ISymmetricEncryption.CreateRandomIv">CreateRandomIv()</h4>
+  <div class="markdown level1 summary"><p>Create a random secure initialisation vector to use for encryption</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">byte[] CreateRandomIv()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Security_Algorithms_ISymmetricEncryption_CreateRandomKey_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryption.CreateRandomKey*"></a>
+  <h4 id="Phnx_Security_Algorithms_ISymmetricEncryption_CreateRandomKey" data-uid="Phnx.Security.Algorithms.ISymmetricEncryption.CreateRandomKey">CreateRandomKey()</h4>
+  <div class="markdown level1 summary"><p>Create a random secure key that can be used for this algorithm</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">byte[] CreateRandomKey()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Security_Algorithms_ISymmetricEncryption_Decrypt_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryption.Decrypt*"></a>
+  <h4 id="Phnx_Security_Algorithms_ISymmetricEncryption_Decrypt_System_IO_Stream_System_Byte___System_Byte___System_IO_Stream_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryption.Decrypt(System.IO.Stream,System.Byte[],System.Byte[],System.IO.Stream)">Decrypt(Stream, Byte[], Byte[], Stream)</h4>
+  <div class="markdown level1 summary"><p>Decrypt data using a key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">void Decrypt(Stream input, byte[] key, byte[] iv, Stream output)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The stream which contains the data to decrypt</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to use when decrypting the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">iv</span></td>
+        <td><p>The initialisation vector to use when decrypting the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">output</span></td>
+        <td><p>Where to output the decrypted bytes</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> or <code data-dev-comment-type="paramref" class="paramref">key</code> or <code data-dev-comment-type="paramref" class="paramref">iv</code> or <code data-dev-comment-type="paramref" class="paramref">output</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> does not support read or <code data-dev-comment-type="paramref" class="paramref">output</code> does not support write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Security_Algorithms_ISymmetricEncryption_Encrypt_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryption.Encrypt*"></a>
+  <h4 id="Phnx_Security_Algorithms_ISymmetricEncryption_Encrypt_System_IO_Stream_System_Byte___System_Byte___System_IO_Stream_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryption.Encrypt(System.IO.Stream,System.Byte[],System.Byte[],System.IO.Stream)">Encrypt(Stream, Byte[], Byte[], Stream)</h4>
+  <div class="markdown level1 summary"><p>Encrypt data using a key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">void Encrypt(Stream input, byte[] key, byte[] iv, Stream output)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The stream which contains the data to encrypt</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to use when encrypting the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">iv</span></td>
+        <td><p>The initialisation vector to use when encrypting the data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">output</span></td>
+        <td><p>Where to output the encrypted bytes</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> or <code data-dev-comment-type="paramref" class="paramref">key</code> or <code data-dev-comment-type="paramref" class="paramref">iv</code> or <code data-dev-comment-type="paramref" class="paramref">output</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> does not support read or <code data-dev-comment-type="paramref" class="paramref">output</code> does not support write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IEncryptionExtensions.html#Phnx_Security_Algorithms_IEncryptionExtensions_Encrypt_Phnx_Security_Algorithms_IEncryption_System_String_System_Byte___System_Text_Encoding_">IEncryptionExtensions.Encrypt(IEncryption, String, Byte[], Encoding)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IEncryptionExtensions.html#Phnx_Security_Algorithms_IEncryptionExtensions_Decrypt_Phnx_Security_Algorithms_IEncryption_System_Byte___System_Byte___System_Text_Encoding_">IEncryptionExtensions.Decrypt(IEncryption, Byte[], Byte[], Encoding)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_WriteIvHeader_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_IO_Stream_">ISymmetricEncryptionExtensions.WriteIvHeader(ISymmetricEncryption, Byte[], Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_ReadIvHeader_Phnx_Security_Algorithms_ISymmetricEncryption_System_IO_Stream_">ISymmetricEncryptionExtensions.ReadIvHeader(ISymmetricEncryption, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_Encrypt_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_Byte___System_Byte___">ISymmetricEncryptionExtensions.Encrypt(ISymmetricEncryption, Byte[], Byte[], Byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_Encrypt_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_Int32_System_Int32_System_Byte___System_Byte___">ISymmetricEncryptionExtensions.Encrypt(ISymmetricEncryption, Byte[], Int32, Int32, Byte[], Byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_Decrypt_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_Byte___System_Byte___">ISymmetricEncryptionExtensions.Decrypt(ISymmetricEncryption, Byte[], Byte[], Byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_Decrypt_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_Int32_System_Int32_System_Byte___System_Byte___">ISymmetricEncryptionExtensions.Decrypt(ISymmetricEncryption, Byte[], Int32, Int32, Byte[], Byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Security/Phnx.Security/Algorithms/Interfaces/ISymmetricEncryption.cs/#L9" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

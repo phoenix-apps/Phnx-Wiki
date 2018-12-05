@@ -1,0 +1,467 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class CachedCrud&lt;TKey, TEntity&gt;
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class CachedCrud&lt;TKey, TEntity&gt;
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Data.Repositories.CachedCrud`2">
+  
+  
+  <h1 id="Phnx_Data_Repositories_CachedCrud_2" data-uid="Phnx.Data.Repositories.CachedCrud`2" class="text-break">Class CachedCrud&lt;TKey, TEntity&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Provides CRUD operations on data with an ID property for the primary key</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CachedCrud&lt;TKey, TEntity&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Phnx.Data.Repositories.ICrud-2.html">ICrud</a>&lt;TKey, TEntity&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Data.Repositories.html">Phnx.Data.Repositories</a></div>
+  <div><strong>Assembly</strong>: Phnx.Data.dll</div>
+  
+  <h5 id="Phnx_Data_Repositories_CachedCrud_2_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public class CachedCrud&lt;TKey, TEntity&gt; : ICrud&lt;TKey, TEntity&gt; where TEntity : class, IIdDataModel&lt;TKey&gt;</code></pre>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The primary key for this model</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td><p>The model this CRUD repository controls</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">
+  	Constructors
+  </h3>
+  	<a id="Phnx_Data_Repositories_CachedCrud_2__ctor_" data-uid="Phnx.Data.Repositories.CachedCrud`2.#ctor*"></a>
+  <h4 id="Phnx_Data_Repositories_CachedCrud_2__ctor_Phnx_Data_LazyLoad_LazyDatabase_Phnx_Data_Repositories_ICrud__0__1__" data-uid="Phnx.Data.Repositories.CachedCrud`2.#ctor(Phnx.Data.LazyLoad.LazyDatabase,Phnx.Data.Repositories.ICrud{`0,`1})">CachedCrud(LazyDatabase, ICrud&lt;TKey, TEntity&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Data.Repositories.CachedCrud-2.html">CachedCrud&lt;TKey, TEntity&gt;</a>. If <code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code> is not configured for the <code data-dev-comment-type="paramref" class="paramref">cache</code>, it automatically adds it with the <code data-dev-comment-type="paramref" class="paramref">cache</code>&apos;s default lifespan for entities</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public CachedCrud(LazyDatabase cache, ICrud&lt;TKey, TEntity&gt; dataSource)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.LazyLoad.LazyDatabase.html">LazyDatabase</a></td>
+        <td><span class="parametername">cache</span></td>
+        <td><p>The cache to use for loading and commiting changes</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Repositories.ICrud-2.html">ICrud</a>&lt;TKey, TEntity&gt;</td>
+        <td><span class="parametername">dataSource</span></td>
+        <td><p>The data to cache</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">cache</code> or <code data-dev-comment-type="paramref" class="paramref">dataSource</code> was <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">
+  	Properties
+  </h3>
+  	<a id="Phnx_Data_Repositories_CachedCrud_2_Cache_" data-uid="Phnx.Data.Repositories.CachedCrud`2.Cache*"></a>
+  <h4 id="Phnx_Data_Repositories_CachedCrud_2_Cache" data-uid="Phnx.Data.Repositories.CachedCrud`2.Cache">Cache</h4>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="Phnx.Data.LazyLoad.LazyDatabase.html">LazyDatabase</a> used as a cache source</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public LazyDatabase Cache { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.LazyLoad.LazyDatabase.html">LazyDatabase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_CachedCrud_2_CachedCount_" data-uid="Phnx.Data.Repositories.CachedCrud`2.CachedCount*"></a>
+  <h4 id="Phnx_Data_Repositories_CachedCrud_2_CachedCount" data-uid="Phnx.Data.Repositories.CachedCrud`2.CachedCount">CachedCount</h4>
+  <div class="markdown level1 summary"><p>The total number of items cached for the table represented by this <a class="xref" href="Phnx.Data.Repositories.CachedCrud-2.html">CachedCrud&lt;TKey, TEntity&gt;</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public int CachedCount { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_CachedCrud_2_DataSource_" data-uid="Phnx.Data.Repositories.CachedCrud`2.DataSource*"></a>
+  <h4 id="Phnx_Data_Repositories_CachedCrud_2_DataSource" data-uid="Phnx.Data.Repositories.CachedCrud`2.DataSource">DataSource</h4>
+  <div class="markdown level1 summary"><p>The underlying data source supported by this cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public ICrud&lt;TKey, TEntity&gt; DataSource { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Repositories.ICrud-2.html">ICrud</a>&lt;TKey, TEntity&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Data_Repositories_CachedCrud_2_ClearCache_" data-uid="Phnx.Data.Repositories.CachedCrud`2.ClearCache*"></a>
+  <h4 id="Phnx_Data_Repositories_CachedCrud_2_ClearCache" data-uid="Phnx.Data.Repositories.CachedCrud`2.ClearCache">ClearCache()</h4>
+  <div class="markdown level1 summary"><p>Clear all entries from the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void ClearCache()</code></pre>
+  	<a id="Phnx_Data_Repositories_CachedCrud_2_Create_" data-uid="Phnx.Data.Repositories.CachedCrud`2.Create*"></a>
+  <h4 id="Phnx_Data_Repositories_CachedCrud_2_Create__1_" data-uid="Phnx.Data.Repositories.CachedCrud`2.Create(`1)">Create(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Commit <code data-dev-comment-type="paramref" class="paramref">data</code> to the database, ready to save. This does not add it to the cache, as it does not have an ID yet</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Create(TEntity data)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data to commit</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_CachedCrud_2_Delete_" data-uid="Phnx.Data.Repositories.CachedCrud`2.Delete*"></a>
+  <h4 id="Phnx_Data_Repositories_CachedCrud_2_Delete__1_" data-uid="Phnx.Data.Repositories.CachedCrud`2.Delete(`1)">Delete(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Commit a delete operation for a single item in the database, updating the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Delete(TEntity data)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The item to delete</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_CachedCrud_2_Get_" data-uid="Phnx.Data.Repositories.CachedCrud`2.Get*"></a>
+  <h4 id="Phnx_Data_Repositories_CachedCrud_2_Get" data-uid="Phnx.Data.Repositories.CachedCrud`2.Get">Get()</h4>
+  <div class="markdown level1 summary"><p>Get all records of <code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code> from the database. This has no cache support</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public IQueryable&lt;TEntity&gt; Get()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.IQueryable</span>&lt;TEntity&gt;</td>
+        <td><p>All records of <code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code> in the database</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_CachedCrud_2_GetSingle_" data-uid="Phnx.Data.Repositories.CachedCrud`2.GetSingle*"></a>
+  <h4 id="Phnx_Data_Repositories_CachedCrud_2_GetSingle__0_" data-uid="Phnx.Data.Repositories.CachedCrud`2.GetSingle(`0)">GetSingle(TKey)</h4>
+  <div class="markdown level1 summary"><p>Get a single item from the cache (or database if it&apos;s not in the cache) with the key <code data-dev-comment-type="paramref" class="paramref">id</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public TEntity GetSingle(TKey id)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The key of the item to get</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><p>The first matching item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_CachedCrud_2_Update_" data-uid="Phnx.Data.Repositories.CachedCrud`2.Update*"></a>
+  <h4 id="Phnx_Data_Repositories_CachedCrud_2_Update__1_" data-uid="Phnx.Data.Repositories.CachedCrud`2.Update(`1)">Update(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Commit an update a single item in the database, updating the cache</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Update(TEntity data)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The item to update</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Phnx.Data.Repositories.ICrud-2.html">ICrud&lt;TKey, TEntity&gt;</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Data/Data/Phnx.Data/Repositories/CachedCrud.cs/#L12" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

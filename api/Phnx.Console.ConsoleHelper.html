@@ -1,0 +1,1211 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class ConsoleHelper
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class ConsoleHelper
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Console.ConsoleHelper">
+  
+  
+  <h1 id="Phnx_Console_ConsoleHelper" data-uid="Phnx.Console.ConsoleHelper" class="text-break">Class ConsoleHelper
+  </h1>
+  <div class="markdown level0 summary"><p>Provides helper methods for <span class="xref">System.Console</span> to make reading and writing easier to use, such as getting numbers, printing collections and more</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Phnx.Console.TextIoHelper.html">TextIoHelper</a></div>
+    <div class="level2"><span class="xref">ConsoleHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_Input">TextIoHelper.Input</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_Output">TextIoHelper.Output</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_AutoFlush">TextIoHelper.AutoFlush</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_NewLine_System_Int32_">TextIoHelper.NewLine(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_WriteLine_System_String_">TextIoHelper.WriteLine(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_WriteLine_System_Object_">TextIoHelper.WriteLine(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_Write_System_String_">TextIoHelper.Write(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_Write_System_Object_">TextIoHelper.Write(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_WriteCollection_System_String___">TextIoHelper.WriteCollection(String[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_WriteCollection_System_Object___">TextIoHelper.WriteCollection(Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_WriteCollection_System_Collections_Generic_IEnumerable_System_String__">TextIoHelper.WriteCollection(IEnumerable&lt;String&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_WriteCollection_System_Collections_Generic_IEnumerable_System_String__System_String_">TextIoHelper.WriteCollection(IEnumerable&lt;String&gt;, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_WriteCollection__1_System_Collections_Generic_IEnumerable___0__">TextIoHelper.WriteCollection&lt;T&gt;(IEnumerable&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_WriteCollection__1_System_Collections_Generic_IEnumerable___0__System_String_">TextIoHelper.WriteCollection&lt;T&gt;(IEnumerable&lt;T&gt;, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_WriteCollection__1_System_Collections_Generic_IEnumerable___0__System_String_System_Func___0_System_String__">TextIoHelper.WriteCollection&lt;T&gt;(IEnumerable&lt;T&gt;, String, Func&lt;T, String&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_GetString">TextIoHelper.GetString()</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_GetString_System_String_">TextIoHelper.GetString(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_GetInt_System_String_">TextIoHelper.GetInt(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_GetSelection_System_Collections_Generic_IEnumerable_System_String__System_String_">TextIoHelper.GetSelection(IEnumerable&lt;String&gt;, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_GetLong_System_String_">TextIoHelper.GetLong(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_GetDecimal_System_String_">TextIoHelper.GetDecimal(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_GetDateTime_System_String_">TextIoHelper.GetDateTime(String)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Console.html">Phnx.Console</a></div>
+  <div><strong>Assembly</strong>: Phnx.Console.dll</div>
+  
+  <h5 id="Phnx_Console_ConsoleHelper_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public class ConsoleHelper : TextIoHelper</code></pre>
+  <h3 id="constructors">
+  	Constructors
+  </h3>
+  	<a id="Phnx_Console_ConsoleHelper__ctor_" data-uid="Phnx.Console.ConsoleHelper.#ctor*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper__ctor" data-uid="Phnx.Console.ConsoleHelper.#ctor">ConsoleHelper()</h4>
+  <div class="markdown level1 summary"><p>Create a new instance of ConsoleIo</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public ConsoleHelper()</code></pre>
+  <h3 id="properties">
+  	Properties
+  </h3>
+  	<a id="Phnx_Console_ConsoleHelper_BackgroundColor_" data-uid="Phnx.Console.ConsoleHelper.BackgroundColor*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_BackgroundColor" data-uid="Phnx.Console.ConsoleHelper.BackgroundColor">BackgroundColor</h4>
+  <div class="markdown level1 summary"><p>Get or set the console background color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public ConsoleColor BackgroundColor { get; set; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ConsoleColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The color specified in a set operation is not a valid member of <span class="xref">System.ConsoleColor</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_FontColor_" data-uid="Phnx.Console.ConsoleHelper.FontColor*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_FontColor" data-uid="Phnx.Console.ConsoleHelper.FontColor">FontColor</h4>
+  <div class="markdown level1 summary"><p>Get or set the output font color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public ConsoleColor FontColor { get; set; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ConsoleColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The color specified in a set operation is not a valid member of <span class="xref">System.ConsoleColor</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_WindowTitle_" data-uid="Phnx.Console.ConsoleHelper.WindowTitle*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_WindowTitle" data-uid="Phnx.Console.ConsoleHelper.WindowTitle">WindowTitle</h4>
+  <div class="markdown level1 summary"><p>Get or set the title to display in the console&apos;s title bar</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public string WindowTitle { get; set; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>In a get operation, the retrieved title is longer than 24500 characters</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>In a set operation, the specified title is longer than 24500 characters</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>In a set operation, the specified title is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Console_ConsoleHelper_Clear_" data-uid="Phnx.Console.ConsoleHelper.Clear*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_Clear" data-uid="Phnx.Console.ConsoleHelper.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clear the console</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_ClearCurrentLine_" data-uid="Phnx.Console.ConsoleHelper.ClearCurrentLine*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_ClearCurrentLine" data-uid="Phnx.Console.ConsoleHelper.ClearCurrentLine">ClearCurrentLine()</h4>
+  <div class="markdown level1 summary"><p>Clears the current line from the console</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void ClearCurrentLine()</code></pre>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_ClearCurrentLine_" data-uid="Phnx.Console.ConsoleHelper.ClearCurrentLine*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_ClearCurrentLine_System_String_" data-uid="Phnx.Console.ConsoleHelper.ClearCurrentLine(System.String)">ClearCurrentLine(String)</h4>
+  <div class="markdown level1 summary"><p>Clears the current line from the console. This is faster than <a class="xref" href="Phnx.Console.ConsoleHelper.html#Phnx_Console_ConsoleHelper_ClearCurrentLine">ClearCurrentLine()</a>, but requires you to know what text was written</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void ClearCurrentLine(string textWritten)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">textWritten</span></td>
+        <td><p>The text that was written to the console</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_Get_" data-uid="Phnx.Console.ConsoleHelper.Get*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_Get__1_System_Func_System_String___0__System_String_" data-uid="Phnx.Console.ConsoleHelper.Get``1(System.Func{System.String,``0},System.String)">Get&lt;T&gt;(Func&lt;String, T&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Writes the <code data-dev-comment-type="paramref" class="paramref">question</code> to the console, and then read a line from the console, and convert it using the <code data-dev-comment-type="paramref" class="paramref">converter</code>. If the received input is invalid, <a class="xref" href="Phnx.Console.ConsoleHelper.html#Phnx_Console_ConsoleHelper_Clear">Clear()</a> is called, and the process repeats</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public override T Get&lt;T&gt;(Func&lt;string, T&gt; converter, string question = null)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.String</span>, T&gt;</td>
+        <td><span class="parametername">converter</span></td>
+        <td><p>The method to use when converting from the text to the desired type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">question</span></td>
+        <td><p>The question to write. If this is <span class="xref">null</span>, the console is not cleared</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> entered by the user</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Phnx.Console.TextIoHelper.Get&lt;T&gt;(System.Func&lt;System.String, T&gt;, System.String)</span></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O exception occured</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OutOfMemoryException</span></td>
+        <td><p>There is insufficient memory to allocate a buffer for the line read from <a class="xref" href="Phnx.Console.TextIoHelper.html#Phnx_Console_TextIoHelper_Input">Input</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>The number of characters in the next line is larger than <span class="xref">System.Int32.MaxValue</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_ProgressBar_" data-uid="Phnx.Console.ConsoleHelper.ProgressBar*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_ProgressBar_System_Int32_System_Func_System_Decimal_System_String__System_Boolean_" data-uid="Phnx.Console.ConsoleHelper.ProgressBar(System.Int32,System.Func{System.Decimal,System.String},System.Boolean)">ProgressBar(Int32, Func&lt;Decimal, String&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Create and use a new progress bar</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public ConsoleProgress ProgressBar(int maxValue, Func&lt;decimal, string&gt; writeProgressMessage = null, bool writeMessageToLeftOfBar = false)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxValue</span></td>
+        <td><p>The highest value that the progress bar can represent</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Decimal</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">writeProgressMessage</span></td>
+        <td><p>The text to write with the progress bar. This method must be thread-safe</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeMessageToLeftOfBar</span></td>
+        <td><p>Whether to write the extra text to the left or right of the progress bar</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Console.Progress.ConsoleProgress.html">ConsoleProgress</a></td>
+        <td><p>A console progress bar which can have its value changed as progress continues</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_ReadKey_" data-uid="Phnx.Console.ConsoleHelper.ReadKey*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_ReadKey_System_Boolean_" data-uid="Phnx.Console.ConsoleHelper.ReadKey(System.Boolean)">ReadKey(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Waits for a key press from the console, and return the key that is pressed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public ConsoleKeyInfo ReadKey(bool showPressedKeyInConsole = true)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">showPressedKeyInConsole</span></td>
+        <td><p>Determines whether to display the pressed key in the console window</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ConsoleKeyInfo</span></td>
+        <td><p>An object that describes the <span class="xref">System.ConsoleKey</span> constant and Unicode character, if any, that correspond to the pressed console key. The <span class="xref">System.ConsoleKeyInfo</span> object also describes, in a bitwise combination of <span class="xref">System.ConsoleModifiers</span> values, whether one or more <span class="xref">System.ConsoleModifiers.Shift</span>, <span class="xref">System.ConsoleModifiers.Alt</span>, or <span class="xref">System.ConsoleModifiers.Control</span> modifier keys was pressed simultaneously with the console key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>The <span class="xref">System.Console.In</span> property is redirected from some stream other than the console</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_ResetColor_" data-uid="Phnx.Console.ConsoleHelper.ResetColor*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_ResetColor" data-uid="Phnx.Console.ConsoleHelper.ResetColor">ResetColor()</h4>
+  <div class="markdown level1 summary"><p>Resets the console text and background color to their default values</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void ResetColor()</code></pre>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_UndoWriteLine_" data-uid="Phnx.Console.ConsoleHelper.UndoWriteLine*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_UndoWriteLine" data-uid="Phnx.Console.ConsoleHelper.UndoWriteLine">UndoWriteLine()</h4>
+  <div class="markdown level1 summary"><p>Clears the previous line from the console</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void UndoWriteLine()</code></pre>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_UndoWriteLine_" data-uid="Phnx.Console.ConsoleHelper.UndoWriteLine*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_UndoWriteLine_System_Int32_" data-uid="Phnx.Console.ConsoleHelper.UndoWriteLine(System.Int32)">UndoWriteLine(Int32)</h4>
+  <div class="markdown level1 summary"><p>Clears previous lines from the console</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void UndoWriteLine(int linesToClear)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">linesToClear</span></td>
+        <td><p>The number of lines to clear</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_UndoWriteLine_" data-uid="Phnx.Console.ConsoleHelper.UndoWriteLine*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_UndoWriteLine_System_String___" data-uid="Phnx.Console.ConsoleHelper.UndoWriteLine(System.String[])">UndoWriteLine(String[])</h4>
+  <div class="markdown level1 summary"><p>Clears previous lines from the console. This is faster than <a class="xref" href="Phnx.Console.ConsoleHelper.html#Phnx_Console_ConsoleHelper_UndoWriteLine_System_Int32_">UndoWriteLine(Int32)</a>, but requires you to know what text was written</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void UndoWriteLine(params string[] linesWritten)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">linesWritten</span></td>
+        <td><p>The lines that were written to the console to be cleared</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_WriteError_" data-uid="Phnx.Console.ConsoleHelper.WriteError*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_WriteError_System_Exception_" data-uid="Phnx.Console.ConsoleHelper.WriteError(System.Exception)">WriteError(Exception)</h4>
+  <div class="markdown level1 summary"><p>Writes an error in red</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void WriteError(Exception error)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>The error to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_WriteError_" data-uid="Phnx.Console.ConsoleHelper.WriteError*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_WriteError_System_String_" data-uid="Phnx.Console.ConsoleHelper.WriteError(System.String)">WriteError(String)</h4>
+  <div class="markdown level1 summary"><p>Writes an error in red</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void WriteError(string error)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">error</span></td>
+        <td><p>The error to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_WriteInfo_" data-uid="Phnx.Console.ConsoleHelper.WriteInfo*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_WriteInfo_System_String_" data-uid="Phnx.Console.ConsoleHelper.WriteInfo(System.String)">WriteInfo(String)</h4>
+  <div class="markdown level1 summary"><p>Writes an informational message in cyan</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void WriteInfo(string info)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">info</span></td>
+        <td><p>The information to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_WriteLineInColor_" data-uid="Phnx.Console.ConsoleHelper.WriteLineInColor*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_WriteLineInColor_System_String_System_Nullable_System_ConsoleColor__System_Nullable_System_ConsoleColor__" data-uid="Phnx.Console.ConsoleHelper.WriteLineInColor(System.String,System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})">WriteLineInColor(String, Nullable&lt;ConsoleColor&gt;, Nullable&lt;ConsoleColor&gt;)</h4>
+  <div class="markdown level1 summary"><p>Writes a line of text in a specified font and/or background color</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void WriteLineInColor(string text, ConsoleColor? fontColor = default(ConsoleColor? ), ConsoleColor? backgroundColor = default(ConsoleColor? ))</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The text to write</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.ConsoleColor</span>&gt;</td>
+        <td><span class="parametername">fontColor</span></td>
+        <td><p>The font color to use</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.ConsoleColor</span>&gt;</td>
+        <td><span class="parametername">backgroundColor</span></td>
+        <td><p>The background color to use</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_WriteWarning_" data-uid="Phnx.Console.ConsoleHelper.WriteWarning*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_WriteWarning_System_String_" data-uid="Phnx.Console.ConsoleHelper.WriteWarning(System.String)">WriteWarning(String)</h4>
+  <div class="markdown level1 summary"><p>Writes a warning message in yellow</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void WriteWarning(string warning)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">warning</span></td>
+        <td><p>The warning to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The user does not have permission to perform this action</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurred</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_YesNo_" data-uid="Phnx.Console.ConsoleHelper.YesNo*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_YesNo_System_String_" data-uid="Phnx.Console.ConsoleHelper.YesNo(System.String)">YesNo(String)</h4>
+  <div class="markdown level1 summary"><p>Writes the <code data-dev-comment-type="paramref" class="paramref">question</code> to the console, and then waits until the user enters <span class="xref">System.ConsoleKey.Y</span> or <span class="xref">System.ConsoleKey.N</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool YesNo(string question)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">question</span></td>
+        <td><p>The yes or no question to ask the user. &quot; (y/n): &quot; is appended to the question automatically</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">true</span> if the user pressed <span class="xref">System.ConsoleKey.Y</span> or <span class="xref">false</span> if the user pressed <span class="xref">System.ConsoleKey.N</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>The <span class="xref">System.Console.In</span> property is redirected from some stream other than the console</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occured</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Console_ConsoleHelper_YesNoCancel_" data-uid="Phnx.Console.ConsoleHelper.YesNoCancel*"></a>
+  <h4 id="Phnx_Console_ConsoleHelper_YesNoCancel_System_String_" data-uid="Phnx.Console.ConsoleHelper.YesNoCancel(System.String)">YesNoCancel(String)</h4>
+  <div class="markdown level1 summary"><p>Writes the <code data-dev-comment-type="paramref" class="paramref">question</code> to the console, and then waits until the user presses <span class="xref">System.ConsoleKey.Y</span>, <span class="xref">System.ConsoleKey.N</span> or <span class="xref">System.ConsoleKey.Escape</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool? YesNoCancel(string question)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">question</span></td>
+        <td><p>The yes or no question to ask the user. &quot; (y/n/escape): &quot; is appended to the question automatically</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">true</span> if the user pressed <span class="xref">System.ConsoleKey.Y</span>, <span class="xref">false</span> if the user pressed <span class="xref">System.ConsoleKey.N</span>, and <span class="xref">null</span> if the user pressed <span class="xref">System.ConsoleKey.Escape</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>The <span class="xref">System.Console.In</span> property is redirected from some stream other than the console</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occured</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Console/Phnx.Console/ConsoleHelper.cs/#L12" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

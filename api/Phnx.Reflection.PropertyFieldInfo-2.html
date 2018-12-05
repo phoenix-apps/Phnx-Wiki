@@ -1,0 +1,562 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class PropertyFieldInfo&lt;T, U&gt;
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class PropertyFieldInfo&lt;T, U&gt;
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Reflection.PropertyFieldInfo`2">
+  
+  
+  <h1 id="Phnx_Reflection_PropertyFieldInfo_2" data-uid="Phnx.Reflection.PropertyFieldInfo`2" class="text-break">Class PropertyFieldInfo&lt;T, U&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Reflection options to group <span class="xref">System.Reflection.PropertyInfo</span> and <span class="xref">System.Reflection.FieldInfo</span> under a common wrapper, as <a class="xref" href="Phnx.Reflection.PropertyFieldInfo-2.html#Phnx_Reflection_PropertyFieldInfo_2_GetValue__0_">GetValue(T)</a>, <a class="xref" href="Phnx.Reflection.PropertyFieldInfo-2.html#Phnx_Reflection_PropertyFieldInfo_2_SetValue__0__1_">SetValue(T, U)</a> and other options are shared</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a></div>
+    <div class="level2"><span class="xref">PropertyFieldInfo&lt;T, U&gt;</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_IsProperty">PropertyFieldInfo.IsProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_IsAutoProperty">PropertyFieldInfo.IsAutoProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_Property">PropertyFieldInfo.Property</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_Field">PropertyFieldInfo.Field</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_Member">PropertyFieldInfo.Member</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_Name">PropertyFieldInfo.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_Type">PropertyFieldInfo.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_CanGet">PropertyFieldInfo.CanGet</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_CanSet">PropertyFieldInfo.CanSet</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_LoadMember_System_Reflection_MemberInfo_">PropertyFieldInfo.LoadMember(MemberInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_SetValue_System_Object_System_Object_">PropertyFieldInfo.SetValue(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_GetValue_System_Object_">PropertyFieldInfo.GetValue(Object)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Reflection.html">Phnx.Reflection</a></div>
+  <div><strong>Assembly</strong>: Phnx.Reflection.dll</div>
+  
+  <h5 id="Phnx_Reflection_PropertyFieldInfo_2_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public class PropertyFieldInfo&lt;T, U&gt; : PropertyFieldInfo</code></pre>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type that this <span class="xref">System.Reflection.PropertyInfo</span> or <span class="xref">System.Reflection.FieldInfo</span> belongs to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">U</span></td>
+        <td><p>The type of this <span class="xref">System.Reflection.PropertyInfo</span> or <span class="xref">System.Reflection.FieldInfo</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">
+  	Constructors
+  </h3>
+  	<a id="Phnx_Reflection_PropertyFieldInfo_2__ctor_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.#ctor*"></a>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_2__ctor_System_Linq_Expressions_Expression_System_Func__0__1___" data-uid="Phnx.Reflection.PropertyFieldInfo`2.#ctor(System.Linq.Expressions.Expression{System.Func{`0,`1}})">PropertyFieldInfo(Expression&lt;Func&lt;T, U&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> from a function expression</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public PropertyFieldInfo(Expression&lt;Func&lt;T, U&gt;&gt; expression)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;T, U&gt;&gt;</td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The expression that points to a property/ field</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The expression is not a property or field access</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Reflection_PropertyFieldInfo_2__ctor_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.#ctor*"></a>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_2__ctor_System_Reflection_FieldInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.#ctor(System.Reflection.FieldInfo)">PropertyFieldInfo(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> from a <span class="xref">System.Reflection.FieldInfo</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public PropertyFieldInfo(FieldInfo field)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="parametername">field</span></td>
+        <td><p>The field</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Reflection_PropertyFieldInfo_2__ctor_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.#ctor*"></a>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_2__ctor_System_Reflection_MemberInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.#ctor(System.Reflection.MemberInfo)">PropertyFieldInfo(MemberInfo)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> from a <span class="xref">System.Reflection.MemberInfo</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public PropertyFieldInfo(MemberInfo member)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.MemberInfo</span></td>
+        <td><span class="parametername">member</span></td>
+        <td><p>The meber (must be either a <span class="xref">System.Reflection.PropertyInfo</span> or a <span class="xref">System.Reflection.FieldInfo</span>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The member is not a property or field</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Reflection_PropertyFieldInfo_2__ctor_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.#ctor*"></a>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_2__ctor_System_Reflection_PropertyInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.#ctor(System.Reflection.PropertyInfo)">PropertyFieldInfo(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> from a <span class="xref">System.Reflection.PropertyInfo</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public PropertyFieldInfo(PropertyInfo property)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="parametername">property</span></td>
+        <td><p>The property</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Reflection_PropertyFieldInfo_2_GetValue_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.GetValue*"></a>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_2_GetValue__0_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.GetValue(`0)">GetValue(T)</h4>
+  <div class="markdown level1 summary"><p>Get this member&apos;s value from an object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public U GetValue(T baseObject)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">baseObject</span></td>
+        <td><p>The base object to get the member of</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">U</span></td>
+        <td><p>The value of the member</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The property&apos;s <span class="xref">langword_csharp_get</span> accessor is not found</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.TargetException</span></td>
+        <td><p>In the .NET for Windows Store apps or the Portable Class Library, catch <span class="xref">System.Exception</span> instead. The member is an instance member but <code data-dev-comment-type="paramref" class="paramref">baseObject</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.MethodAccessException</span></td>
+        <td><p>There was an illegal attempt to access a private or protected method inside a class</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.TargetInvocationException</span></td>
+        <td><p>An error occurred while retrieving the property value. The <span class="xref">System.Exception.InnerException</span> property indicates the reason for the error</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Reflection_PropertyFieldInfo_2_LoadExpression_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.LoadExpression*"></a>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_2_LoadExpression__2_System_Linq_Expressions_Expression_System_Func___0___1___" data-uid="Phnx.Reflection.PropertyFieldInfo`2.LoadExpression``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">LoadExpression&lt;TObject, TMember&gt;(Expression&lt;Func&lt;TObject, TMember&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads an <span class="xref">System.Linq.Expressions.Expression&lt;TDelegate&gt;</span> as a member access onto this</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">protected void LoadExpression&lt;TObject, TMember&gt;(Expression&lt;Func&lt;TObject, TMember&gt;&gt; expression)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;TObject, TMember&gt;&gt;</td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The expression that points to a property/ field</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TObject</span></td>
+        <td><p>The object which member belongs to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TMember</span></td>
+        <td><p>The type of the member to load onto this</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The expression is not a property or field access</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Reflection_PropertyFieldInfo_2_SetValue_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.SetValue*"></a>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_2_SetValue__0__1_" data-uid="Phnx.Reflection.PropertyFieldInfo`2.SetValue(`0,`1)">SetValue(T, U)</h4>
+  <div class="markdown level1 summary"><p>Set this member&apos;s value on an object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void SetValue(T baseObject, U valueToAssign)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">baseObject</span></td>
+        <td><p>The base object to set the member of</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">U</span></td>
+        <td><span class="parametername">valueToAssign</span></td>
+        <td><p>The value to assign to the member</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The property&apos;s <span class="xref">langword_csharp_set</span> accessor is not found</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.TargetException</span></td>
+        <td><p>The member is an instance member but <code data-dev-comment-type="paramref" class="paramref">baseObject</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.MethodAccessException</span></td>
+        <td><p>There was an illegal attempt to access a private or protected method inside a class</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.TargetInvocationException</span></td>
+        <td><p>An error occurred while setting the property value. The <span class="xref">System.Exception.InnerException</span> property indicates the reason for the error</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Reflection/Phnx.Reflection/PropertyFieldInfoT.cs/#L12" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,463 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class JsonStreamReader
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class JsonStreamReader
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.IO.Json.JsonStreamReader">
+  
+  
+  <h1 id="Phnx_IO_Json_JsonStreamReader" data-uid="Phnx.IO.Json.JsonStreamReader" class="text-break">Class JsonStreamReader
+  </h1>
+  <div class="markdown level0 summary"><p>Provides a way to read a stream containing Json data into a series of objects</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">JsonStreamReader</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.IO.Json.html">Phnx.IO.Json</a></div>
+  <div><strong>Assembly</strong>: Phnx.IO.Json.dll</div>
+  
+  <h5 id="Phnx_IO_Json_JsonStreamReader_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public class JsonStreamReader : IDisposable</code></pre>
+  <h3 id="constructors">
+  	Constructors
+  </h3>
+  	<a id="Phnx_IO_Json_JsonStreamReader__ctor_" data-uid="Phnx.IO.Json.JsonStreamReader.#ctor*"></a>
+  <h4 id="Phnx_IO_Json_JsonStreamReader__ctor_Newtonsoft_Json_JsonReader_" data-uid="Phnx.IO.Json.JsonStreamReader.#ctor(Newtonsoft.Json.JsonReader)">JsonStreamReader(JsonReader)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.IO.Json.JsonStreamReader.html">JsonStreamReader</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public JsonStreamReader(JsonReader jsonReader)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Newtonsoft.Json.JsonReader</span></td>
+        <td><span class="parametername">jsonReader</span></td>
+        <td><p>The input to read Json from</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Phnx_IO_Json_JsonStreamReader__ctor_Newtonsoft_Json_JsonReader__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>To support streaming, <code data-dev-comment-type="paramref" class="paramref">jsonReader</code>&apos;s property <span class="xref">Newtonsoft.Json.JsonReader.SupportMultipleContent</span> will be set to <span class="xref">true</span></p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">jsonReader</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_IO_Json_JsonStreamReader__ctor_" data-uid="Phnx.IO.Json.JsonStreamReader.#ctor*"></a>
+  <h4 id="Phnx_IO_Json_JsonStreamReader__ctor_System_IO_TextReader_System_Boolean_" data-uid="Phnx.IO.Json.JsonStreamReader.#ctor(System.IO.TextReader,System.Boolean)">JsonStreamReader(TextReader, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.IO.Json.JsonStreamReader.html">JsonStreamReader</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public JsonStreamReader(TextReader stream, bool closeStreamWhenDisposed = false)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.TextReader</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The stream to read Json from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">closeStreamWhenDisposed</span></td>
+        <td><p>Whether to close the stream when this <a class="xref" href="Phnx.IO.Json.JsonStreamReader.html">JsonStreamReader</a> is disposed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">stream</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">
+  	Properties
+  </h3>
+  	<a id="Phnx_IO_Json_JsonStreamReader_BaseJsonReader_" data-uid="Phnx.IO.Json.JsonStreamReader.BaseJsonReader*"></a>
+  <h4 id="Phnx_IO_Json_JsonStreamReader_BaseJsonReader" data-uid="Phnx.IO.Json.JsonStreamReader.BaseJsonReader">BaseJsonReader</h4>
+  <div class="markdown level1 summary"><p>The reader used to deserialize json into objects</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public JsonReader BaseJsonReader { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Newtonsoft.Json.JsonReader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_IO_Json_JsonStreamReader_CloseStreamWhenDisposed_" data-uid="Phnx.IO.Json.JsonStreamReader.CloseStreamWhenDisposed*"></a>
+  <h4 id="Phnx_IO_Json_JsonStreamReader_CloseStreamWhenDisposed" data-uid="Phnx.IO.Json.JsonStreamReader.CloseStreamWhenDisposed">CloseStreamWhenDisposed</h4>
+  <div class="markdown level1 summary"><p>Whether to close the stream when this is disposed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool CloseStreamWhenDisposed { get; set; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_IO_Json_JsonStreamReader_Dispose_" data-uid="Phnx.IO.Json.JsonStreamReader.Dispose*"></a>
+  <h4 id="Phnx_IO_Json_JsonStreamReader_Dispose" data-uid="Phnx.IO.Json.JsonStreamReader.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Dispose of this reader, and close the stream if specified</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public virtual void Dispose()</code></pre>
+  	<a id="Phnx_IO_Json_JsonStreamReader_ReadJObject_" data-uid="Phnx.IO.Json.JsonStreamReader.ReadJObject*"></a>
+  <h4 id="Phnx_IO_Json_JsonStreamReader_ReadJObject" data-uid="Phnx.IO.Json.JsonStreamReader.ReadJObject">ReadJObject()</h4>
+  <div class="markdown level1 summary"><p>Read and deserialize a Json object as a <span class="xref">Newtonsoft.Json.Linq.JObject</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public virtual JObject ReadJObject()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Newtonsoft.Json.Linq.JObject</span></td>
+        <td><p>A <span class="xref">Newtonsoft.Json.Linq.JObject</span> representing the Json object read from the stream</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.EndOfStreamException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_IO_Json_JsonStreamReader_ReadJson_" data-uid="Phnx.IO.Json.JsonStreamReader.ReadJson*"></a>
+  <h4 id="Phnx_IO_Json_JsonStreamReader_ReadJson_Newtonsoft_Json_Formatting_" data-uid="Phnx.IO.Json.JsonStreamReader.ReadJson(Newtonsoft.Json.Formatting)">ReadJson(Formatting)</h4>
+  <div class="markdown level1 summary"><p>Read but don&apos;t deserialize a Json object from the stream, returning it as a raw Json string. The string is validated as Json</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public virtual string ReadJson(Formatting jsonFormatting = Formatting.None)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Newtonsoft.Json.Formatting</span></td>
+        <td><span class="parametername">jsonFormatting</span></td>
+        <td><p>Whether to indent the resulting JSON. It is recommended to use <span class="xref">Newtonsoft.Json.Formatting.Indented</span> for display as it&apos;s more readable, but <span class="xref">Newtonsoft.Json.Formatting.None</span> for anything else, as it results in a smaller string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A Json string</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_IO_Json_JsonStreamReader_ReadObject_" data-uid="Phnx.IO.Json.JsonStreamReader.ReadObject*"></a>
+  <h4 id="Phnx_IO_Json_JsonStreamReader_ReadObject__1" data-uid="Phnx.IO.Json.JsonStreamReader.ReadObject``1">ReadObject&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Read and deserialize a Json object from the stream as <code data-dev-comment-type="typeparamref" class="typeparamref">T</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public T ReadObject&lt;T&gt;()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>A deseriliazed object from the stream</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of object to deserialize to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Object is not of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/IO/Json/Phnx.IO.Json/JsonStreamReader.cs/#L11" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

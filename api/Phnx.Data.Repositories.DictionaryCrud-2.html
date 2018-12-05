@@ -1,0 +1,623 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class DictionaryCrud&lt;TKey, TEntity&gt;
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class DictionaryCrud&lt;TKey, TEntity&gt;
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Data.Repositories.DictionaryCrud`2">
+  
+  
+  <h1 id="Phnx_Data_Repositories_DictionaryCrud_2" data-uid="Phnx.Data.Repositories.DictionaryCrud`2" class="text-break">Class DictionaryCrud&lt;TKey, TEntity&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Provides CRUD operations for a <span class="xref">System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;</span> that contains <a class="xref" href="Phnx.Data.IIdDataModel-1.html">IIdDataModel&lt;TKey&gt;</a></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DictionaryCrud&lt;TKey, TEntity&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Phnx.Data.Repositories.ICrud-2.html">ICrud</a>&lt;TKey, TEntity&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEntity&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Data.Repositories.html">Phnx.Data.Repositories</a></div>
+  <div><strong>Assembly</strong>: Phnx.Data.dll</div>
+  
+  <h5 id="Phnx_Data_Repositories_DictionaryCrud_2_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public class DictionaryCrud&lt;TKey, TEntity&gt; : ICrud&lt;TKey, TEntity&gt;, IEnumerable&lt;TEntity&gt;, IEnumerable where TEntity : IIdDataModel&lt;TKey&gt;</code></pre>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>The primary key for this model</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TEntity</span></td>
+        <td><p>The model this CRUD repository controls</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">
+  	Constructors
+  </h3>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2__ctor_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.#ctor*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2__ctor" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.#ctor">DictionaryCrud()</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html">DictionaryCrud&lt;TKey, TEntity&gt;</a> with an empty source</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public DictionaryCrud()</code></pre>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2__ctor_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.#ctor*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2__ctor_System_Collections_Generic_Dictionary__0__1__" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.#ctor(System.Collections.Generic.Dictionary{`0,`1})">DictionaryCrud(Dictionary&lt;TKey, TEntity&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html">DictionaryCrud&lt;TKey, TEntity&gt;</a> with a given source</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public DictionaryCrud(Dictionary&lt;TKey, TEntity&gt; source)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;TKey, TEntity&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The data source to use</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> was <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">
+  	Properties
+  </h3>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_Source_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Source*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_Source" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Source">Source</h4>
+  <div class="markdown level1 summary"><p>The data source wrapped by this</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public Dictionary&lt;TKey, TEntity&gt; Source { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;TKey, TEntity&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_Clear_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Clear*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_Clear" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clears all entries in <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_Create_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Create*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_Create__1_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Create(`1)">Create(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Add a new entry to <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Create(TEntity data)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data to add</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">data</code> was <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_Delete_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Delete*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_Delete__0_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Delete(`0)">Delete(TKey)</h4>
+  <div class="markdown level1 summary"><p>Delete an entry from <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Delete(TKey key)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to the data to delete</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_Delete_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Delete*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_Delete__1_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Delete(`1)">Delete(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Delete an entry from <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Delete(TEntity data)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data to remove</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">data</code> was <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_Get_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Get*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_Get" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Get">Get()</h4>
+  <div class="markdown level1 summary"><p>Get all records of <code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code> from the database. This has no cache support</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public IEnumerable&lt;TEntity&gt; Get()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TEntity&gt;</td>
+        <td><p>All records of <code data-dev-comment-type="typeparamref" class="typeparamref">TEntity</code> in the database</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_GetEnumerator_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.GetEnumerator*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_GetEnumerator" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"><p>Enumerate through all entries in <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public IEnumerator&lt;TEntity&gt; GetEnumerator()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;TEntity&gt;</td>
+        <td><p>An enumerator for all entries in <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_GetSingle_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.GetSingle*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_GetSingle__0_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.GetSingle(`0)">GetSingle(TKey)</h4>
+  <div class="markdown level1 summary"><p>Get a single entry from <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public TEntity GetSingle(TKey id)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The key to the entry to get</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><p>A single entry from <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a> which is associated with <code data-dev-comment-type="paramref" class="paramref">id</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_Update_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Update*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_Update__1_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Update(`1)">Update(TEntity)</h4>
+  <div class="markdown level1 summary"><p>Update an entry in <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Update(TEntity data)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TEntity</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The new data to save</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">data</code> was <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">
+  	Explicit Interface Implementations
+  </h3>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_Phnx_Data_Repositories_ICrud_TKey_TEntity__Get_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Phnx#Data#Repositories#ICrud{TKey,TEntity}#Get*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_Phnx_Data_Repositories_ICrud_TKey_TEntity__Get" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.Phnx#Data#Repositories#ICrud{TKey,TEntity}#Get">ICrud&lt;TKey, TEntity&gt;.Get()</h4>
+  <div class="markdown level1 summary"><p>Get all items in the <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a> as an <span class="xref">System.Linq.IQueryable&lt;T&gt;</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">IQueryable&lt;TEntity&gt; ICrud&lt;TKey, TEntity&gt;.Get()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.IQueryable</span>&lt;TEntity&gt;</td>
+        <td><p>All items in the <a class="xref" href="Phnx.Data.Repositories.DictionaryCrud-2.html#Phnx_Data_Repositories_DictionaryCrud_2_Source">Source</a> as an <span class="xref">System.Linq.IQueryable&lt;T&gt;</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Repositories_DictionaryCrud_2_System_Collections_IEnumerable_GetEnumerator_" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.System#Collections#IEnumerable#GetEnumerator*"></a>
+  <h4 id="Phnx_Data_Repositories_DictionaryCrud_2_System_Collections_IEnumerable_GetEnumerator" data-uid="Phnx.Data.Repositories.DictionaryCrud`2.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Phnx.Data.Repositories.ICrud-2.html">ICrud&lt;TKey, TEntity&gt;</a>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableExtensions.html#Phnx_Collections_IEnumerableExtensions_CopyRange__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_">IEnumerableExtensions.CopyRange&lt;T&gt;(IEnumerable&lt;T&gt;, Int32, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableExtensions.html#Phnx_Collections_IEnumerableExtensions_CopyRange__1_System_Collections_Generic_IEnumerable___0__System_Int32_">IEnumerableExtensions.CopyRange&lt;T&gt;(IEnumerable&lt;T&gt;, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableExtensions.html#Phnx_Collections_IEnumerableExtensions_Fill__1_System_Collections_Generic_IEnumerable___0____0_">IEnumerableExtensions.Fill&lt;T&gt;(IEnumerable&lt;T&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableExtensions.html#Phnx_Collections_IEnumerableExtensions_ToString__1_System_Collections_Generic_IEnumerable___0__System_String_System_Func___0_System_String__">IEnumerableExtensions.ToString&lt;T&gt;(IEnumerable&lt;T&gt;, String, Func&lt;T, String&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_DistinctBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">IEnumerableLinqExtensions.DistinctBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_MaxBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">IEnumerableLinqExtensions.MaxBy&lt;T, TKey&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_MinBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">IEnumerableLinqExtensions.MinBy&lt;T, TKey&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_EqualsRange__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__">IEnumerableLinqExtensions.EqualsRange&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_ToList__1_System_Collections_Generic_IEnumerable___0__System_Int32_">IEnumerableLinqExtensions.ToList&lt;T&gt;(IEnumerable&lt;T&gt;, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_Append__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0____">IEnumerableLinqExtensions.Append&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_Append__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___">IEnumerableLinqExtensions.Append&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;IEnumerable&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_DepthFirstFlatten__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___">IEnumerableLinqExtensions.DepthFirstFlatten&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_BreadthFirstFlatten__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___">IEnumerableLinqExtensions.BreadthFirstFlatten&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_IndexOf__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__">IEnumerableLinqExtensions.IndexOf&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_IndexOfLong__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__">IEnumerableLinqExtensions.IndexOfLong&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.StringExtensions.html#Phnx_StringExtensions_Join__1_System_Collections_Generic_IEnumerable___0__System_String_">StringExtensions.Join&lt;T&gt;(IEnumerable&lt;T&gt;, String)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Data/Data/Phnx.Data/Repositories/DictionaryCrud.cs/#L13" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

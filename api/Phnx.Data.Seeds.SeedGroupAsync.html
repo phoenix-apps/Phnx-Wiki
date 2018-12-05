@@ -1,0 +1,839 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class SeedGroupAsync
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class SeedGroupAsync
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Data.Seeds.SeedGroupAsync">
+  
+  
+  <h1 id="Phnx_Data_Seeds_SeedGroupAsync" data-uid="Phnx.Data.Seeds.SeedGroupAsync" class="text-break">Class SeedGroupAsync
+  </h1>
+  <div class="markdown level0 summary"><p>A group of seeds, used to help setup and organise seed operations for a database</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SeedGroupAsync</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a></div>
+    <div><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a>&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Data.Seeds.html">Phnx.Data.Seeds</a></div>
+  <div><strong>Assembly</strong>: Phnx.Data.dll</div>
+  
+  <h5 id="Phnx_Data_Seeds_SeedGroupAsync_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public class SeedGroupAsync : ISeedAsync, ICollection&lt;ISeedAsync&gt;, IEnumerable&lt;ISeedAsync&gt;, IEnumerable</code></pre>
+  <h3 id="constructors">
+  	Constructors
+  </h3>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync__ctor_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.#ctor*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync__ctor" data-uid="Phnx.Data.Seeds.SeedGroupAsync.#ctor">SeedGroupAsync()</h4>
+  <div class="markdown level1 summary"><p>Create a new seed group with an empty range of seeds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public SeedGroupAsync()</code></pre>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync__ctor_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.#ctor*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync__ctor_Phnx_Data_Seeds_ISeedAsync___" data-uid="Phnx.Data.Seeds.SeedGroupAsync.#ctor(Phnx.Data.Seeds.ISeedAsync[])">SeedGroupAsync(ISeedAsync[])</h4>
+  <div class="markdown level1 summary"><p>Create a new seed group from a range of seeds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public SeedGroupAsync(params ISeedAsync[] seeds)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a>[]</td>
+        <td><span class="parametername">seeds</span></td>
+        <td><p>The seed group to initalise from</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">seeds</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>One or more of the enties in <code data-dev-comment-type="paramref" class="paramref">seeds</code> is  <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync__ctor_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.#ctor*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync__ctor_System_Collections_Generic_IEnumerable_Phnx_Data_Seeds_ISeedAsync__" data-uid="Phnx.Data.Seeds.SeedGroupAsync.#ctor(System.Collections.Generic.IEnumerable{Phnx.Data.Seeds.ISeedAsync})">SeedGroupAsync(IEnumerable&lt;ISeedAsync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Create a new seed group from a range of seeds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public SeedGroupAsync(IEnumerable&lt;ISeedAsync&gt; seeds)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a>&gt;</td>
+        <td><span class="parametername">seeds</span></td>
+        <td><p>The seed group to initalise from</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">seeds</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>One or more of the enties in <code data-dev-comment-type="paramref" class="paramref">seeds</code> is  <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">
+  	Properties
+  </h3>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_Count_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Count*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_Count" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Count">Count</h4>
+  <div class="markdown level1 summary"><p>The number of entries in this group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_Add_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Add*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_Add_Phnx_Data_Seeds_ISeedAsync_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Add(Phnx.Data.Seeds.ISeedAsync)">Add(ISeedAsync)</h4>
+  <div class="markdown level1 summary"><p>Add a single seed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public SeedGroupAsync Add(ISeedAsync seed)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a></td>
+        <td><span class="parametername">seed</span></td>
+        <td><p>The seed to add</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Seeds.SeedGroupAsync.html">SeedGroupAsync</a></td>
+        <td><p>This seed group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">seed</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_Add_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Add*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_Add_Phnx_Data_Seeds_ISeedAsync___" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Add(Phnx.Data.Seeds.ISeedAsync[])">Add(ISeedAsync[])</h4>
+  <div class="markdown level1 summary"><p>Add a range of seeds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public SeedGroupAsync Add(params ISeedAsync[] seeds)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a>[]</td>
+        <td><span class="parametername">seeds</span></td>
+        <td><p>The range of seeds to add</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Seeds.SeedGroupAsync.html">SeedGroupAsync</a></td>
+        <td><p>This seed group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">seeds</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_Add_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Add*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_Add_System_Collections_Generic_IEnumerable_Phnx_Data_Seeds_ISeedAsync__" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Add(System.Collections.Generic.IEnumerable{Phnx.Data.Seeds.ISeedAsync})">Add(IEnumerable&lt;ISeedAsync&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add a range of seeds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public SeedGroupAsync Add(IEnumerable&lt;ISeedAsync&gt; seeds)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a>&gt;</td>
+        <td><span class="parametername">seeds</span></td>
+        <td><p>The range of seeds to add</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Seeds.SeedGroupAsync.html">SeedGroupAsync</a></td>
+        <td><p>This seed group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">seeds</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_Clear_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Clear*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_Clear" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Removes all seeds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_Contains_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Contains*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_Contains_Phnx_Data_Seeds_ISeedAsync_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Contains(Phnx.Data.Seeds.ISeedAsync)">Contains(ISeedAsync)</h4>
+  <div class="markdown level1 summary"><p>Determines whether a seed is in this group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool Contains(ISeedAsync item)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>The seed to locate</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">true</span> if item is found in the group, otherwise <span class="xref">false</span></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_CopyTo_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.CopyTo*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_CopyTo_Phnx_Data_Seeds_ISeedAsync___System_Int32_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.CopyTo(Phnx.Data.Seeds.ISeedAsync[],System.Int32)">CopyTo(ISeedAsync[], Int32)</h4>
+  <div class="markdown level1 summary"><p>Copies the group to a compatible one dimensional array, starting at <code data-dev-comment-type="paramref" class="paramref">arrayIndex</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public void CopyTo(ISeedAsync[] array, int arrayIndex)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a>[]</td>
+        <td><span class="parametername">array</span></td>
+        <td><p>The array to copy to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">arrayIndex</span></td>
+        <td><p>The zero-based index in array at which copying begins</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">array</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">arrayIndex</code> is less than zero</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The number of seeds in this group is greater than the available space from <code data-dev-comment-type="paramref" class="paramref">arrayIndex</code> to the end of <code data-dev-comment-type="paramref" class="paramref">array</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_GetEnumerator_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.GetEnumerator*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_GetEnumerator" data-uid="Phnx.Data.Seeds.SeedGroupAsync.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"><p>Returns an enumerator that iterates through the group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public IEnumerator&lt;ISeedAsync&gt; GetEnumerator()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerator&lt;T&gt;</span> for the group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_Remove_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Remove*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_Remove_Phnx_Data_Seeds_ISeedAsync_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.Remove(Phnx.Data.Seeds.ISeedAsync)">Remove(ISeedAsync)</h4>
+  <div class="markdown level1 summary"><p>Removes the first occurrence of a specific seed from the group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public bool Remove(ISeedAsync item)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>The seed to remove from the group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the seed is successfully removed, otherwise <span class="xref">false</span>. This method also returns <span class="xref">false</span> if the seed was not found in the group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_RunAsync_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.RunAsync*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_RunAsync" data-uid="Phnx.Data.Seeds.SeedGroupAsync.RunAsync">RunAsync()</h4>
+  <div class="markdown level1 summary"><p>Run all the seeds in series</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public Task RunAsync()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_RunAsync_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.RunAsync*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_RunAsync_System_Boolean_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.RunAsync(System.Boolean)">RunAsync(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Run all the seeds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public Task RunAsync(bool runParallel)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">runParallel</span></td>
+        <td><p>Whether to run the seeds in parallel (<span class="xref">true</span>) or series (<span class="xref">false</span>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">
+  	Explicit Interface Implementations
+  </h3>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_System_Collections_Generic_ICollection_Phnx_Data_Seeds_ISeedAsync__Add_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.System#Collections#Generic#ICollection{Phnx#Data#Seeds#ISeedAsync}#Add*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_System_Collections_Generic_ICollection_Phnx_Data_Seeds_ISeedAsync__Add_Phnx_Data_Seeds_ISeedAsync_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.System#Collections#Generic#ICollection{Phnx#Data#Seeds#ISeedAsync}#Add(Phnx.Data.Seeds.ISeedAsync)">ICollection&lt;ISeedAsync&gt;.Add(ISeedAsync)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">void ICollection&lt;ISeedAsync&gt;.Add(ISeedAsync item)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_System_Collections_Generic_ICollection_Phnx_Data_Seeds_ISeedAsync__IsReadOnly_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.System#Collections#Generic#ICollection{Phnx#Data#Seeds#ISeedAsync}#IsReadOnly*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_System_Collections_Generic_ICollection_Phnx_Data_Seeds_ISeedAsync__IsReadOnly" data-uid="Phnx.Data.Seeds.SeedGroupAsync.System#Collections#Generic#ICollection{Phnx#Data#Seeds#ISeedAsync}#IsReadOnly">ICollection&lt;ISeedAsync&gt;.IsReadOnly</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">bool ICollection&lt;ISeedAsync&gt;.IsReadOnly { get; }</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Data_Seeds_SeedGroupAsync_System_Collections_IEnumerable_GetEnumerator_" data-uid="Phnx.Data.Seeds.SeedGroupAsync.System#Collections#IEnumerable#GetEnumerator*"></a>
+  <h4 id="Phnx_Data_Seeds_SeedGroupAsync_System_Collections_IEnumerable_GetEnumerator" data-uid="Phnx.Data.Seeds.SeedGroupAsync.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
+  <div class="markdown level1 summary"><p>Returns an enumerator that iterates through the group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td><p>An <span class="xref">System.Collections.IEnumerator</span> for the group</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Phnx.Data.Seeds.ISeedAsync.html">ISeedAsync</a>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.ICollection&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableExtensions.html#Phnx_Collections_IEnumerableExtensions_CopyRange__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_">IEnumerableExtensions.CopyRange&lt;T&gt;(IEnumerable&lt;T&gt;, Int32, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableExtensions.html#Phnx_Collections_IEnumerableExtensions_CopyRange__1_System_Collections_Generic_IEnumerable___0__System_Int32_">IEnumerableExtensions.CopyRange&lt;T&gt;(IEnumerable&lt;T&gt;, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableExtensions.html#Phnx_Collections_IEnumerableExtensions_Fill__1_System_Collections_Generic_IEnumerable___0____0_">IEnumerableExtensions.Fill&lt;T&gt;(IEnumerable&lt;T&gt;, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableExtensions.html#Phnx_Collections_IEnumerableExtensions_ToString__1_System_Collections_Generic_IEnumerable___0__System_String_System_Func___0_System_String__">IEnumerableExtensions.ToString&lt;T&gt;(IEnumerable&lt;T&gt;, String, Func&lt;T, String&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_DistinctBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">IEnumerableLinqExtensions.DistinctBy&lt;TSource, TKey&gt;(IEnumerable&lt;TSource&gt;, Func&lt;TSource, TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_MaxBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">IEnumerableLinqExtensions.MaxBy&lt;T, TKey&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_MinBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">IEnumerableLinqExtensions.MinBy&lt;T, TKey&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_EqualsRange__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__">IEnumerableLinqExtensions.EqualsRange&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_ToList__1_System_Collections_Generic_IEnumerable___0__System_Int32_">IEnumerableLinqExtensions.ToList&lt;T&gt;(IEnumerable&lt;T&gt;, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_Append__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0____">IEnumerableLinqExtensions.Append&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;T&gt;[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_Append__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___">IEnumerableLinqExtensions.Append&lt;T&gt;(IEnumerable&lt;T&gt;, IEnumerable&lt;IEnumerable&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_DepthFirstFlatten__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___">IEnumerableLinqExtensions.DepthFirstFlatten&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_BreadthFirstFlatten__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Collections_Generic_IEnumerable___0___">IEnumerableLinqExtensions.BreadthFirstFlatten&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, IEnumerable&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_IndexOf__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__">IEnumerableLinqExtensions.IndexOf&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Collections.IEnumerableLinqExtensions.html#Phnx_Collections_IEnumerableLinqExtensions_IndexOfLong__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__">IEnumerableLinqExtensions.IndexOfLong&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Chain__1___0_System_Action___0__">ObjectExtensions.Chain&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_IsEqualTo__1___0___0_">ObjectExtensions.IsEqualTo&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.StringExtensions.html#Phnx_StringExtensions_Join__1_System_Collections_Generic_IEnumerable___0__System_String_">StringExtensions.Join&lt;T&gt;(IEnumerable&lt;T&gt;, String)</a>
+  </div>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Data/Data/Phnx.Data/Seeds/SeedGroupAsync.cs/#L11" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>

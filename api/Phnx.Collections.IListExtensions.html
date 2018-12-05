@@ -1,0 +1,618 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Class IListExtensions
+ </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Class IListExtensions
+ ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="Phnx.Collections.IListExtensions">
+  
+  
+  <h1 id="Phnx_Collections_IListExtensions" data-uid="Phnx.Collections.IListExtensions" class="text-break">Class IListExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">IListExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  
+  <h5 class="underline">
+  Location
+  </h5>
+  
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Collections.html">Phnx.Collections</a></div>
+  <div><strong>Assembly</strong>: Phnx.Collections.dll</div>
+  
+  <h5 id="Phnx_Collections_IListExtensions_syntax">Syntax</h5>
+    <pre><code class="lang-csharp hljs">public static class IListExtensions</code></pre>
+  <h3 id="methods">
+  	Methods
+  </h3>
+  	<a id="Phnx_Collections_IListExtensions_BinarySearch_" data-uid="Phnx.Collections.IListExtensions.BinarySearch*"></a>
+  <h4 id="Phnx_Collections_IListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_" data-uid="Phnx.Collections.IListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0)">BinarySearch&lt;T&gt;(IList&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Searches a range of elements in a sorted <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> for a value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static int BinarySearch&lt;T&gt;(this IList&lt;T&gt; source, T value)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The values to search</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to search for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The index of the specified <code data-dev-comment-type="paramref" class="paramref">value</code> in the specified <code data-dev-comment-type="paramref" class="paramref">source</code>, if <code data-dev-comment-type="paramref" class="paramref">value</code> is found; otherwise, a negative number. If <code data-dev-comment-type="paramref" class="paramref">value</code> is not found and <code data-dev-comment-type="paramref" class="paramref">value</code> is less than one or more elements in <code data-dev-comment-type="paramref" class="paramref">source</code>, the negative number returned is the bitwise complement of the index of the first element that is larger than <code data-dev-comment-type="paramref" class="paramref">value</code>. If <code data-dev-comment-type="paramref" class="paramref">value</code> is not found and <code data-dev-comment-type="paramref" class="paramref">value</code> is greater than all elements in <code data-dev-comment-type="paramref" class="paramref">source</code>, the negative number returned is the bitwise complement of the index of the last element plus 1. If this method is called with a non-sorted <code data-dev-comment-type="paramref" class="paramref">source</code>, the return value can be incorrect and a negative number could be returned, even if <code data-dev-comment-type="paramref" class="paramref">value</code> is present in <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of values in the collection</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>The default comparer for <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> returned an invalid result. The comparer&apos;s results can only be -1, 0 or 1</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_IListExtensions_BinarySearch_" data-uid="Phnx.Collections.IListExtensions.BinarySearch*"></a>
+  <h4 id="Phnx_Collections_IListExtensions_BinarySearch__1_System_Collections_Generic_IList___0____0_System_Collections_Generic_IComparer___0__" data-uid="Phnx.Collections.IListExtensions.BinarySearch``1(System.Collections.Generic.IList{``0},``0,System.Collections.Generic.IComparer{``0})">BinarySearch&lt;T&gt;(IList&lt;T&gt;, T, IComparer&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Searches a range of elements in a sorted <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> for a value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static int BinarySearch&lt;T&gt;(this IList&lt;T&gt; source, T value, IComparer&lt;T&gt; comparer)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The values to search</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to search for</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IComparer</span>&lt;T&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td><p>The comparer to use when searching. If this is <span class="xref">null</span>, the default <span class="xref">System.Collections.Generic.IComparer&lt;T&gt;</span> is used</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The index of the specified <code data-dev-comment-type="paramref" class="paramref">value</code> in the specified <code data-dev-comment-type="paramref" class="paramref">source</code>, if <code data-dev-comment-type="paramref" class="paramref">value</code> is found; otherwise, a negative number. If <code data-dev-comment-type="paramref" class="paramref">value</code> is not found and <code data-dev-comment-type="paramref" class="paramref">value</code> is less than one or more elements in <code data-dev-comment-type="paramref" class="paramref">source</code>, the negative number returned is the bitwise complement of the index of the first element that is larger than <code data-dev-comment-type="paramref" class="paramref">value</code>. If <code data-dev-comment-type="paramref" class="paramref">value</code> is not found and <code data-dev-comment-type="paramref" class="paramref">value</code> is greater than all elements in <code data-dev-comment-type="paramref" class="paramref">source</code>, the negative number returned is the bitwise complement of the index of the last element plus 1. If this method is called with a non-sorted <code data-dev-comment-type="paramref" class="paramref">source</code>, the return value can be incorrect and a negative number could be returned, even if <code data-dev-comment-type="paramref" class="paramref">value</code> is present in <code data-dev-comment-type="paramref" class="paramref">source</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of values in the collection</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">comparer</code> returned an invalid result. <code data-dev-comment-type="paramref" class="paramref">comparer</code> results can only be -1, 0 or 1</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_IListExtensions_EqualsRange_" data-uid="Phnx.Collections.IListExtensions.EqualsRange*"></a>
+  <h4 id="Phnx_Collections_IListExtensions_EqualsRange__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__" data-uid="Phnx.Collections.IListExtensions.EqualsRange``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})">EqualsRange&lt;T&gt;(IList&lt;T&gt;, IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets whether two collections contain the same data using <span class="xref">System.Collections.Generic.EqualityComparer`1.Default</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static bool EqualsRange&lt;T&gt;(this IList&lt;T&gt; source, IList&lt;T&gt; rangeToCompare)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The first collection to compare</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">rangeToCompare</span></td>
+        <td><p>The collection to compare with</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the two collections contain the same data. Returns <span class="xref">false</span> if either collection is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of values to compare</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_IListExtensions_Fill_" data-uid="Phnx.Collections.IListExtensions.Fill*"></a>
+  <h4 id="Phnx_Collections_IListExtensions_Fill__1_System_Collections_Generic_IList___0____0_" data-uid="Phnx.Collections.IListExtensions.Fill``1(System.Collections.Generic.IList{``0},``0)">Fill&lt;T&gt;(IList&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Fill this list with a value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static IList&lt;T&gt; Fill&lt;T&gt;(this IList&lt;T&gt; source, T fillWith)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The list to fill</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">fillWith</span></td>
+        <td><p>The value to fill the list with</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_IListExtensions_Last_" data-uid="Phnx.Collections.IListExtensions.Last*"></a>
+  <h4 id="Phnx_Collections_IListExtensions_Last__1_System_Collections_Generic_IList___0__" data-uid="Phnx.Collections.IListExtensions.Last``1(System.Collections.Generic.IList{``0})">Last&lt;T&gt;(IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the last value from an <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static T Last&lt;T&gt;(this IList&lt;T&gt; source)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The values to get the last from</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of values in <code data-dev-comment-type="paramref" class="paramref">source</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is an empty collection</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  	<a id="Phnx_Collections_IListExtensions_ToList_" data-uid="Phnx.Collections.IListExtensions.ToList*"></a>
+  <h4 id="Phnx_Collections_IListExtensions_ToList__1_System_Collections_Generic_IList___0__" data-uid="Phnx.Collections.IListExtensions.ToList``1(System.Collections.Generic.IList{``0})">ToList&lt;T&gt;(IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts this <span class="xref">System.Collections.Generic.IList&lt;T&gt;</span> to a <span class="xref">System.Collections.Generic.List&lt;T&gt;</span>, setting the default capacity to the size of <code data-dev-comment-type="paramref" class="paramref">source</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  	<pre><code class="lang-csharp hljs">public static List&lt;T&gt; ToList&lt;T&gt;(this IList&lt;T&gt; source)</code></pre>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The values to convert to a <span class="xref">System.Collections.Generic.List&lt;T&gt;</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
+        <td><p>A new <span class="xref">System.Collections.Generic.List&lt;T&gt;</span> which contains all the items that were in <code data-dev-comment-type="paramref" class="paramref">source</code>, with a capacity of the total number of values in <code data-dev-comment-type="paramref" class="paramref">source</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The type of items in the collection</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">source</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					        <li>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Collections/Phnx.Collections/Extensions/IListExtensions.cs/#L9" class="contribution-link">View Source</a>
+					        </li>
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>
