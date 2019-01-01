@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class FuncSyncEvent
  ">
-  <meta name="generator" content="docfx 2.38.1.0">
+  <meta name="generator" content="docfx 2.40.5.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,37 +70,13 @@
   
   <h1 id="Phnx_IO_Threaded_FuncSyncEvent" data-uid="Phnx.IO.Threaded.FuncSyncEvent" class="text-break">Class FuncSyncEvent
   </h1>
-  <div class="markdown level0 summary"><p>Provides a way to synchronize threads based on a function. Uses <span class="xref">System.Threading.SpinWait</span> for the first 2ms of a wait, then falls back onto <span class="xref">System.Threading.Monitor</span> for syncronization</p>
+  <div class="markdown level0 summary"><p>Provides a way to synchronize threads based on a function. Uses <see cref="!:SpinWait"></see> for the first 2ms of a wait, then falls back onto <see cref="!:Monitor"></see> for syncronization</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">FuncSyncEvent</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   
   <h5 class="underline">
@@ -111,7 +87,7 @@
   <div><strong>Assembly</strong>: Phnx.IO.Threaded.dll</div>
   
   <h5 id="Phnx_IO_Threaded_FuncSyncEvent_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class FuncSyncEvent</code></pre>
+    <pre><code class="lang-csharp hljs">public class FuncSyncEvent : object</code></pre>
   <h3 id="constructors">
   	Constructors
   </h3>
@@ -126,7 +102,7 @@
   	Methods
   </h3>
   	<a id="Phnx_IO_Threaded_FuncSyncEvent_WaitUntil_" data-uid="Phnx.IO.Threaded.FuncSyncEvent.WaitUntil*"></a>
-  <h4 id="Phnx_IO_Threaded_FuncSyncEvent_WaitUntil_System_Func_System_Boolean__System_Int32_" data-uid="Phnx.IO.Threaded.FuncSyncEvent.WaitUntil(System.Func{System.Boolean},System.Int32)">WaitUntil(Func&lt;Boolean&gt;, Int32)</h4>
+  <h4 id="Phnx_IO_Threaded_FuncSyncEvent_WaitUntil_Func_System_Boolean__System_Int32_" data-uid="Phnx.IO.Threaded.FuncSyncEvent.WaitUntil(Func{System.Boolean},System.Int32)">WaitUntil(Func&lt;Boolean&gt;, Int32)</h4>
   <div class="markdown level1 summary"><p>Wait until <code data-dev-comment-type="paramref" class="paramref">untilThisIsTrue</code> returns <span class="xref">true</span></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -143,7 +119,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">untilThisIsTrue</span></td>
         <td><p>The function to evaluate to see whether to wait</p>
 </td>
@@ -166,11 +142,6 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">untilThisIsTrue</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
         <td><a class="xref" href="Phnx.ArgumentLessThanZeroException.html">ArgumentLessThanZeroException</a></td>
         <td><p><code data-dev-comment-type="paramref" class="paramref">reevaluateAfterMilliseconds</code> is less than zero</p>
 </td>
@@ -178,7 +149,7 @@
     </tbody>
   </table>
   	<a id="Phnx_IO_Threaded_FuncSyncEvent_WaitUntil_" data-uid="Phnx.IO.Threaded.FuncSyncEvent.WaitUntil*"></a>
-  <h4 id="Phnx_IO_Threaded_FuncSyncEvent_WaitUntil_System_Func_System_Boolean__System_Int32_System_Int32_" data-uid="Phnx.IO.Threaded.FuncSyncEvent.WaitUntil(System.Func{System.Boolean},System.Int32,System.Int32)">WaitUntil(Func&lt;Boolean&gt;, Int32, Int32)</h4>
+  <h4 id="Phnx_IO_Threaded_FuncSyncEvent_WaitUntil_Func_System_Boolean__System_Int32_System_Int32_" data-uid="Phnx.IO.Threaded.FuncSyncEvent.WaitUntil(Func{System.Boolean},System.Int32,System.Int32)">WaitUntil(Func&lt;Boolean&gt;, Int32, Int32)</h4>
   <div class="markdown level1 summary"><p>Wait until <code data-dev-comment-type="paramref" class="paramref">untilThisIsTrue</code> returns <span class="xref">true</span>, or <code data-dev-comment-type="paramref" class="paramref">millisecondsTimeout</code> has elapsed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -195,7 +166,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">untilThisIsTrue</span></td>
         <td><p>The function to evaluate to see whether to wait</p>
 </td>
@@ -209,7 +180,7 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">millisecondsTimeout</span></td>
-        <td><p>The time after which to exit, regardless of the value of <code data-dev-comment-type="paramref" class="paramref">untilThisIsTrue</code>. Set to <span class="xref">System.Threading.Timeout.Infinite</span> to never timeout</p>
+        <td><p>The time after which to exit, regardless of the value of <code data-dev-comment-type="paramref" class="paramref">untilThisIsTrue</code>. Set to <see cref="!:Timeout.Infinite"></see> to never timeout</p>
 </td>
       </tr>
     </tbody>
@@ -240,29 +211,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">untilThisIsTrue</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
         <td><a class="xref" href="Phnx.ArgumentLessThanZeroException.html">ArgumentLessThanZeroException</a></td>
         <td><p><code data-dev-comment-type="paramref" class="paramref">reevaluateAfterMilliseconds</code> is less than zero</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">millisecondsTimeout</code> is less than -1</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
-  </div>
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
   </div>
@@ -275,6 +230,12 @@
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
   </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
 </article>
 					
 					<div class="hidden-sm col-md-2" role="complementary">
@@ -282,7 +243,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/IO/Threaded/Phnx.IO.Threaded/FuncSyncEvent.cs/#L10" class="contribution-link">View Source</a>
+					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/IO/Threaded/Phnx.IO.Threaded/FuncSyncEvent.cs/#L10" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

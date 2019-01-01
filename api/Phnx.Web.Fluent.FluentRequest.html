@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class FluentRequest
  ">
-  <meta name="generator" content="docfx 2.38.1.0">
+  <meta name="generator" content="docfx 2.40.5.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,34 +70,13 @@
   
   <h1 id="Phnx_Web_Fluent_FluentRequest" data-uid="Phnx.Web.Fluent.FluentRequest" class="text-break">Class FluentRequest
   </h1>
-  <div class="markdown level0 summary"><p>A fluent web request builder to help create a <span class="xref">System.Net.Http.HttpRequestMessage</span></p>
+  <div class="markdown level0 summary"><p>A fluent web request builder to help create a <see cref="!:HttpRequestMessage"></see></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">FluentRequest</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
   </div>
   
   <h5 class="underline">
@@ -108,13 +87,13 @@
   <div><strong>Assembly</strong>: Phnx.Web.dll</div>
   
   <h5 id="Phnx_Web_Fluent_FluentRequest_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class FluentRequest</code></pre>
+    <pre><code class="lang-csharp hljs">public class FluentRequest : object</code></pre>
   <h3 id="properties">
   	Properties
   </h3>
   	<a id="Phnx_Web_Fluent_FluentRequest_Request_" data-uid="Phnx.Web.Fluent.FluentRequest.Request*"></a>
   <h4 id="Phnx_Web_Fluent_FluentRequest_Request" data-uid="Phnx.Web.Fluent.FluentRequest.Request">Request</h4>
-  <div class="markdown level1 summary"><p>The <span class="xref">System.Net.Http.HttpRequestMessage</span> being built by this fluent request</p>
+  <div class="markdown level1 summary"><p>The <see cref="!:HttpRequestMessage"></see> being built by this fluent request</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -129,7 +108,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Net.Http.HttpRequestMessage</span></td>
+        <td><span class="xref">HttpRequestMessage</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -138,7 +117,7 @@
   	Methods
   </h3>
   	<a id="Phnx_Web_Fluent_FluentRequest_AppendHeader_" data-uid="Phnx.Web.Fluent.FluentRequest.AppendHeader*"></a>
-  <h4 id="Phnx_Web_Fluent_FluentRequest_AppendHeader_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="Phnx.Web.Fluent.FluentRequest.AppendHeader(System.String,System.Collections.Generic.IEnumerable{System.String})">AppendHeader(String, IEnumerable&lt;String&gt;)</h4>
+  <h4 id="Phnx_Web_Fluent_FluentRequest_AppendHeader_System_String_IEnumerable_System_String__" data-uid="Phnx.Web.Fluent.FluentRequest.AppendHeader(System.String,IEnumerable{System.String})">AppendHeader(String, IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Add a specified header</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -161,7 +140,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">value</span></td>
         <td><p>The value for the header to append to the current headers in the request</p>
 </td>
@@ -180,27 +159,6 @@
       <tr>
         <td><a class="xref" href="Phnx.Web.Fluent.FluentRequest.html">FluentRequest</a></td>
         <td><p>This <a class="xref" href="Phnx.Web.Fluent.FluentRequest.html">FluentRequest</a></p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">key</code> or <code data-dev-comment-type="paramref" class="paramref">value</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">key</code> is empty or whitespace</p>
 </td>
       </tr>
     </tbody>
@@ -252,29 +210,8 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">key</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">key</code> is empty or whitespace</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   	<a id="Phnx_Web_Fluent_FluentRequest_AppendHeaders_" data-uid="Phnx.Web.Fluent.FluentRequest.AppendHeaders*"></a>
-  <h4 id="Phnx_Web_Fluent_FluentRequest_AppendHeaders_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___" data-uid="Phnx.Web.Fluent.FluentRequest.AppendHeaders(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">AppendHeaders(IEnumerable&lt;KeyValuePair&lt;String, String&gt;&gt;)</h4>
+  <h4 id="Phnx_Web_Fluent_FluentRequest_AppendHeaders_IEnumerable_KeyValuePair_System_String_System_String___" data-uid="Phnx.Web.Fluent.FluentRequest.AppendHeaders(IEnumerable{KeyValuePair{System.String,System.String}})">AppendHeaders(IEnumerable&lt;KeyValuePair&lt;String, String&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Add a specified collection of headers</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -291,7 +228,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
         <td><span class="parametername">headers</span></td>
         <td><p>The headers to append to the current headers in the request</p>
 </td>
@@ -315,7 +252,7 @@
     </tbody>
   </table>
   	<a id="Phnx_Web_Fluent_FluentRequest_Send_" data-uid="Phnx.Web.Fluent.FluentRequest.Send*"></a>
-  <h4 id="Phnx_Web_Fluent_FluentRequest_Send_System_Net_Http_HttpMethod_" data-uid="Phnx.Web.Fluent.FluentRequest.Send(System.Net.Http.HttpMethod)">Send(HttpMethod)</h4>
+  <h4 id="Phnx_Web_Fluent_FluentRequest_Send_HttpMethod_" data-uid="Phnx.Web.Fluent.FluentRequest.Send(HttpMethod)">Send(HttpMethod)</h4>
   <div class="markdown level1 summary"><p>Send the request</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -332,7 +269,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Net.Http.HttpMethod</span></td>
+        <td><span class="xref">HttpMethod</span></td>
         <td><span class="parametername">method</span></td>
         <td><p>The HTTP method to use when sending the request</p>
 </td>
@@ -349,24 +286,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Phnx.Web.Models.ApiResponse.html">ApiResponse</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Phnx.Web.Models.ApiResponse.html">ApiResponse</a>&gt;</td>
         <td><p>The response from the API in plaintext format</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">method</code> is <span class="xref">null</span></p>
 </td>
       </tr>
     </tbody>
@@ -406,35 +327,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Phnx.Web.Models.ApiResponse.html">ApiResponse</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Phnx.Web.Models.ApiResponse.html">ApiResponse</a>&gt;</td>
         <td><p>The response from the API in plaintext format</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">method</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">method</code> is empty or whitespace</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   	<a id="Phnx_Web_Fluent_FluentRequest_SendWithJsonResponse_" data-uid="Phnx.Web.Fluent.FluentRequest.SendWithJsonResponse*"></a>
-  <h4 id="Phnx_Web_Fluent_FluentRequest_SendWithJsonResponse__1_System_Net_Http_HttpMethod_" data-uid="Phnx.Web.Fluent.FluentRequest.SendWithJsonResponse``1(System.Net.Http.HttpMethod)">SendWithJsonResponse&lt;TResponse&gt;(HttpMethod)</h4>
+  <h4 id="Phnx_Web_Fluent_FluentRequest_SendWithJsonResponse__1_HttpMethod_" data-uid="Phnx.Web.Fluent.FluentRequest.SendWithJsonResponse``1(HttpMethod)">SendWithJsonResponse&lt;TResponse&gt;(HttpMethod)</h4>
   <div class="markdown level1 summary"><p>Send the request with a JSON format response</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -451,7 +351,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Net.Http.HttpMethod</span></td>
+        <td><span class="xref">HttpMethod</span></td>
         <td><span class="parametername">method</span></td>
         <td><p>The HTTP method to use when sending the request</p>
 </td>
@@ -468,7 +368,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Phnx.Web.Models.ApiResponseJson-1.html">ApiResponseJson</a>&lt;TResponse&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Phnx.Web.Models.ApiResponseJson-1.html">ApiResponseJson</a>&lt;TResponse&gt;&gt;</td>
         <td><p>The response from the API in a format ready for JSON deserialization</p>
 </td>
       </tr>
@@ -486,22 +386,6 @@
       <tr>
         <td><span class="parametername">TResponse</span></td>
         <td><p>The format of the data to send</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">method</code> is <span class="xref">null</span></p>
 </td>
       </tr>
     </tbody>
@@ -541,7 +425,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="Phnx.Web.Models.ApiResponseJson-1.html">ApiResponseJson</a>&lt;TResponse&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="Phnx.Web.Models.ApiResponseJson-1.html">ApiResponseJson</a>&lt;TResponse&gt;&gt;</td>
         <td><p>The response from the API in a format ready for JSON deserialization</p>
 </td>
       </tr>
@@ -563,29 +447,8 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">method</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">method</code> is empty or whitespace</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   	<a id="Phnx_Web_Fluent_FluentRequest_SetHeaders_" data-uid="Phnx.Web.Fluent.FluentRequest.SetHeaders*"></a>
-  <h4 id="Phnx_Web_Fluent_FluentRequest_SetHeaders_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Collections_Generic_IEnumerable_System_String____" data-uid="Phnx.Web.Fluent.FluentRequest.SetHeaders(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.Collections.Generic.IEnumerable{System.String}}})">SetHeaders(IEnumerable&lt;KeyValuePair&lt;String, IEnumerable&lt;String&gt;&gt;&gt;)</h4>
+  <h4 id="Phnx_Web_Fluent_FluentRequest_SetHeaders_IEnumerable_KeyValuePair_System_String_IEnumerable_System_String____" data-uid="Phnx.Web.Fluent.FluentRequest.SetHeaders(IEnumerable{KeyValuePair{System.String,IEnumerable{System.String}}})">SetHeaders(IEnumerable&lt;KeyValuePair&lt;String, IEnumerable&lt;String&gt;&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Add a specified collection of headers</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -602,7 +465,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;&gt;&gt;</td>
         <td><span class="parametername">headers</span></td>
         <td><p>The headers to append to the current headers in the request</p>
 </td>
@@ -626,7 +489,7 @@
     </tbody>
   </table>
   	<a id="Phnx_Web_Fluent_FluentRequest_SetHeaders_" data-uid="Phnx.Web.Fluent.FluentRequest.SetHeaders*"></a>
-  <h4 id="Phnx_Web_Fluent_FluentRequest_SetHeaders_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___" data-uid="Phnx.Web.Fluent.FluentRequest.SetHeaders(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})">SetHeaders(IEnumerable&lt;KeyValuePair&lt;String, String&gt;&gt;)</h4>
+  <h4 id="Phnx_Web_Fluent_FluentRequest_SetHeaders_IEnumerable_KeyValuePair_System_String_System_String___" data-uid="Phnx.Web.Fluent.FluentRequest.SetHeaders(IEnumerable{KeyValuePair{System.String,System.String}})">SetHeaders(IEnumerable&lt;KeyValuePair&lt;String, String&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Add a specified collection of headers</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -643,7 +506,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
         <td><span class="parametername">headers</span></td>
         <td><p>The headers to append to the current headers in the request</p>
 </td>
@@ -689,10 +552,8 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
   	<a id="Phnx_Web_Fluent_FluentRequest_UseUrl_" data-uid="Phnx.Web.Fluent.FluentRequest.UseUrl*"></a>
-  <h4 id="Phnx_Web_Fluent_FluentRequest_UseUrl_System_Action_Phnx_Web_Fluent_FluentRequestUrl__" data-uid="Phnx.Web.Fluent.FluentRequest.UseUrl(System.Action{Phnx.Web.Fluent.FluentRequestUrl})">UseUrl(Action&lt;FluentRequestUrl&gt;)</h4>
+  <h4 id="Phnx_Web_Fluent_FluentRequest_UseUrl_Action_Phnx_Web_Fluent_FluentRequestUrl__" data-uid="Phnx.Web.Fluent.FluentRequest.UseUrl(Action{Phnx.Web.Fluent.FluentRequestUrl})">UseUrl(Action&lt;FluentRequestUrl&gt;)</h4>
   <div class="markdown level1 summary"><p>Set the url to send the request to</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -709,7 +570,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Phnx.Web.Fluent.FluentRequestUrl.html">FluentRequestUrl</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="Phnx.Web.Fluent.FluentRequestUrl.html">FluentRequestUrl</a>&gt;</td>
         <td><span class="parametername">builder</span></td>
         <td><p>The method to use to build the url</p>
 </td>
@@ -728,27 +589,6 @@
       <tr>
         <td><a class="xref" href="Phnx.Web.Fluent.FluentRequest.html">FluentRequest</a></td>
         <td><p>A fluent request url builder</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">builder</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.UriFormatException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">builder</code> creates an invalid Uri</p>
 </td>
       </tr>
     </tbody>
@@ -794,27 +634,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">url</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.UriFormatException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">url</code> is an invalid Uri</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   	<a id="Phnx_Web_Fluent_FluentRequest_WithBody_" data-uid="Phnx.Web.Fluent.FluentRequest.WithBody*"></a>
   <h4 id="Phnx_Web_Fluent_FluentRequest_WithBody" data-uid="Phnx.Web.Fluent.FluentRequest.WithBody">WithBody()</h4>
   <div class="markdown level1 summary"><p>Use a specified body for the request</p>
@@ -840,12 +659,6 @@
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
-  </div>
-  <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
   </div>
   <div>
@@ -857,6 +670,12 @@
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
   </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
 </article>
 					
 					<div class="hidden-sm col-md-2" role="complementary">
@@ -864,7 +683,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Web/Phnx.Web/Fluent/FluentRequest.cs/#L16" class="contribution-link">View Source</a>
+					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Web/Phnx.Web/Fluent/FluentRequest.cs/#L16" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

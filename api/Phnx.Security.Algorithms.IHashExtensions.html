@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class IHashExtensions
  ">
-  <meta name="generator" content="docfx 2.38.1.0">
+  <meta name="generator" content="docfx 2.40.5.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,30 +78,6 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">IHashExtensions</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   
   <h5 class="underline">
   Location
@@ -111,12 +87,12 @@
   <div><strong>Assembly</strong>: Phnx.Security.dll</div>
   
   <h5 id="Phnx_Security_Algorithms_IHashExtensions_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public static class IHashExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class IHashExtensions : object</code></pre>
   <h3 id="methods">
   	Methods
   </h3>
   	<a id="Phnx_Security_Algorithms_IHashExtensions_Hash_" data-uid="Phnx.Security.Algorithms.IHashExtensions.Hash*"></a>
-  <h4 id="Phnx_Security_Algorithms_IHashExtensions_Hash_Phnx_Security_Algorithms_IHashWithoutSalt_System_String_System_Text_Encoding_" data-uid="Phnx.Security.Algorithms.IHashExtensions.Hash(Phnx.Security.Algorithms.IHashWithoutSalt,System.String,System.Text.Encoding)">Hash(IHashWithoutSalt, String, Encoding)</h4>
+  <h4 id="Phnx_Security_Algorithms_IHashExtensions_Hash_Phnx_Security_Algorithms_IHashWithoutSalt_System_String_Encoding_" data-uid="Phnx.Security.Algorithms.IHashExtensions.Hash(Phnx.Security.Algorithms.IHashWithoutSalt,System.String,Encoding)">Hash(IHashWithoutSalt, String, Encoding)</h4>
   <div class="markdown level1 summary"><p>Hash text using encoding to transfer between the text and bytes</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -145,7 +121,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Text.Encoding</span></td>
+        <td><span class="xref">Encoding</span></td>
         <td><span class="parametername">encoding</span></td>
         <td><p>The encoding to convert the text to bytes with</p>
 </td>
@@ -169,7 +145,7 @@
     </tbody>
   </table>
   	<a id="Phnx_Security_Algorithms_IHashExtensions_Hash_" data-uid="Phnx.Security.Algorithms.IHashExtensions.Hash*"></a>
-  <h4 id="Phnx_Security_Algorithms_IHashExtensions_Hash_Phnx_Security_Algorithms_IHashWithSalt_System_String_System_Byte___System_Text_Encoding_System_Int32_" data-uid="Phnx.Security.Algorithms.IHashExtensions.Hash(Phnx.Security.Algorithms.IHashWithSalt,System.String,System.Byte[],System.Text.Encoding,System.Int32)">Hash(IHashWithSalt, String, Byte[], Encoding, Int32)</h4>
+  <h4 id="Phnx_Security_Algorithms_IHashExtensions_Hash_Phnx_Security_Algorithms_IHashWithSalt_System_String_System_Byte___Encoding_System_Int32_" data-uid="Phnx.Security.Algorithms.IHashExtensions.Hash(Phnx.Security.Algorithms.IHashWithSalt,System.String,System.Byte[],Encoding,System.Int32)">Hash(IHashWithSalt, String, Byte[], Encoding, Int32)</h4>
   <div class="markdown level1 summary"><p>Hash text using encoding to transfer between the text and bytes</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -204,7 +180,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Text.Encoding</span></td>
+        <td><span class="xref">Encoding</span></td>
         <td><span class="parametername">encoding</span></td>
         <td><p>The text encoding to use</p>
 </td>
@@ -243,11 +219,6 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">data</code> or <code data-dev-comment-type="paramref" class="paramref">salt</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
         <td><a class="xref" href="Phnx.ArgumentLessThanZeroException.html">ArgumentLessThanZeroException</a></td>
         <td><p><code data-dev-comment-type="paramref" class="paramref">numberOfIterations</code> is less than zero</p>
 </td>
@@ -261,7 +232,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Security/Phnx.Security/Algorithms/Interfaces/Extensions/IHashExtensions.cs/#L9" class="contribution-link">View Source</a>
+					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Security/Phnx.Security/Algorithms/Interfaces/Extensions/IHashExtensions.cs/#L9" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

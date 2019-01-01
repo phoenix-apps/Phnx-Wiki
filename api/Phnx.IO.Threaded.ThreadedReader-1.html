@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class ThreadedReader&lt;T&gt;
  ">
-  <meta name="generator" content="docfx 2.38.1.0">
+  <meta name="generator" content="docfx 2.40.5.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,34 +78,6 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ThreadedReader&lt;T&gt;</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   
   <h5 class="underline">
   Location
@@ -136,7 +108,7 @@
   	Constructors
   </h3>
   	<a id="Phnx_IO_Threaded_ThreadedReader_1__ctor_" data-uid="Phnx.IO.Threaded.ThreadedReader`1.#ctor*"></a>
-  <h4 id="Phnx_IO_Threaded_ThreadedReader_1__ctor_System_Func__0__System_Int32_" data-uid="Phnx.IO.Threaded.ThreadedReader`1.#ctor(System.Func{`0},System.Int32)">ThreadedReader(Func&lt;T&gt;, Int32)</h4>
+  <h4 id="Phnx_IO_Threaded_ThreadedReader_1__ctor_Func__0__System_Int32_" data-uid="Phnx.IO.Threaded.ThreadedReader`1.#ctor(Func{`0},System.Int32)">ThreadedReader(Func&lt;T&gt;, Int32)</h4>
   <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.IO.Threaded.ThreadedReader-1.html">ThreadedReader&lt;T&gt;</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -153,7 +125,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;T&gt;</td>
+        <td><span class="xref">Func</span>&lt;T&gt;</td>
         <td><span class="parametername">readFunc</span></td>
         <td><p>The function to use when loading resources from an external source</p>
 </td>
@@ -162,27 +134,6 @@
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">lookAheadCount</span></td>
         <td><p>The maximum number of values to cache</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentNullException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">readFunc</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">lookAheadCount</code> is less than or equal to zero</p>
 </td>
       </tr>
     </tbody>
@@ -267,38 +218,7 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ObjectDisposedException</span></td>
-        <td><p>This object was disposed before the read could be completed</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.IO.IOException</span></td>
-        <td><p>Reader error</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.IDisposable</span>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
-  </div>
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
   </div>
@@ -311,6 +231,12 @@
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
   </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
 </article>
 					
 					<div class="hidden-sm col-md-2" role="complementary">
@@ -318,7 +244,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/IO/Threaded/Phnx.IO.Threaded/ThreadedReader.cs/#L12" class="contribution-link">View Source</a>
+					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/IO/Threaded/Phnx.IO.Threaded/ThreadedReader.cs/#L12" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Code/Personal/Phnx/docs",
+  "source_base_path": "D:/Code/Remote/Phnx/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,79 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.ArgumentLessThanZeroException.html",
-          "hash": "PWP+Zsr00N0Q0vb5/S/y7w=="
+          "hash": "gypLFWcdw9fsBmQG/iCaDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Phnx.AspNet.Modals.HtmlHelperExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Phnx.AspNet.Modals.HtmlHelperExtensions.html",
+          "hash": "NlcW0jK/p9rUJIUp7ftLBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Phnx.AspNet.Modals.IModalManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Phnx.AspNet.Modals.IModalManager-1.html",
+          "hash": "iTcGzsOYF+Urhx+J0PYuSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Phnx.AspNet.Modals.IModalViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Phnx.AspNet.Modals.IModalViewModel.html",
+          "hash": "THc3Tq84AeGhKKgX3z2KSA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Phnx.AspNet.Modals.ModalManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Phnx.AspNet.Modals.ModalManager-1.html",
+          "hash": "NQbbQA6deMq4NhquFjeAuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Phnx.AspNet.Modals.ModalViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Phnx.AspNet.Modals.ModalViewModel.html",
+          "hash": "kIGg7PD1ORllT2ZA8HjspQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Phnx.AspNet.Modals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Phnx.AspNet.Modals.html",
+          "hash": "xynXLCB4bqph6Nys7B2TFw=="
         }
       },
       "is_incremental": false,
@@ -21,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.ETags.ETagMatchResult.html",
-          "hash": "UOe/GMYJnEEzAt7gY++Dtg=="
+          "hash": "u819DHQMI3hr0EpV+am9ww=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.ETags.ETagServiceBuilderExtensions.html",
-          "hash": "jXWlUDeAYZ4Sxvg944Ql9g=="
+          "hash": "UXUptPdL7oSCPG3X5VwZcA=="
         }
       },
       "is_incremental": false,
@@ -45,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.ETags.Services.ETagRequestService.html",
-          "hash": "0ytaF2/rimw6kRFejfpzZg=="
+          "hash": "2+raGMeGOI60Ki8mFldmBQ=="
         }
       },
       "is_incremental": false,
@@ -57,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.ETags.Services.ETagResponseService.html",
-          "hash": "uLCh8ZpOArfPIm+E3UNh0A=="
+          "hash": "JLdNbh3KtA1FfLYN6VOSxA=="
         }
       },
       "is_incremental": false,
@@ -69,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.ETags.Services.ETagService.html",
-          "hash": "Gv50raAqhdRKDcAzrNX2wA=="
+          "hash": "+7xyYx0URr1k1/dxzX7ysQ=="
         }
       },
       "is_incremental": false,
@@ -81,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.ETags.Services.IETagRequestService.html",
-          "hash": "cgzzEDcQnWDFiztmW2vO5w=="
+          "hash": "gR78p6pbalNAL/659YgsmA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.ETags.Services.IETagResponseService.html",
-          "hash": "8iToDVsgn/hk34zrWb0SHg=="
+          "hash": "sj25AfP3DgHI30sx4wUQWw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.ETags.Services.IETagService.html",
-          "hash": "GGo4yt1foMtQnEJ4VmzymQ=="
+          "hash": "Vhej+kr9UpSZ43IDxN8H/g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,115 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.ETags.Services.html",
-          "hash": "EzBaDYuuFK56icYwUfdoGQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.AspNetCore.ETags.Tests.Fakes.BrokenFakeResource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.AspNetCore.ETags.Tests.Fakes.BrokenFakeResource.html",
-          "hash": "xJRFw9iemkZmDAgBcAm8xA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.AspNetCore.ETags.Tests.Fakes.FakeActionContextAccessor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.AspNetCore.ETags.Tests.Fakes.FakeActionContextAccessor.html",
-          "hash": "BXnYSS2bjsr70R8PsjYUaQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.AspNetCore.ETags.Tests.Fakes.FakeStrongResource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.AspNetCore.ETags.Tests.Fakes.FakeStrongResource.html",
-          "hash": "fCvIHTgkGAkunw86CPtXEg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.AspNetCore.ETags.Tests.Fakes.FakeWeakResource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.AspNetCore.ETags.Tests.Fakes.FakeWeakResource.html",
-          "hash": "5HSmX86t+3Y3OwO9CEKznQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.AspNetCore.ETags.Tests.Fakes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.AspNetCore.ETags.Tests.Fakes.html",
-          "hash": "IPrjuindq184BQA/Ry1Nzg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.AspNetCore.ETags.Tests.Services.ETagRequestServiceTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.AspNetCore.ETags.Tests.Services.ETagRequestServiceTests.html",
-          "hash": "ggHEpDqODO+TN5w94o7O7Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.AspNetCore.ETags.Tests.Services.ETagResponseServiceTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.AspNetCore.ETags.Tests.Services.ETagResponseServiceTests.html",
-          "hash": "QEXwIPS+RCBx/vWBLwKXEQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.AspNetCore.ETags.Tests.Services.ETagServiceTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.AspNetCore.ETags.Tests.Services.ETagServiceTests.html",
-          "hash": "ok4gL3mhcUKZj8T5hPjAug=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.AspNetCore.ETags.Tests.Services.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.AspNetCore.ETags.Tests.Services.html",
-          "hash": "qYIeuB5eoaIGAIGTsQYD+w=="
+          "hash": "WK5JAFuw8WLZ7t7Oh9aT4A=="
         }
       },
       "is_incremental": false,
@@ -237,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.ETags.html",
-          "hash": "u2gdhqURbZlhYJl9uOgD1A=="
+          "hash": "MfvykFvn0Hk/amXocefMKw=="
         }
       },
       "is_incremental": false,
@@ -249,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.Modals.HtmlHelperExtensions.html",
-          "hash": "dH0SM/dyNcSn+7U/k9N+2A=="
+          "hash": "HdYhS2kwLESAlhKCpAcy4A=="
         }
       },
       "is_incremental": false,
@@ -261,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.Modals.IModalManager-1.html",
-          "hash": "IGVezlqN8NXRWpTl/l9Pyw=="
+          "hash": "zkgjIOFezbuczNDwFW29kQ=="
         }
       },
       "is_incremental": false,
@@ -273,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.Modals.IModalViewModel.html",
-          "hash": "BpwRGhNvAqM+EjYW1hCySg=="
+          "hash": "FWBsyRgosoK/ZH768RAbGA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -285,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.Modals.ModalManager-1.html",
-          "hash": "PHWW34QIL/CZvvIH5zgsjQ=="
+          "hash": "EK+OZXG2nyLd0xU3t0Kqmw=="
         }
       },
       "is_incremental": false,
@@ -297,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.Modals.ModalViewModel.html",
-          "hash": "5nIkbzjMgMffeeOoUV0qjA=="
+          "hash": "IYpLMKecHnzqwLPbqWAdKA=="
         }
       },
       "is_incremental": false,
@@ -309,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AspNetCore.Modals.html",
-          "hash": "5/Jf7W3592dLjc7JBDJt7g=="
+          "hash": "Iis91nCn7JvMG6Vn387KJQ=="
         }
       },
       "is_incremental": false,
@@ -321,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.AsyncExtensions.html",
-          "hash": "7Gv1cH9DocSbm/7qgOw7Ww=="
+          "hash": "ToI9HRiyuB+rijP/6XjcWA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -333,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Benchmark.BenchmarkMethods-1.html",
-          "hash": "ucWoNqQkYIU7bj79LFNYCw=="
+          "hash": "a2r0i3iPoQEcUK0WdGq3QQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Benchmark.BenchmarkMethods.html",
-          "hash": "t6lOQy/eayy305HslB3dPQ=="
+          "hash": "1bleGfyNNpaqXjSqztfg4w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -357,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Benchmark.Section.BenchmarkSection.html",
-          "hash": "CjcV8ZqtctxuoZr/3+joMQ=="
+          "hash": "foHU7a8+hiqf5sluOxxjzA=="
         }
       },
       "is_incremental": false,
@@ -369,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Benchmark.Section.BenchmarkSectionTime.html",
-          "hash": "3bkSK8s2sq9/2r6q2ip9Pw=="
+          "hash": "7+7qyFjrpNUES+D9aQEuhg=="
         }
       },
       "is_incremental": false,
@@ -381,91 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Benchmark.Section.html",
-          "hash": "VJIqMH03gsyJ53rPWjqOCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Benchmark.Tests.BenchmarkWithInputTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Benchmark.Tests.BenchmarkWithInputTests.html",
-          "hash": "56oRox/3zv/xhZvpa7EKhw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Benchmark.Tests.BenchmarkWithoutInput.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Benchmark.Tests.BenchmarkWithoutInput.html",
-          "hash": "+T0sGNBMxt/Pa+iT3HD9tw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Benchmark.Tests.ErrorMessageExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Benchmark.Tests.ErrorMessageExtensionsTests.html",
-          "hash": "fJWmK5jNahyYa40/PuQh3Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Benchmark.Tests.Section.BenchmarkSectionTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Benchmark.Tests.Section.BenchmarkSectionTests.html",
-          "hash": "lAjLi3hV8LEwpr7RTXGTAA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Benchmark.Tests.Section.BenchmarkSectionTimeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Benchmark.Tests.Section.BenchmarkSectionTimeTests.html",
-          "hash": "FNPyg0rYvoxwubX6qstkAg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Benchmark.Tests.Section.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Benchmark.Tests.Section.html",
-          "hash": "JXJVCuxIuziRanMz2HkWNg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Benchmark.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Benchmark.Tests.html",
-          "hash": "vFEMPxg3BwEcXxMcBlJK+w=="
+          "hash": "Zz6yy34f0X9zQgL7v12u/w=="
         }
       },
       "is_incremental": false,
@@ -477,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Benchmark.html",
-          "hash": "9YFApSWwYMuJxBkxZspbBw=="
+          "hash": "DgOlrvcDDDFNMWXKkB3Z/g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -489,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.BooleanExtensions.html",
-          "hash": "yLG2Gg4hFb/VPp3H4R+lWA=="
+          "hash": "ap4Ung2hoUeKvkEUCPm9aA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -501,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.ByteExtensions.html",
-          "hash": "FG8Or0f52lz8tEkcZtAiDw=="
+          "hash": "kqlQkHls80wBbPtt13bnrg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -513,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.CharExtensions.html",
-          "hash": "ADaIJTFu9MgdXh3ovCU48A=="
+          "hash": "0jplXJAzYEcCRPCtX7nYkw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -525,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.ArrayExtensions.html",
-          "hash": "chVkeif8bGE3zTpkmE3gQg=="
+          "hash": "83Tgdtro6yYF+w41uI3WmA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -537,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.ByteArrayExtensions.html",
-          "hash": "NktCBNpFcnbMyPpkyTHA9Q=="
+          "hash": "4duee+sMrfJUv4RwvWBVbQ=="
         }
       },
       "is_incremental": false,
@@ -549,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.EnumerableEnumerator-1.html",
-          "hash": "0cc+vwHwyLNiZbeYoUj7Mg=="
+          "hash": "+ljR7SgChSHWjHMAxd/zhg=="
         }
       },
       "is_incremental": false,
@@ -561,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.EnumerableEnumerator.html",
-          "hash": "k1CQ0YTrnVAYxz/yEG+BFQ=="
+          "hash": "UhC2AGvJjbL2HLlVg1qdsw=="
         }
       },
       "is_incremental": false,
@@ -573,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.IEnumerableExtensions.html",
-          "hash": "fTplvZq0YGeEmVhvKgIu2A=="
+          "hash": "Iv93qfv4UYcckq2n1gFHQQ=="
         }
       },
       "is_incremental": false,
@@ -585,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.IEnumerableLinqExtensions.html",
-          "hash": "R8edfan5gD8VqvFesNFD/Q=="
+          "hash": "0ok8dwXz6l1PdAgWIx/0GA=="
         }
       },
       "is_incremental": false,
@@ -597,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.IEnumeratorExtensions.html",
-          "hash": "wLg2YjIPypV8xD3BdiEcug=="
+          "hash": "PDFfM0eVm3F28QxoFdw10A=="
         }
       },
       "is_incremental": false,
@@ -609,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.IListExtensions.html",
-          "hash": "aVyFK3ruQpELA+EIydRkTg=="
+          "hash": "3GDtEHx5wRcCyl87xhpIyQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -621,667 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.ListExtensions.html",
-          "hash": "K3VU6BoSzf6fG0p5K2YN4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.EnumerableEnumeratorTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.EnumerableEnumeratorTests.html",
-          "hash": "GCpxjisT27B0xjiL5BzpSg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Exceptions.ErrorMessageExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Exceptions.ErrorMessageExtensionsTests.html",
-          "hash": "WNle/cbyCnaFTIS/AZCKrA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Exceptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Exceptions.html",
-          "hash": "BnMOdGgExP9vm8205LgVyw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.BinarySearchComparableTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.BinarySearchComparableTests.html",
-          "hash": "NgDHvLOyb7FaNpJ/SrlSew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.BinarySearchTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.BinarySearchTests.html",
-          "hash": "TuZAzSGVK208EaXGropJ4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.ClearTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.ClearTests.html",
-          "hash": "Uhh8nhy+UrwL9gCzcJp6OA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.FillTTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.FillTTests.html",
-          "hash": "EQ0OkRJtiHrQY94b41YkEA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.FillTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.FillTests.html",
-          "hash": "62WlGy+mttWvze97RqCwHA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.IndexOfTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.IndexOfTests.html",
-          "hash": "tWQH1BSvNwWChlXUKzDC4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.JoinTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.JoinTests.html",
-          "hash": "WwmByaBMD9jyYBt9fnUdiw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.LastIndexOfTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.LastIndexOfTests.html",
-          "hash": "csgwERQGh+0zKaURqsDx/Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.ResizeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.ResizeTests.html",
-          "hash": "boH5Jcb0ioBwVd9B6ZXHTA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.ReverseTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.ReverseTests.html",
-          "hash": "IXXxEIUje7y6bDPHRtHq4Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.ShallowCopyTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.ShallowCopyTests.html",
-          "hash": "XnTyzqGRGqjFqJhg5fj8/g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.SortTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.SortTests.html",
-          "hash": "sfhfcchMDLVp6YIHOs4f7w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ArrayExtensions.html",
-          "hash": "r14EE1OhnaueGYYiEA6lAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ByteArrayExtensions.ToIntTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ByteArrayExtensions.ToIntTests.html",
-          "hash": "do9wmtcz1hwGbB8clZ01DA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ByteArrayExtensions.ToLongTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ByteArrayExtensions.ToLongTests.html",
-          "hash": "RxoucNbfZIlmWNtIR4AKaQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ByteArrayExtensions.ToMemoryStreamTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ByteArrayExtensions.ToMemoryStreamTests.html",
-          "hash": "3sbXrkxwW8h2Dc9Lm/JQ8A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ByteArrayExtensions.ToShortTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ByteArrayExtensions.ToShortTests.html",
-          "hash": "7Wfks+i+SIeW5xNfe8b7dA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ByteArrayExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ByteArrayExtensions.html",
-          "hash": "QYLu5clIF/P84WILSTtjhw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableExtensions.CopyRangeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableExtensions.CopyRangeTests.html",
-          "hash": "DVR3qF0NE2WUKWzU90Ougg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableExtensions.CopyRangeToEndTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableExtensions.CopyRangeToEndTests.html",
-          "hash": "HFuCf+178lzuWKWiz44cSA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableExtensions.FillTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableExtensions.FillTests.html",
-          "hash": "dARMuloSq7gzbb3x4bphwA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableExtensions.ToStringTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableExtensions.ToStringTests.html",
-          "hash": "AbjfCHdzfZXyvN2Dmhc5Vw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableExtensions.html",
-          "hash": "a9fek4aHTGhSnO8nkWabDQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.AppendTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.AppendTests.html",
-          "hash": "i/Z2sBUomndwP+AuAUtUhg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.BreadthFirstFlattenTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.BreadthFirstFlattenTests.html",
-          "hash": "TluUqh95oR6cHZxVY44naQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.DepthFirstFlattenTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.DepthFirstFlattenTests.html",
-          "hash": "jK900NsvYwixTh7UoNrrtA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.DistinctByTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.DistinctByTests.html",
-          "hash": "8LYrOMDtICDpj72ES4pb7A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.EqualsRangeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.EqualsRangeTests.html",
-          "hash": "E+mOPZBIoBk+kW2h5UfFNQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.FlattenTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.FlattenTests.html",
-          "hash": "i3IExvMuEp6SICLxayK02g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.IndexOfLongTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.IndexOfLongTests.html",
-          "hash": "2ILWrARwfHKsatnty08Khw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.IndexOfTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.IndexOfTests.html",
-          "hash": "nD6BSjqPEppvvcHt5R7jzg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.MaxByTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.MaxByTests.html",
-          "hash": "PyzUYVsFC/hxXyqUzZvJMw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.MinByTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.MinByTests.html",
-          "hash": "1YEcqJ4lkcyP9iTkPwalpw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.ToListTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.ToListTests.html",
-          "hash": "yvOljAa2BRezpenNoisl3A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumerableLinqExtensions.html",
-          "hash": "W+9FOzFEZgglksQJ6Q9Gmw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumeratorExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IEnumeratorExtensionsTests.html",
-          "hash": "LwyNHt0s84NjFM+hmtHgxg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.BinarySearchComparableTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.BinarySearchComparableTests.html",
-          "hash": "c+fC7WEnfK/s0RAq4EwY+Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.BinarySearchTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.BinarySearchTests.html",
-          "hash": "meg8mk5vjnN1kFiT21MP5w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.EqualsRangeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.EqualsRangeTests.html",
-          "hash": "lUqk2svdR+TgEKNA6KxQkw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.FillTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.FillTests.html",
-          "hash": "iaK7QbgCvF3RL7OXvq+LTQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.LastTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.LastTests.html",
-          "hash": "EbhDITtxbB76WvoFsFMKmQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.ToListTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.ToListTests.html",
-          "hash": "MZ0aQj6C+Mf3SnFhu7kg4g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.IListExtensions.html",
-          "hash": "+o6hplg1PIE37Fv1AN5Zqw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.ListExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.ListExtensionsTests.html",
-          "hash": "CLR71PUcu/Z0YLHZRVXM+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Extensions.html",
-          "hash": "bnxszk8GBLzT+MIZk/mbpg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.TestHelpers.AreaComparer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.TestHelpers.AreaComparer.html",
-          "hash": "CgI9sADP6nwmElZ7gu4JgA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.TestHelpers.ReverseIntComparer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.TestHelpers.ReverseIntComparer.html",
-          "hash": "loLGqFxIeuRR72QnPI+mDA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.TestHelpers.UnlimitedEnumerable-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.TestHelpers.UnlimitedEnumerable-1.html",
-          "hash": "E8rYbh1tTCRmK1nGS8APTQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.TestHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.TestHelpers.html",
-          "hash": "DURAlp7HNUsV2uyXcKezNQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Tree.TreeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Tree.TreeTests.html",
-          "hash": "lFieP91iiNHcoXuirLE92A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.Tree.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.Tree.html",
-          "hash": "vFiluoVIqlBvi9CgDZi+rA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Collections.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Collections.Tests.html",
-          "hash": "b06eoDDMy6rhiVIXFq6NFQ=="
+          "hash": "Lr7MdGwGBQHMlp5Z04TJrg=="
         }
       },
       "is_incremental": false,
@@ -1293,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.Tree-1.html",
-          "hash": "rpIvNoWQ/sjg5+c7cxXIiw=="
+          "hash": "hjeqRwb2EKMG2nim8+FkQw=="
         }
       },
       "is_incremental": false,
@@ -1305,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.TreeNode-1.html",
-          "hash": "UW6hiShPgzspH06VVORl6Q=="
+          "hash": "DEJpeaGHv1fQsoBCaJjl8w=="
         }
       },
       "is_incremental": false,
@@ -1317,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Collections.html",
-          "hash": "I4NkUL9StFp0JzP2m/I7tQ=="
+          "hash": "7qNY14mBGG0NKGv8YV1AGw=="
         }
       },
       "is_incremental": false,
@@ -1329,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.CollectionsErrorMessageExtensions.html",
-          "hash": "Kx+Lajw2s1o49Ve1pnmIrw=="
+          "hash": "5Od/6lZFHB4ady05DWeOUA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1341,10 +561,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.ComparerHelpers.html",
-          "hash": "4GH+GJrxm/S/oVNFBIMcWw=="
+          "hash": "xphHYg4R4At2GWavW/633Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1353,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Configuration.Config.html",
-          "hash": "44buwfQRWkZI5eUtlHSv2g=="
+          "hash": "I74m5WspuypPhlIaDSTpXw=="
         }
       },
       "is_incremental": false,
@@ -1365,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Configuration.IConfig.html",
-          "hash": "+7/T4pzT+9xR+wNW/3pFBA=="
+          "hash": "OAB/ogUjuBelmif+uFXh8g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1377,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Configuration.html",
-          "hash": "8eKyxapasmGxv0z/4gUqqA=="
+          "hash": "UaXrweHYjJD4H3/Yc/QhKg=="
         }
       },
       "is_incremental": false,
@@ -1389,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Console.ConsoleHelper.html",
-          "hash": "4aFirKoGbOX4O56lL3e60Q=="
+          "hash": "s8tn3ZxzAO4kW2NbTSm5DQ=="
         }
       },
       "is_incremental": false,
@@ -1401,10 +621,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Console.Playground.ConsoleDemo.html",
-          "hash": "v07itMzPxWNd5Tp/+lo3lQ=="
+          "hash": "IrW+SewClCHPtPloYXfXxA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1413,10 +633,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Console.Playground.Test.html",
-          "hash": "9kxcO3uCZpHBLERdsrjDEA=="
+          "hash": "FDCRTLpZwyh/QNWFh2c/DQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1425,10 +645,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Console.Playground.html",
-          "hash": "ehJRNtLWwnG1b2Mxve8S/A=="
+          "hash": "iDPJXTdrsq3tMo8f6GTEgw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1437,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Console.Progress.ConsoleProgress.html",
-          "hash": "qujTJCX1peDFPb1HQHDwTQ=="
+          "hash": "6M7cK6tG2WdW9AC1mKqfcQ=="
         }
       },
       "is_incremental": false,
@@ -1449,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Console.Progress.ProgressBarRenderer.html",
-          "hash": "rS5ttEfqRk2CXTbLEEY+tA=="
+          "hash": "RVn9rmG/BqysHQJQI0QXAA=="
         }
       },
       "is_incremental": false,
@@ -1461,139 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Console.Progress.html",
-          "hash": "hH7C1UkVsby7kefdCN+8IQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.OutputTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.OutputTests.html",
-          "hash": "DWlMTyqM90VEp5Ta+2cqKQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.Progress.ProgressBarRendererTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.Progress.ProgressBarRendererTests.html",
-          "hash": "O0fhWy5k9aaHphkDqlmGtA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.Progress.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.Progress.html",
-          "hash": "uuFWdpK+FYsYkKgu+CCrbA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.TestHelpers.Factory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.TestHelpers.Factory.html",
-          "hash": "a4MKySAuWoZCajbE2XL1cg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.TestHelpers.PipeStream.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.TestHelpers.PipeStream.html",
-          "hash": "vX7VvM2xFZt9H8Os4ecHag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.TestHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.TestHelpers.html",
-          "hash": "SWTpRlc+m7AJiaKGNFPaVQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.TextIoTests.ConstructorTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.TextIoTests.ConstructorTests.html",
-          "hash": "pYyYc5TGVIZGzyBSzb9XMA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.TextIoTests.InputTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.TextIoTests.InputTests.html",
-          "hash": "zJ3sNSIRgqOrRhVtS7hVEw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.TextIoTests.ReadWriteComboTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.TextIoTests.ReadWriteComboTests.html",
-          "hash": "uhL5iRVOwkX7HnvbZE9V7g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.TextIoTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.TextIoTests.html",
-          "hash": "NBUxuygsxjPhN4728d1zqg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Console.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Console.Tests.html",
-          "hash": "35E+HhxMSDkyDzx/r2CEAA=="
+          "hash": "eJ2tLFqsHHNUm3dJ+zllcw=="
         }
       },
       "is_incremental": false,
@@ -1605,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Console.TextIoHelper.html",
-          "hash": "3BR5pwe11NrfUl3m0MytSA=="
+          "hash": "wS/rCstAH5k/LLFIsQV9jg=="
         }
       },
       "is_incremental": false,
@@ -1617,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Console.html",
-          "hash": "LRIx7hy4IUva8cqg7R24Zg=="
+          "hash": "Lvvlfke0YXZCS0L4VAwqtg=="
         }
       },
       "is_incremental": false,
@@ -1629,46 +717,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.ConverterHelpers.html",
-          "hash": "o0VKKjo54ljRxOKUtjk82g=="
+          "hash": "7MblnFTyk8IH7FP1VreDRg=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Core.Configuration.Tests.ConfigTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Core.Configuration.Tests.ConfigTests.html",
-          "hash": "7G09/LrH30Tqraz9Hl7u8Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Core.Configuration.Tests.FakeConfigurationFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Core.Configuration.Tests.FakeConfigurationFactory.html",
-          "hash": "MAdLBfPGrHX7ijMyRrJ5XA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Core.Configuration.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Core.Configuration.Tests.html",
-          "hash": "HEcUOcrnUW+Bm1uhFuRemg=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1677,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.EFCore.Repositories.CrudDbSet-3.html",
-          "hash": "dOlZlVGpPPaOKr8lhS3eoA=="
+          "hash": "BKWph0CGdHxh0fxY++lkFw=="
         }
       },
       "is_incremental": false,
@@ -1689,91 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.EFCore.Repositories.html",
-          "hash": "abwYnz35wGr7X9VQ/qhGCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.EFCore.Tests.Fakes.DataModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.EFCore.Tests.Fakes.DataModel.html",
-          "hash": "YRD3XdALyEcwQSxO22m9kQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.EFCore.Tests.Fakes.FakeDbContext.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.EFCore.Tests.Fakes.FakeDbContext.html",
-          "hash": "FaVT93PLq2itnap0iA+GHw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.EFCore.Tests.Fakes.FakeGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.EFCore.Tests.Fakes.FakeGenerator.html",
-          "hash": "WMKyUyQGjiNlG9n3qCvvvA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.EFCore.Tests.Fakes.FakeRepo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.EFCore.Tests.Fakes.FakeRepo.html",
-          "hash": "zVQH6CiI6KAD6KPxhpfdjw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.EFCore.Tests.Fakes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.EFCore.Tests.Fakes.html",
-          "hash": "G659bz3pWFdHs8qOsohkBA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.EFCore.Tests.Repositories.CrudDbSetTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.EFCore.Tests.Repositories.CrudDbSetTests.html",
-          "hash": "Eu6vvr4jD2ZtJJfSVSjptA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.EFCore.Tests.Repositories.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.EFCore.Tests.Repositories.html",
-          "hash": "rDx7qCwiPuace9kMLgOzGA=="
+          "hash": "YdxWJtI0/FxlzQYay8vkAA=="
         }
       },
       "is_incremental": false,
@@ -1785,10 +753,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Escaped.html",
-          "hash": "767Z0Qw8ViD+Y+3NQ/0ZBQ=="
+          "hash": "z4gr0vxpKn6ns60IWfCbQg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1797,10 +765,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.IIdDataModel-1.html",
-          "hash": "V2RWzkNSKD4yMSg+kuu/yQ=="
+          "hash": "e9B0bQGGfzDOu8xGN3cgYA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1809,10 +777,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.LazyLoad.LazyDatabase.html",
-          "hash": "AGErBXh+F6osJqk5Qb7Hhw=="
+          "hash": "nywWZ5Qhbmih+nFBlnHgKw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1821,10 +789,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.LazyLoad.LazyDictionary-2.html",
-          "hash": "rOjGP8sGT4zxcZJzk/cdcQ=="
+          "hash": "LsnZD3COP3eiZnd/BifJpg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1833,10 +801,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.LazyLoad.LazyGetSet-1.ValueCachedEvent.html",
-          "hash": "sXOq8hORwuw3Ef3r3c/9XA=="
+          "hash": "JvUzbDMH42raboGgFrCC4w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1845,10 +813,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.LazyLoad.LazyGetSet-1.ValueGetEvent.html",
-          "hash": "I5Mzvk63LVPRVsEyAbZvqQ=="
+          "hash": "k2BEfzezpPXMNzSmvIn6pQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1857,10 +825,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.LazyLoad.LazyGetSet-1.ValueSetEvent.html",
-          "hash": "94vf41yioBDHPEgeQ2KfmA=="
+          "hash": "/ft5Qqo6JSmrKw5WaVTq9Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1869,10 +837,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.LazyLoad.LazyGetSet-1.html",
-          "hash": "sjQVpNvEws+e2Zur7vhjaA=="
+          "hash": "BhClGImPTMwTasfJR/RaeA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1881,10 +849,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.LazyLoad.html",
-          "hash": "MqlZHKysbeZygNEe/wJcyQ=="
+          "hash": "UzeOS4KB0f8+IvazJPrlHg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1893,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Repositories.CachedCrud-2.html",
-          "hash": "fSMLMtVubrD0FRChubIYPw=="
+          "hash": "q3QN+/Fq36P6llBQuJNbGw=="
         }
       },
       "is_incremental": false,
@@ -1905,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Repositories.DictionaryCrud-2.html",
-          "hash": "TP9mW1FbdqrE4+Vji+0qzg=="
+          "hash": "ud/nkRposxrU7f7T/tYoVg=="
         }
       },
       "is_incremental": false,
@@ -1917,10 +885,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Repositories.ICrud-2.html",
-          "hash": "x6Bn3+U3WNga1BwxJ74WHQ=="
+          "hash": "KKWpF+hmEvutOKoBFqBj+Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1929,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Repositories.html",
-          "hash": "W5VEAYgshrpk7ziN18e4YQ=="
+          "hash": "hBu1EYiVN8fiNC+ISO1j7w=="
         }
       },
       "is_incremental": false,
@@ -1941,10 +909,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Seeds.ISeed.html",
-          "hash": "xod4Kzoasabxovp96zi4tw=="
+          "hash": "TDaXXRJRBpRJxiun2NBC6w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1953,10 +921,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Seeds.ISeedAsync.html",
-          "hash": "4gikq1d33YYhsm/b6rIUWQ=="
+          "hash": "UVcEkhdkqaVKjt8xyfmL7g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1965,10 +933,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Seeds.ISeedExtensions.html",
-          "hash": "E+dyUKOBuNX6Q0Yi6u3wRQ=="
+          "hash": "5F8FnDmIKCS5iqwRefOjTw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1977,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Seeds.Seed.html",
-          "hash": "aPWy1yVewCE/xuV7IGlzgQ=="
+          "hash": "AVc4YQtk7zCt2qPdbdYzog=="
         }
       },
       "is_incremental": false,
@@ -1989,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Seeds.SeedAsync.html",
-          "hash": "/8P2OOcyZTuWwnZSh/tedQ=="
+          "hash": "AS1/TPHKhlLp53QyBrRD1Q=="
         }
       },
       "is_incremental": false,
@@ -2001,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Seeds.SeedGroup.html",
-          "hash": "UeFK9FdMrl4am2HaA+YtDw=="
+          "hash": "jdjt8HQM0gI06d+1YkbHrw=="
         }
       },
       "is_incremental": false,
@@ -2013,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Seeds.SeedGroupAsync.html",
-          "hash": "9fwAsf1sznHVMDvrDmnnPA=="
+          "hash": "dSZXJq2loRRcLZWuTQswxg=="
         }
       },
       "is_incremental": false,
@@ -2025,295 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.Seeds.html",
-          "hash": "aVv0EvL9p1pNF3Pf0mJXHw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.ErrorMessagesExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.ErrorMessagesExtensionsTests.html",
-          "hash": "KBdyV/ZZdG9ezZLFek8TWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.EscapedTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.EscapedTests.html",
-          "hash": "CJQLUUI0KfUQ1ikr07y+dQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Fakes.DataModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Fakes.DataModel.html",
-          "hash": "yCXnt1r4lqGHeOXQee5AxA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Fakes.FakeCrud.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Fakes.FakeCrud.html",
-          "hash": "nOmqJT9+N95EDteAVIid2g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Fakes.FakeGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Fakes.FakeGenerator.html",
-          "hash": "LMBr4nV7B9Qomjyid1aUWQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Fakes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Fakes.html",
-          "hash": "sSaJup/POyiNGGaSI6aT/g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.LazyLoad.LazyDatabaseTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.LazyLoad.LazyDatabaseTests.html",
-          "hash": "OZxCRoRMAME05bK53N5AyQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.LazyLoad.LazyDictionaryTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.LazyLoad.LazyDictionaryTests.html",
-          "hash": "1oO7njhcnjVpXOS4wrBjig=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.LazyLoad.LazyGetSetTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.LazyLoad.LazyGetSetTests.html",
-          "hash": "fv7Uxj1HU87ZwLbMXlUQfw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.LazyLoad.TestData.Fake.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.LazyLoad.TestData.Fake.html",
-          "hash": "CtAs6PhdCSzvx2aK5yKIDg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.LazyLoad.TestData.LazyGetSetTester-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.LazyLoad.TestData.LazyGetSetTester-1.html",
-          "hash": "vvjZaxGimA03gvb3kTXeIg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.LazyLoad.TestData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.LazyLoad.TestData.html",
-          "hash": "ks/BOUo86plOxPkDwzqmyQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.LazyLoad.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.LazyLoad.html",
-          "hash": "8Kjcq6iRe49nNeCD86tNgQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Repositories.CachedCrudTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Repositories.CachedCrudTests.html",
-          "hash": "AYl9NehrghHZ3gIsLoafDg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Repositories.DictionaryCrudTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Repositories.DictionaryCrudTests.html",
-          "hash": "USVrPBluvVvZUYHZAFTHIA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Repositories.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Repositories.html",
-          "hash": "yMhSKG8dSXolg2S5GW7z1g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Seeds.IseedExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Seeds.IseedExtensionsTests.html",
-          "hash": "Bzxvym/U35XqHmuQ4n4ALA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Seeds.SeedAsyncTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Seeds.SeedAsyncTests.html",
-          "hash": "e8OYsFWCaOc9E3yvWnqiOw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Seeds.SeedGroupAsyncTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Seeds.SeedGroupAsyncTests.html",
-          "hash": "B/liaxEKBNBJYQbsduLYAA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Seeds.SeedGroupTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Seeds.SeedGroupTests.html",
-          "hash": "H3Ns213RuKAJmQ60s4rGDw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Seeds.SeedTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Seeds.SeedTests.html",
-          "hash": "EVhywNkjyh6+aRqvbc2Szg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.Seeds.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.Seeds.html",
-          "hash": "ajmlAy0NYaHV3Hub0fLmkg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.UnescapedTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.UnescapedTests.html",
-          "hash": "9IHztvThOkU+L6zqa9X1bg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Data.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Data.Tests.html",
-          "hash": "eRrWz5AaO0dJMQy+NhTZFw=="
+          "hash": "Tf8g+M3nELLXkDr2NMRg9w=="
         }
       },
       "is_incremental": false,
@@ -2325,10 +1005,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Data.html",
-          "hash": "RPvWjm1nEXMQUq5Q3PqoPw=="
+          "hash": "ytIgt21iDYXLBw5T/X878A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2337,10 +1017,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.DataErrorMessageExtensions.html",
-          "hash": "dsRIEQMJtWcddLtxKfe7fQ=="
+          "hash": "BCndJz+Kj5ek49LyuDlJww=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2349,10 +1029,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.DateTimeExtensions.html",
-          "hash": "sfTgV5dVfXybP1B4DtneeQ=="
+          "hash": "zx0vEUoUjXVNH3BqNM7Y/w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2361,10 +1041,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.DecimalExtensions.html",
-          "hash": "i8nlnWt7ATg8L5pNxqBrUg=="
+          "hash": "WHQPYCay5uXkijNSoqCFTw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2373,10 +1053,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.DoubleExtensions.html",
-          "hash": "3REE8lk2e372n00+x3sKCw=="
+          "hash": "BM7TUNEsNvUZKLYpnYqlzg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2385,10 +1065,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.ColorExtensions.html",
-          "hash": "vHyueskUb7s/0rmPCjpLgg=="
+          "hash": "hfevD7K9b2rh2Vg/feTH0w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2397,10 +1077,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.DoubleExtensions.html",
-          "hash": "PCzFRNlqvlbKacV3Q6wSNA=="
+          "hash": "8Gsvj9diCqkkIjqJ/pldRQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2409,10 +1089,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.Hex.html",
-          "hash": "S+Gq8VS8+tsv3XU0W8h5ng=="
+          "hash": "7J+7XKQn6rRAfk/9at7NNg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2421,10 +1101,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.HexColorConverter.html",
-          "hash": "8pePeaAhno+VfM1jm8gflA=="
+          "hash": "ISGTZoF3TSrw7f4CHZ/jiQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2433,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.PointD.html",
-          "hash": "vDzfCVkwFbkTK3fiodrU/Q=="
+          "hash": "DlsGHsLfYBnOO5I45m9oSQ=="
         }
       },
       "is_incremental": false,
@@ -2445,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.Shapes.Circle.html",
-          "hash": "x5yZiGsyoSUns7FF5g/cqw=="
+          "hash": "65IjDZU/YzcANOaltN57yw=="
         }
       },
       "is_incremental": false,
@@ -2457,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.Shapes.Ellipse.html",
-          "hash": "tgy9j7OgJKUrCa1z9cxjOg=="
+          "hash": "sF/LGRpDWcCuZxThFi5NmQ=="
         }
       },
       "is_incremental": false,
@@ -2469,10 +1149,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.Shapes.IShape.html",
-          "hash": "B945HotZcsw7VEuJkoB3Ag=="
+          "hash": "gOkaqf589n4avOP63e6yEA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2481,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.Shapes.Polygon.html",
-          "hash": "bbqrJVo0a9OeU12Xdgmbfg=="
+          "hash": "rYK/Q3dhZOFVjysmcLih9g=="
         }
       },
       "is_incremental": false,
@@ -2493,10 +1173,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.Shapes.Side.html",
-          "hash": "LvbrS+uUiVq2FJ5TSavawA=="
+          "hash": "pyPgdZngNST4tROInnwIrA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2505,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.Shapes.html",
-          "hash": "+jpRUAqbd/w4K/lBeLXv7g=="
+          "hash": "FRhkreQT+lmy0XCkMvogrA=="
         }
       },
       "is_incremental": false,
@@ -2517,139 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.SizeD.html",
-          "hash": "zZu/9uqcgYK79nFx8hAhwg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.Extensions.ColorExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.Extensions.ColorExtensionsTests.html",
-          "hash": "J2gkxLcTZuh502e8mHQabw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.Extensions.html",
-          "hash": "dBV5z5IO1VQ9aRvJmr7I/g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.HexColorConverterTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.HexColorConverterTests.html",
-          "hash": "oJKUE4FdZMnoSnuACDA0xA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.HexColorTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.HexColorTests.html",
-          "hash": "eG3CG+S0QoaiyDiOvo5hhw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.HexTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.HexTests.html",
-          "hash": "25UhBfdgPap0LzgQARSEiA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.Shapes.CircleTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.Shapes.CircleTests.html",
-          "hash": "uMNHOHWAfXVd3Dj/+jALCg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.Shapes.EllipsesTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.Shapes.EllipsesTests.html",
-          "hash": "K1a2eF12KTO034TYbjttuw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.Shapes.PolygonTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.Shapes.PolygonTests.html",
-          "hash": "1VAzGF5x01t75FSMwAe0ew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.Shapes.SideTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.Shapes.SideTests.html",
-          "hash": "WF8x7B4j7j29wes0jmxb8A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.Shapes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.Shapes.html",
-          "hash": "tSWqxf/qzM4zE38j3va0ug=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Drawing.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Drawing.Tests.html",
-          "hash": "J7+rFjfTjm1f9s8pkM/CNQ=="
+          "hash": "462WDllVy3wwUIwI50KK8w=="
         }
       },
       "is_incremental": false,
@@ -2661,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Drawing.html",
-          "hash": "ewrnOYLfajpBUcK4u4IO8Q=="
+          "hash": "tCqYx3TfC3Ek03sjxjYnPw=="
         }
       },
       "is_incremental": false,
@@ -2673,10 +1221,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.ErrorMessage.html",
-          "hash": "kJw74dhnggg+qAaiJqq0tQ=="
+          "hash": "ED2CE21wHZ3NMG6XKqfmog=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2685,10 +1233,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.ErrorMessageExtensions.html",
-          "hash": "oAEGagCHLh7ZbKSHVUn4sg=="
+          "hash": "Ublcx7Y/Q6UOcEKrjIRweg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2697,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.Json.JsonStreamReader.html",
-          "hash": "HPcKAm5rLEz7dM/+9MjjTQ=="
+          "hash": "ipeN4pzJ4znIkgj86ynpBg=="
         }
       },
       "is_incremental": false,
@@ -2709,7 +1257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.Json.JsonStreamWriter.html",
-          "hash": "1KYaNGeleqV1QWhtxTHhBg=="
+          "hash": "9ypUkJciuPdMAmzC4hZ+FQ=="
         }
       },
       "is_incremental": false,
@@ -2721,142 +1269,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.Json.PropertyDictionaryConverter.html",
-          "hash": "Gq/dX6zXAsD6mKRDTsM2Bg=="
+          "hash": "vaCNs038M3s/h/4QfOCvfg=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.Fakes.DeepFake.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.Fakes.DeepFake.html",
-          "hash": "bdPz1x3E7n6VqmAIBeCAyw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.Fakes.FakeReader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.Fakes.FakeReader.html",
-          "hash": "xx0ba2LuHNdmYsALdAvKVg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.Fakes.FakeWriter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.Fakes.FakeWriter.html",
-          "hash": "cyrg24FQUN2IZKjjONsuFA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.Fakes.ReallyDeepFake.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.Fakes.ReallyDeepFake.html",
-          "hash": "2KhFww4RAohWfssNGq8vnw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.Fakes.ShallowFake.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.Fakes.ShallowFake.html",
-          "hash": "2PnWCaM/DsmEh8tc6IQywQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.Fakes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.Fakes.html",
-          "hash": "n69DAGIy8ftS3uF0y6PjBA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.PropertyDictionaryConverterTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.PropertyDictionaryConverterTests.html",
-          "hash": "AQ5snrHvs/PKN2udHN3GWw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.Streams.JsonStreamReaderTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.Streams.JsonStreamReaderTests.html",
-          "hash": "zEf3LprOJMkNqJ9E5lv+Ng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.Streams.JsonStreamWriterTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.Streams.JsonStreamWriterTests.html",
-          "hash": "VnADh2tqRnd/86LgXCwmzA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.Streams.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.Streams.html",
-          "hash": "QeW3H8DMBlpRTgsmyyomCA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Json.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Json.Tests.html",
-          "hash": "CkPe7MB+xoUwrklqaMm0iA=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2865,7 +1281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.Json.html",
-          "hash": "iKr23oPFwFeu3BWdco+bvw=="
+          "hash": "v34oqrtGrHd2d5ftsJoIeg=="
         }
       },
       "is_incremental": false,
@@ -2877,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.PipeStream.DataWrittenEvent.html",
-          "hash": "buKVQEdk0UH/huf5GqIYEg=="
+          "hash": "q929xf2AALTqyQrh9g7MfA=="
         }
       },
       "is_incremental": false,
@@ -2889,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.PipeStream.html",
-          "hash": "zOHfFc/GTohpkqBYS5e4tg=="
+          "hash": "QtpGMr0PMMxkHRLvUhq+7g=="
         }
       },
       "is_incremental": false,
@@ -2901,106 +1317,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.StreamExtensions.html",
-          "hash": "4yb5InBcv8cszM1UGzJtdA=="
+          "hash": "KttYWH4NyJ/kHbgH8vtX/w=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Tests.Extensions.StreamExtensionsTests.ReachedEndTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Tests.Extensions.StreamExtensionsTests.ReachedEndTests.html",
-          "hash": "NVm/QBOe7QD8os1KcVqXbw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Tests.Extensions.StreamExtensionsTests.ReadTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Tests.Extensions.StreamExtensionsTests.ReadTests.html",
-          "hash": "38vW0yAhz02XVdlBNJms7Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Tests.Extensions.StreamExtensionsTests.WriteTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Tests.Extensions.StreamExtensionsTests.WriteTests.html",
-          "hash": "m2T4x80sEMB6wpCvudCFZw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Tests.Extensions.StreamExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Tests.Extensions.StreamExtensionsTests.html",
-          "hash": "dHsQ2Y5Gkr1ZBJYiyRUuYw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Tests.PipeStreamTests.InOutTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Tests.PipeStreamTests.InOutTests.html",
-          "hash": "uXlzbb9fc1bE+cPzvqdGUg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Tests.PipeStreamTests.NewTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Tests.PipeStreamTests.NewTests.html",
-          "hash": "Xa8/DdGWw2nES3oCQl8zCg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Tests.PipeStreamTests.Other.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Tests.PipeStreamTests.Other.html",
-          "hash": "+QsiDaCgYhdbO0CoDSbXwQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Tests.PipeStreamTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Tests.PipeStreamTests.html",
-          "hash": "7d++DayHJiCWGHZPFj5LZQ=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -3009,55 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.Threaded.FuncSyncEvent.html",
-          "hash": "EE8GjizHg3wUHPbaTDQsbw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Threaded.Tests.FuncSyncEventTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Threaded.Tests.FuncSyncEventTests.html",
-          "hash": "g8g5eb+jU+0mbx8ZQDXV+Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Threaded.Tests.ThreadedReaderTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Threaded.Tests.ThreadedReaderTests.html",
-          "hash": "bQPrZ5XEJqtwx3Jdl6E9vQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Threaded.Tests.ThreadedWriterTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Threaded.Tests.ThreadedWriterTests.html",
-          "hash": "AxlX4uBS9cnFKHvnK/sZ3A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.IO.Threaded.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.IO.Threaded.Tests.html",
-          "hash": "mmZ19fldSsMoUlHdL3ITnA=="
+          "hash": "F/yuiez94Fpk4FbEJcdtPA=="
         }
       },
       "is_incremental": false,
@@ -3069,7 +1341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.Threaded.ThreadedReader-1.html",
-          "hash": "B8QoJeoEmyNvF3gMGit8qQ=="
+          "hash": "s2UEiJzXgeTlUL8NA1fGHw=="
         }
       },
       "is_incremental": false,
@@ -3081,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.Threaded.ThreadedWriter-1.html",
-          "hash": "P6O2Vt89DhhfL9NOxLTv1A=="
+          "hash": "m9gX+mvdDcnLLRxZSVdUcg=="
         }
       },
       "is_incremental": false,
@@ -3093,7 +1365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.Threaded.html",
-          "hash": "eG/Zg1oXQLY6HDkPdMrsPQ=="
+          "hash": "QKzRTBE19sUcIUVSa9J48A=="
         }
       },
       "is_incremental": false,
@@ -3105,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IO.html",
-          "hash": "6wqKMDsvYvQuRL4tHQ7W1g=="
+          "hash": "wkKSY7M/lI5mi3a+KZv1Cg=="
         }
       },
       "is_incremental": false,
@@ -3117,10 +1389,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.IntExtensions.html",
-          "hash": "0QxR5tkgKQorQndy/i63XQ=="
+          "hash": "p0s4QoLaqsu/ye1uoCYu7Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -3129,10 +1401,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.LongExtensions.html",
-          "hash": "BbOAtKj/XuSpx0cy1A+cZQ=="
+          "hash": "HMhXF4br5w4tutHjjtdo6A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -3141,10 +1413,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.ObjectExtensions.html",
-          "hash": "cMYlt6PtFO4xPKNrsY7iGg=="
+          "hash": "OSioVAJVcaU3lyxqTl/0jQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -3153,10 +1425,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Ordinals.html",
-          "hash": "wFEXjupiqtrtxhlngLj7sQ=="
+          "hash": "qNufQTkcaWs+lKTjod4faA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -3165,7 +1437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Reflection.MemberInfoExtensions.html",
-          "hash": "b33u77ezMDE7qvE1MrV15A=="
+          "hash": "lXVV0WNjNaKzFRmRjj0Aig=="
         }
       },
       "is_incremental": false,
@@ -3177,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Reflection.PropertyFieldInfo-2.html",
-          "hash": "yfG3NH4Pc1y+BeQicMsB3w=="
+          "hash": "qVlHL0oHf7CdSMUJJDX37w=="
         }
       },
       "is_incremental": false,
@@ -3189,7 +1461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Reflection.PropertyFieldInfo.html",
-          "hash": "2u4XN/H/Xhl9oTmwMlybCw=="
+          "hash": "0xOs2+zHn5acZjwMRzfFKQ=="
         }
       },
       "is_incremental": false,
@@ -3201,163 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Reflection.PropertyInfoExtensions.html",
-          "hash": "8tkJ3uBXvDU2gld9JM0y8Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.Extensions.GetAttributeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.Extensions.GetAttributeTests.html",
-          "hash": "cWfBwODyMpZ2JZgzNk77PQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.Extensions.TypeExtensionTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.Extensions.TypeExtensionTests.html",
-          "hash": "HJ1VaRJsapufJeK50kwxpA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.Extensions.html",
-          "hash": "t3A4N5CHFb9h4ef4aAoO6A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.AutoPropertyTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.AutoPropertyTests.html",
-          "hash": "oBl1uGErPgpOGu2VXzRFWA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.GetSetTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.GetSetTests.html",
-          "hash": "mhFYM/y7RlfXsPiB7u0X9A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.NameTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.NameTests.html",
-          "hash": "AKbhgrhw7A4FsFTbAQThKA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.NewTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.NewTests.html",
-          "hash": "/a+0oPX1igKC8si+/Xmi0g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.OperatorTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.OperatorTests.html",
-          "hash": "qsbzuxcHUYA3iHwTEcVvrA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.OtherTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.OtherTests.html",
-          "hash": "IpbxhVbiW9Ov1SeUeWcK2g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.TypeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.TypeTests.html",
-          "hash": "OWIJjAsP0J7q1JX7fmXswA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.PropertyFieldInfo.html",
-          "hash": "M/3i45doOWmG/2nBioa87g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.TestClasses.PropertyFieldClass.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.TestClasses.PropertyFieldClass.html",
-          "hash": "Ci5X03E3/jUxDXMNEgoSFA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Reflection.Tests.TestClasses.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Reflection.Tests.TestClasses.html",
-          "hash": "DVgmB+2RjbFrJui/HqJLbw=="
+          "hash": "OPNhGYIiQOSkp8FIuZ8tag=="
         }
       },
       "is_incremental": false,
@@ -3369,7 +1485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Reflection.TypeExtensions.html",
-          "hash": "+OqsAsVJadExu1Lz7bCD8g=="
+          "hash": "q4Vnkdk231e9JH5/35FDLA=="
         }
       },
       "is_incremental": false,
@@ -3381,7 +1497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Reflection.html",
-          "hash": "ApW/JY/6BGAdSPY2uCKlNA=="
+          "hash": "eSqPFFx6/RUloz2MxSnWcA=="
         }
       },
       "is_incremental": false,
@@ -3393,7 +1509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.AesEncryption.html",
-          "hash": "LsxU8kbNksICP5yD0P8nLg=="
+          "hash": "Z7CDIarfmTnbz66DbyNYRw=="
         }
       },
       "is_incremental": false,
@@ -3405,7 +1521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.IAsymmetricEncryption.html",
-          "hash": "powXjHc1qZoffcGH4J2AZA=="
+          "hash": "G6+NRxcYedl0kI0cutIB5A=="
         }
       },
       "is_incremental": false,
@@ -3417,10 +1533,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.IEncryption.html",
-          "hash": "BCww/jg0IS6cRQajUhkr3A=="
+          "hash": "67IwblpEaH8eS2vVnBBssQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -3429,7 +1545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.IEncryptionExtensions.html",
-          "hash": "3B2X6X2ChmDLQSVXi34hWg=="
+          "hash": "0cBJCHhcNzKJURA6WnK6+A=="
         }
       },
       "is_incremental": false,
@@ -3441,7 +1557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.IHashExtensions.html",
-          "hash": "n16EnLKSuCQ1hVu8zsy4tg=="
+          "hash": "BycZNHjDnduA74uKomksuw=="
         }
       },
       "is_incremental": false,
@@ -3453,7 +1569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.IHashWithSalt.html",
-          "hash": "yXRZZujAjm9kc0CIeJ8UPw=="
+          "hash": "lhXoS3cIj0V1L9NKRNcoew=="
         }
       },
       "is_incremental": false,
@@ -3465,10 +1581,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.IHashWithoutSalt.html",
-          "hash": "/+rz6/1WD6smlJGgI2QgQg=="
+          "hash": "kR4pUGGujdORtlAeMq0f2g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -3477,7 +1593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.ISymmetricEncryption.html",
-          "hash": "4ybKY/LU2bM5NSQuX8jQkQ=="
+          "hash": "n/38V6cNufGF1beWJ/TNXw=="
         }
       },
       "is_incremental": false,
@@ -3489,7 +1605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html",
-          "hash": "s8dpq5q4AInDHTGQy9tjqw=="
+          "hash": "3cKHx8h9U2K0HyzmBMXBBQ=="
         }
       },
       "is_incremental": false,
@@ -3501,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.Pbkdf2Hash.html",
-          "hash": "7KK/9JXewsE8r55/6l7ang=="
+          "hash": "+/NrQMec5PulmR92LkUmRQ=="
         }
       },
       "is_incremental": false,
@@ -3513,7 +1629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.RsaEncryption.html",
-          "hash": "PKiedRb/azrprvr3dolY0w=="
+          "hash": "m3Kj6D8IApLzKQJZha8wkA=="
         }
       },
       "is_incremental": false,
@@ -3525,7 +1641,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.Sha256Hash.html",
-          "hash": "jps6duekB0L8NN2R+2dqPQ=="
+          "hash": "cvKsMnPcUOY5PTBoG1zF+A=="
         }
       },
       "is_incremental": false,
@@ -3537,7 +1653,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.SymmetricEncryption.html",
-          "hash": "My4bwSPeaWdFwpw4FjbJVw=="
+          "hash": "7gElA66kQmuzxjiggAkhdQ=="
         }
       },
       "is_incremental": false,
@@ -3549,7 +1665,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Algorithms.html",
-          "hash": "9EbU3VMuLVAUm8Z6l1YNqA=="
+          "hash": "43y1kTSfK9sKljsIqs6H3g=="
         }
       },
       "is_incremental": false,
@@ -3561,7 +1677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.PasswordProtectedEncryptionService.html",
-          "hash": "aBbzM68zXe9b17X5On/RGw=="
+          "hash": "fz7BkbLm2iu6OV3Zr9dYLQ=="
         }
       },
       "is_incremental": false,
@@ -3573,7 +1689,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Passwords.IPasswordHash.html",
-          "hash": "9zMVVa7pqrNh5+QLIigavA=="
+          "hash": "/WB4v9oAuiu1AMtpCee+3g=="
         }
       },
       "is_incremental": false,
@@ -3585,7 +1701,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Passwords.PasswordHashDefault.html",
-          "hash": "TWAvilRBosJqOxcQ6Y7uTw=="
+          "hash": "E4hk5rOeHGdhy7sWu6hzaw=="
         }
       },
       "is_incremental": false,
@@ -3597,7 +1713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Passwords.PasswordHashManager.html",
-          "hash": "HD7r7rxBZPgdxteayA2ZXQ=="
+          "hash": "4GncpyzwHy/NFxM9W0YDHw=="
         }
       },
       "is_incremental": false,
@@ -3609,7 +1725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.Passwords.html",
-          "hash": "U9WI059MP5gL+V0HZcyqpw=="
+          "hash": "J/ImIlhWFWlK2e2ZviYCAQ=="
         }
       },
       "is_incremental": false,
@@ -3621,211 +1737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.SecureRandomBytes.html",
-          "hash": "8SBZ8bLUHegq+8gsxIN2Vw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Algorithms.AesEncryptionTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Algorithms.AesEncryptionTests.html",
-          "hash": "8/5gpft19CAwBhPpN7SI/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Algorithms.Pbkdf2HashTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Algorithms.Pbkdf2HashTests.html",
-          "hash": "T7xThpXBKOxV3/VeAZwgBg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Algorithms.Sha256HashTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Algorithms.Sha256HashTests.html",
-          "hash": "FoqjI98C/BbTNvf1ymwf2A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Algorithms.SymmetricEncryptionTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Algorithms.SymmetricEncryptionTests.html",
-          "hash": "Au6b+7W2c7vPREAEJFNK/w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Algorithms.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Algorithms.html",
-          "hash": "sEltsNL0YZd1LZ4sY+V6YQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Extensions.SecurityErrorMessageExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Extensions.SecurityErrorMessageExtensionsTests.html",
-          "hash": "OsvHxcaEGqLIzorKs4YWIg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Extensions.html",
-          "hash": "LU/V7084KHmT3MzlBqKR9A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.PasswordProtectedEncryptionServiceTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.PasswordProtectedEncryptionServiceTests.html",
-          "hash": "JR839YRyi/DIl8Bdg3wvcQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Passwords.PasswordHashDefaultTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Passwords.PasswordHashDefaultTests.html",
-          "hash": "dv7y7Wilj+XnzeU5QpTw4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Passwords.PasswordHashManagerIDictionaryTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Passwords.PasswordHashManagerIDictionaryTests.html",
-          "hash": "D1RKhtOrsqojV74EgmNSDw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Passwords.PasswordHashManagerTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Passwords.PasswordHashManagerTests.html",
-          "hash": "fWLUQJeAZBIy0hfg0PF4qw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Passwords.PasswordHashVersionBroken.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Passwords.PasswordHashVersionBroken.html",
-          "hash": "hR/VopD2Xbv3yuve8AaS8w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.Passwords.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.Passwords.html",
-          "hash": "7seoTwbCNlSseBhClSaANg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.SecureRandomBytesTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.SecureRandomBytesTests.html",
-          "hash": "heEnPPX2gGnm8ROK+B4roA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.TestHelpers.OneWayStream.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.TestHelpers.OneWayStream.html",
-          "hash": "Rpxzo/aYKca2JEQREsuEAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.TestHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.TestHelpers.html",
-          "hash": "umYZYozaH3pXnRHMPhAlHg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Security.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Security.Tests.html",
-          "hash": "/stakdWrdg0hd8N8MvDHBw=="
+          "hash": "mrMmYMQ94dyb6sVhY0YCeQ=="
         }
       },
       "is_incremental": false,
@@ -3837,7 +1749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Security.html",
-          "hash": "5hEV4ek5Bn/OvOe/aQrQSQ=="
+          "hash": "Bqh6i9/YrsRSdqFkH5FGzQ=="
         }
       },
       "is_incremental": false,
@@ -3849,7 +1761,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.SecurityErrorMessageExtensions.html",
-          "hash": "rRvUffxMFd6u+ZqyZpiBag=="
+          "hash": "YPHMqlug1OqLEAwM9qX62Q=="
         }
       },
       "is_incremental": false,
@@ -3861,7 +1773,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Serialization.BinarySerializer.html",
-          "hash": "qA4ev5uIlnTma7QEHSMT1g=="
+          "hash": "aHhJPqjiJMmfv6yZeLuHOw=="
         }
       },
       "is_incremental": false,
@@ -3873,10 +1785,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Serialization.ISerializer.html",
-          "hash": "90fPSyO2DQ2UTE+tPqHi2A=="
+          "hash": "OlzIdWwm9sBjL6WkJwJxsg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -3885,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Serialization.JsonSerializer.html",
-          "hash": "pxfjliq0GuzIJtiuW1ydlA=="
+          "hash": "y/2iPNOC4mal7hqx1XqExw=="
         }
       },
       "is_incremental": false,
@@ -3897,163 +1809,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Serialization.ObjectExtensions.html",
-          "hash": "p2VWQqktZYt3APK3//p6Vg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.BinarySerializerTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.BinarySerializerTests.html",
-          "hash": "c4M05f88ZcfRvVZvqNgQVw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.Extensions.DeepCopyTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.Extensions.DeepCopyTests.html",
-          "hash": "o8ZsIuMgtpIa17p6iVSXPA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.Extensions.html",
-          "hash": "pfPy6ccJsyFz2OlJA6276A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.JsonSerializerTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.JsonSerializerTests.html",
-          "hash": "Jv/djT98VsHJFwgSj9C0Ww=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.ShallowCopyTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.ShallowCopyTests.html",
-          "hash": "JYnhlv+oJi+Cp4l74AS8YA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.TestClasses.BaseClass.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.TestClasses.BaseClass.html",
-          "hash": "d/pKLjDxb6Ct9cnknMEqNQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.TestClasses.ComplexClass.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.TestClasses.ComplexClass.html",
-          "hash": "x8T3ytBCMIBpT7yyg6+CLA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.TestClasses.ComplexPropertyClass.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.TestClasses.ComplexPropertyClass.html",
-          "hash": "ar2c4UEj3RfZYXkeg5i5OQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.TestClasses.NonSerializableClass.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.TestClasses.NonSerializableClass.html",
-          "hash": "vP32TXPMWf/n9iufOQTBUw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.TestClasses.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.TestClasses.html",
-          "hash": "8d0PLVj9qvttGuNnp5b7FA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.TestStream.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.TestStream.html",
-          "hash": "dFkNsQcRF0/H57vWqllyKw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.XmlSerializerTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.XmlSerializerTests.html",
-          "hash": "TRKryK+Kfj25DJCQHy9+pw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Serialization.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Serialization.Tests.html",
-          "hash": "BFkDSRbR0FyOwoYdj9Wshg=="
+          "hash": "hRKkioZ1S+cChne0A0VOBg=="
         }
       },
       "is_incremental": false,
@@ -4065,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Serialization.XmlSerializer.html",
-          "hash": "Z02lm0Mkd8oZuQ845Ax2NQ=="
+          "hash": "iVZ+po1KycUxay5yBtcBuQ=="
         }
       },
       "is_incremental": false,
@@ -4077,7 +1833,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Serialization.html",
-          "hash": "YijemsCD8hmwyZsjKdVIJw=="
+          "hash": "txYVviBQx0MwqN3w6GMATQ=="
         }
       },
       "is_incremental": false,
@@ -4089,718 +1845,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.StringExtensions.html",
-          "hash": "iWBJwrI0xcqt8fwu9n/02A=="
+          "hash": "pEiw2coCguSZyq7jdn8G0A=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.ComparerHelperTests.CustomTypeComparerTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.ComparerHelperTests.CustomTypeComparerTests.html",
-          "hash": "BvkC47mblGYwsXf+HVe26A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.ComparerHelperTests.IntComparerTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.ComparerHelperTests.IntComparerTests.html",
-          "hash": "p6OlHNJTeDexE6qVhUBMeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.ComparerHelperTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.ComparerHelperTests.html",
-          "hash": "OL2w6ceCoSCVVpCWjxWVQw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.ConverterHelperTests.InheritanceConverterTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.ConverterHelperTests.InheritanceConverterTests.html",
-          "hash": "UOeJnhOLmttVgHTpvioP1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.ConverterHelperTests.IntStringConverterTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.ConverterHelperTests.IntStringConverterTests.html",
-          "hash": "ETcLsgoC1MbzM2xl6pf0hQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.ConverterHelperTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.ConverterHelperTests.html",
-          "hash": "jxj17fkyXHoKe3wSx1wLFw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.ErrorMessageTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.ErrorMessageTests.html",
-          "hash": "vHURNpRekXx2q+Di2f+Gog=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Exceptions.ArgumentLessThanZeroExceptionTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Exceptions.ArgumentLessThanZeroExceptionTests.html",
-          "hash": "sPyiAFVw7ulsLQGspk4vvg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Exceptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Exceptions.html",
-          "hash": "j17Wka6gu+KgJpjyTLbabg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.AsyncExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.AsyncExtensionsTests.html",
-          "hash": "z25NGCqSHHy5Nn2tOMnsgw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.BooleanExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.BooleanExtensionsTests.html",
-          "hash": "JJ8kBwEEFSSlJWxkz14hPA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.CharExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.CharExtensionsTests.html",
-          "hash": "rLQE+BfYrQ6qg/ew/7v87g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Numeric.ByteExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Numeric.ByteExtensionsTests.html",
-          "hash": "u/ojHV9iaUXelM0lO78cjA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Numeric.DecimalExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Numeric.DecimalExtensionsTests.html",
-          "hash": "7HglxN6GyALVIUXySkXLXQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Numeric.DoubleExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Numeric.DoubleExtensionsTests.html",
-          "hash": "zc2jUDo9YHvT+4Y18NW6QA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Numeric.IntExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Numeric.IntExtensionsTests.html",
-          "hash": "Jn47KjBYDEZeC7NyKwJOIA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Numeric.LongExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Numeric.LongExtensionsTests.html",
-          "hash": "umxC/c43QxJhKu3bl4kwuw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Numeric.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Numeric.html",
-          "hash": "x8TJC3isWVvA8QGCFTDN9w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.ObjectExtensionsTests.ChainTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.ObjectExtensionsTests.ChainTests.html",
-          "hash": "vml3XF4bAwiZJoZCX1+KmA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.ObjectExtensionsTests.IsEqualToTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.ObjectExtensionsTests.IsEqualToTests.html",
-          "hash": "kyldD02mjHwc4wu1/8BF4g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.ObjectExtensionsTests.IsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.ObjectExtensionsTests.IsTests.html",
-          "hash": "brYjRpUYzs0xI7U4UVzdrg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.ObjectExtensionsTests.SingleToEnumerableTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.ObjectExtensionsTests.SingleToEnumerableTests.html",
-          "hash": "VdyxF0RTpN8WjG4SRR+/Tw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.ObjectExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.ObjectExtensionsTests.html",
-          "hash": "77id6E2qCKptW6eyrJ8PFg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.IsNullOrEmptyTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.IsNullOrEmptyTests.html",
-          "hash": "xasDNAR4F30zINZZXw+XKQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.JoinTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.JoinTests.html",
-          "hash": "2OxMTYRtvyuJEPf8ar6xUQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.NullEmptyWhitespaceTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.NullEmptyWhitespaceTests.html",
-          "hash": "Ldcm3od7xjpfdyKHfwD5aA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.PascalCamelCaseTests.From.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.PascalCamelCaseTests.From.html",
-          "hash": "+qDiG1dPSXrq4T6HUvvc3A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.PascalCamelCaseTests.To.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.PascalCamelCaseTests.To.html",
-          "hash": "1Ky7ySGzzEjcV0rsu9IwRw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.PascalCamelCaseTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.PascalCamelCaseTests.html",
-          "hash": "lKwPS3tk0Yr2py4gV8W/uA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.RemoveTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.RemoveTests.html",
-          "hash": "EmOAV5Sy7iueOxEui0WnDg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.StringExtensionsTests.html",
-          "hash": "dkO3TtRIMpW+CbUjpKU4gw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.AgeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.AgeTests.html",
-          "hash": "vN91exnPyc2+Hm6dpD3gTA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.AsDateStringTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.AsDateStringTests.html",
-          "hash": "mLd+BvNq5Wxto5Ro+3L6+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.AsTimeStringTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.AsTimeStringTests.html",
-          "hash": "Ff3f3KJGnnt7jihiWkkmGQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.EndOfDayMonthYearTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.EndOfDayMonthYearTests.html",
-          "hash": "o+sCc+mlPS67dXCRU3U4hQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.EndOfWeekTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.EndOfWeekTests.html",
-          "hash": "keigc9VMq2gqF9QHZL9K/A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.EpochTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.EpochTests.html",
-          "hash": "uzK63yLy+ZyiqzK/qoIx+Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.IsAfternoonTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.IsAfternoonTests.html",
-          "hash": "aeTP9SFjMcPOJbxSbyEBAw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.IsSameDayTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.IsSameDayTests.html",
-          "hash": "HqrS1fXiLpPPCWhU/NIXqQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.IsWeekendTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.IsWeekendTests.html",
-          "hash": "Geuhu4inJzL5nsVbZvj0LA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.SetTimeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.SetTimeTests.html",
-          "hash": "lx097+f8o3vnuoVFAIzjWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.StartOfWeekTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.StartOfWeekTests.html",
-          "hash": "qtmj13HIdvxDevw5R/hcEQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.ToEpochTimeSpanTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.ToEpochTimeSpanTests.html",
-          "hash": "UMaTVNi2XjFdGwRkaAbPoQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.DateTimeExtensionsTests.html",
-          "hash": "yaGzrl1f/CvYMJ6nqdpm6Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.IsMorningTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.IsMorningTests.html",
-          "hash": "Icc0Aaf9z+5DuarE8vg/pw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.TimeSinceEpochToDateTimeTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.TimeSinceEpochToDateTimeTests.html",
-          "hash": "q7GQC0Ny8g+g1Se+rG5xCg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.ToStringTests.BadCombinationTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.ToStringTests.BadCombinationTests.html",
-          "hash": "4FiSKwSV4e0Vi9APzRvd5g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.ToStringTests.PluralisationTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.ToStringTests.PluralisationTests.html",
-          "hash": "csg0mzCYUHCuNYxTaUmZWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.ToStringTests.RandomCombinationsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.ToStringTests.RandomCombinationsTests.html",
-          "hash": "Lq4rN2fCRJlK/CE/6VTV0g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.ToStringTests.SingleComponentTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.ToStringTests.SingleComponentTests.html",
-          "hash": "MWT4wyBglKojB5chFdp+xA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.ToStringTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.ToStringTests.html",
-          "hash": "pEcMclbx7W1X5N5EfbuLZg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.TimeSpanExtensionsTests.html",
-          "hash": "EdKYuKlYbCJYWhtSBvXf1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.Time.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.Time.html",
-          "hash": "dUdH4a0QjaapA7ZCoYz7gg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.TypeExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.TypeExtensionsTests.html",
-          "hash": "pU0PbUm4HT1m4PB12EhjZQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Extensions.html",
-          "hash": "vxnlQGpSk0/vyAmzNkVQlg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Fakes.TypeFakes.TypeWithBrokenConstructor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Fakes.TypeFakes.TypeWithBrokenConstructor.html",
-          "hash": "2aZXC96b+v2q+Oy1ah4MAQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.Fakes.TypeFakes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.Fakes.TypeFakes.html",
-          "hash": "DzfK+nJsBxIhn9yMnPjoJQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.OrdinalsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.OrdinalsTests.html",
-          "hash": "TkX+FabGXyODFscS/GZjpw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Tests.html",
-          "hash": "xH+youmUArN7BHqUHluVMA=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4809,10 +1857,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.TimeComponents.html",
-          "hash": "aClgB1cq6PkHO54nPY3Iog=="
+          "hash": "pAl0CRDw1Uc+Idl7/JTYhg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4821,10 +1869,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.TimeSpanExtensions.html",
-          "hash": "rnO1PilJeDoHlFLw4p2uvw=="
+          "hash": "qF7ehPAo/76jE1mc2QdxNg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4836,10 +1884,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.TypeExtensions.html",
-          "hash": "W9ZVYPA6SYa833D1yjJADw=="
+          "hash": "pVQ48Bg+fzXOuNOhm5SEJA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -4848,7 +1896,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.ApiException.html",
-          "hash": "uZ6cmFYRddnUsIwoTyw8KQ=="
+          "hash": "yh973DmOBaIMo/mvZe+zhA=="
         }
       },
       "is_incremental": false,
@@ -4860,7 +1908,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.ContentType.Application.html",
-          "hash": "/7ZDVCziV+2VovXEGBAS6w=="
+          "hash": "+3DLnXZA4Gzhlh5TsOA7sw=="
         }
       },
       "is_incremental": false,
@@ -4872,7 +1920,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.ContentType.Image.html",
-          "hash": "guKkOIZ+gQ2SpqTkgdhGgA=="
+          "hash": "I0uUskMOtE5taVJ8JpsvuA=="
         }
       },
       "is_incremental": false,
@@ -4884,7 +1932,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.ContentType.Text.html",
-          "hash": "I4nsEv79YkT3YLMyg9hgvw=="
+          "hash": "P3GPToRlIwMRJaNowF0+Nw=="
         }
       },
       "is_incremental": false,
@@ -4896,7 +1944,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.ContentType.html",
-          "hash": "ohlxmJQqWbT/SC7aBvLX7w=="
+          "hash": "RSWqUkFzqc7XVIUsklWjAA=="
         }
       },
       "is_incremental": false,
@@ -4908,7 +1956,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Fluent.FluentRequest.html",
-          "hash": "q/OA5NlvXXI8fTEVBXsrNg=="
+          "hash": "Y0aF3uIpmHKY92lGRnTBEg=="
         }
       },
       "is_incremental": false,
@@ -4920,7 +1968,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Fluent.FluentRequestBody.html",
-          "hash": "Jh4weK94wuIVn0AX8p6+dQ=="
+          "hash": "ZfZRAduZ5NFMwfaT7ZGOWA=="
         }
       },
       "is_incremental": false,
@@ -4932,7 +1980,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Fluent.FluentRequestUrl.html",
-          "hash": "xA36QXU85TanWPmSxUBSNA=="
+          "hash": "/swft2ix/JvgzkS0GrP4fQ=="
         }
       },
       "is_incremental": false,
@@ -4944,7 +1992,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Fluent.html",
-          "hash": "LQGOi9HZLEAtUk7wcP5NhA=="
+          "hash": "KL/z1RLa2Ri1ENd64PIXIQ=="
         }
       },
       "is_incremental": false,
@@ -4956,7 +2004,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Models.ApiResponse.html",
-          "hash": "raUs4N/oIVn3GyzSWS/Z3A=="
+          "hash": "VO3EYbEV3x7dYSDQf64qOg=="
         }
       },
       "is_incremental": false,
@@ -4968,7 +2016,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Models.ApiResponseJson-1.html",
-          "hash": "JAGBuNX4vNZU+vexgYmYrw=="
+          "hash": "ogC8voQ6dynb5wFLcE5Yfg=="
         }
       },
       "is_incremental": false,
@@ -4980,7 +2028,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Models.html",
-          "hash": "FK1IKBgt8aA9o/depAmwjQ=="
+          "hash": "AO4xHA7YQzVxPjp3h5xTSA=="
         }
       },
       "is_incremental": false,
@@ -4992,7 +2040,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Services.HttpRequestService.html",
-          "hash": "CbCghw6JxgRUIXoLTbTbWw=="
+          "hash": "60DppsM9UksHF1wO8PpttQ=="
         }
       },
       "is_incremental": false,
@@ -5004,7 +2052,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Services.IHttpRequestService.html",
-          "hash": "5r2NHWklDDjH/Lc+Ww4JDw=="
+          "hash": "ib9ZI7f/pB+a2D1ghz4W7Q=="
         }
       },
       "is_incremental": false,
@@ -5016,7 +2064,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Services.IHttpRequestServiceExtensions.html",
-          "hash": "2Kj5iuJBIGV9/HMsgH+7Mg=="
+          "hash": "kSip5LiW1VTt0d0tI4vunQ=="
         }
       },
       "is_incremental": false,
@@ -5028,199 +2076,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.Services.html",
-          "hash": "7QeEzvsIACflwj2Mlaji0g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.ApiExceptionTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.ApiExceptionTests.html",
-          "hash": "oCI7sFxMsXQOyTpyTGO+tw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.Fluent.FluentRequestBodyTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.Fluent.FluentRequestBodyTests.html",
-          "hash": "cYkjCurQyAxFprBjT3OIIw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.Fluent.FluentRequestTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.Fluent.FluentRequestTests.html",
-          "hash": "y8irbrUbizRla66xji90iw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.Fluent.FluentRequestUrlTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.Fluent.FluentRequestUrlTests.html",
-          "hash": "KEVvWOzeyv/qJ8LMy4d9jw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.Fluent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.Fluent.html",
-          "hash": "1RIqvbN9BxbmBLUJZT6j1Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.HttpMessageHandlerFake.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.HttpMessageHandlerFake.html",
-          "hash": "99r9MUJL/WflBdLq3/tQKg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.HttpRequestServiceMock.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.HttpRequestServiceMock.html",
-          "hash": "fyRaLkWyOutbp9rtP/7q2g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.JsonTestModel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.JsonTestModel.html",
-          "hash": "gRp9ka6FqyPBkWfm5VR8ZQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.Models.ApiResponseJsonTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.Models.ApiResponseJsonTests.html",
-          "hash": "X98g32KTi6nUlxKWBP8C4A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.Models.ApiResponseTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.Models.ApiResponseTests.html",
-          "hash": "UnckH/e0KP5ys8klE8d1uw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.Models.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.Models.html",
-          "hash": "mGxhu1JtxOmKGd0BKLuuxg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.Services.HttpRequestServiceTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.Services.HttpRequestServiceTests.html",
-          "hash": "B+G4OXgSSCqbt2HXky7zYQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.Services.IHttpRequestServiceExtensionsTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.Services.IHttpRequestServiceExtensionsTests.html",
-          "hash": "900M7uG54U8UNEXJdK4BvQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.Services.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.Services.html",
-          "hash": "jqYMJdMXftHtRfF4oMRRrA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.UrlSerializerTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.UrlSerializerTests.html",
-          "hash": "uK77XXqY+bRBI6QVQ1SLzg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Phnx.Web.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Phnx.Web.Tests.html",
-          "hash": "QPTsxUkEyT1pTcGGEmwM2g=="
+          "hash": "7KUOtpTxeH2Cy+CnbFBaEA=="
         }
       },
       "is_incremental": false,
@@ -5232,7 +2088,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.UrlSerializer.html",
-          "hash": "QyzSIwNpN54L2jQjP/Vj6A=="
+          "hash": "K0XAmnlMcdexRr4Cl6gViw=="
         }
       },
       "is_incremental": false,
@@ -5244,7 +2100,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.Web.html",
-          "hash": "wuf0KdR0ewAyTpBr2OAzsw=="
+          "hash": "clCJm8FadvFXcfKVBeO5GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Phnx.Windows.Drawing.ImageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Phnx.Windows.Drawing.ImageExtensions.html",
+          "hash": "DK2P58Dqgi8zlf2Q4Quatg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Phnx.Windows.Drawing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Phnx.Windows.Drawing.html",
+          "hash": "PjHMtn6RKmN01UWwiDbUCw=="
         }
       },
       "is_incremental": false,
@@ -5256,7 +2136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Phnx.html",
-          "hash": "T6av1oSYiwJOHRlpnnaoMQ=="
+          "hash": "HQBe7EFpxoQd1qfR3HJZqg=="
         }
       },
       "is_incremental": false,
@@ -5268,10 +2148,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "tatQyAewu3USzPr/Q/FZyQ=="
+          "hash": "+aH2u3VhssC0Wq/Y7+GSTQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -5280,7 +2160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "vL/aeM0R83XtPIVnm1oFsg=="
+          "hash": "hrd4LSpfTC+4b189eaKvIA=="
         }
       },
       "is_incremental": false,
@@ -5292,10 +2172,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "UaOP4ciijL/PVVj6CiRnjg=="
+          "hash": "HWWx2KvRKg0X/zC/qSyy+Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -5316,10 +2196,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "U4ZnELZFm/uqvI4dhqkg3g=="
+          "hash": "1/gPrs3e0+RedfoE2Z62ng=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -5338,8 +2218,7 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
@@ -5349,19 +2228,19 @@
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}

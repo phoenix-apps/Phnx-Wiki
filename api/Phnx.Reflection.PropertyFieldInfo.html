@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class PropertyFieldInfo
  ">
-  <meta name="generator" content="docfx 2.38.1.0">
+  <meta name="generator" content="docfx 2.40.5.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,7 +70,7 @@
   
   <h1 id="Phnx_Reflection_PropertyFieldInfo" data-uid="Phnx.Reflection.PropertyFieldInfo" class="text-break">Class PropertyFieldInfo
   </h1>
-  <div class="markdown level0 summary"><p>Reflection options to group <span class="xref">System.Reflection.PropertyInfo</span> and <span class="xref">System.Reflection.FieldInfo</span> under a common wrapper, as <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_GetValue_System_Object_">GetValue(Object)</a>, <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_SetValue_System_Object_System_Object_">SetValue(Object, Object)</a> and other options are shared</p>
+  <div class="markdown level0 summary"><p>Reflection options to group <see cref="!:PropertyInfo"></see> and <see cref="!:FieldInfo"></see> under a common wrapper, as <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_GetValue_System_Object_">GetValue(Object)</a>, <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_SetValue_System_Object_System_Object_">SetValue(Object, Object)</a> and other options are shared</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -78,30 +78,6 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">PropertyFieldInfo</span></div>
       <div class="level2"><a class="xref" href="Phnx.Reflection.PropertyFieldInfo-2.html">PropertyFieldInfo&lt;T, U&gt;</a></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   
   <h5 class="underline">
@@ -112,7 +88,7 @@
   <div><strong>Assembly</strong>: Phnx.Reflection.dll</div>
   
   <h5 id="Phnx_Reflection_PropertyFieldInfo_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class PropertyFieldInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public class PropertyFieldInfo : object</code></pre>
   <h3 id="constructors">
   	Constructors
   </h3>
@@ -124,8 +100,8 @@
   <h5 class="decalaration">Declaration</h5>
   	<pre><code class="lang-csharp hljs">protected PropertyFieldInfo()</code></pre>
   	<a id="Phnx_Reflection_PropertyFieldInfo__ctor_" data-uid="Phnx.Reflection.PropertyFieldInfo.#ctor*"></a>
-  <h4 id="Phnx_Reflection_PropertyFieldInfo__ctor_System_Reflection_FieldInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo.#ctor(System.Reflection.FieldInfo)">PropertyFieldInfo(FieldInfo)</h4>
-  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> from a <span class="xref">System.Reflection.FieldInfo</span></p>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo__ctor_FieldInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo.#ctor(FieldInfo)">PropertyFieldInfo(FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> from a <see cref="!:FieldInfo"></see></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -141,7 +117,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="xref">FieldInfo</span></td>
         <td><span class="parametername">field</span></td>
         <td><p>The field</p>
 </td>
@@ -149,8 +125,8 @@
     </tbody>
   </table>
   	<a id="Phnx_Reflection_PropertyFieldInfo__ctor_" data-uid="Phnx.Reflection.PropertyFieldInfo.#ctor*"></a>
-  <h4 id="Phnx_Reflection_PropertyFieldInfo__ctor_System_Reflection_MemberInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo.#ctor(System.Reflection.MemberInfo)">PropertyFieldInfo(MemberInfo)</h4>
-  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> from a <span class="xref">System.Reflection.MemberInfo</span></p>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo__ctor_MemberInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo.#ctor(MemberInfo)">PropertyFieldInfo(MemberInfo)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> from a <see cref="!:MemberInfo"></see></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -166,32 +142,16 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.MemberInfo</span></td>
+        <td><span class="xref">MemberInfo</span></td>
         <td><span class="parametername">member</span></td>
-        <td><p>The meber (must be either a <span class="xref">System.Reflection.PropertyInfo</span> or a <span class="xref">System.Reflection.FieldInfo</span>)</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>The member is not a property or field</p>
+        <td><p>The meber (must be either a <see cref="!:PropertyInfo"></see> or a <see cref="!:FieldInfo"></see>)</p>
 </td>
       </tr>
     </tbody>
   </table>
   	<a id="Phnx_Reflection_PropertyFieldInfo__ctor_" data-uid="Phnx.Reflection.PropertyFieldInfo.#ctor*"></a>
-  <h4 id="Phnx_Reflection_PropertyFieldInfo__ctor_System_Reflection_PropertyInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo.#ctor(System.Reflection.PropertyInfo)">PropertyFieldInfo(PropertyInfo)</h4>
-  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> from a <span class="xref">System.Reflection.PropertyInfo</span></p>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo__ctor_PropertyInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo.#ctor(PropertyInfo)">PropertyFieldInfo(PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> from a <see cref="!:PropertyInfo"></see></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -207,7 +167,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="xref">PropertyInfo</span></td>
         <td><span class="parametername">property</span></td>
         <td><p>The property</p>
 </td>
@@ -263,7 +223,7 @@
   </table>
   	<a id="Phnx_Reflection_PropertyFieldInfo_Field_" data-uid="Phnx.Reflection.PropertyFieldInfo.Field*"></a>
   <h4 id="Phnx_Reflection_PropertyFieldInfo_Field" data-uid="Phnx.Reflection.PropertyFieldInfo.Field">Field</h4>
-  <div class="markdown level1 summary"><p>The <span class="xref">System.Reflection.FieldInfo</span> that this represents. If this represents a <span class="xref">System.Reflection.PropertyInfo</span>, this is <span class="xref">null</span></p>
+  <div class="markdown level1 summary"><p>The <see cref="!:FieldInfo"></see> that this represents. If this represents a <see cref="!:PropertyInfo"></see>, this is <span class="xref">null</span></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -278,7 +238,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="xref">FieldInfo</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -307,7 +267,7 @@
   </table>
   	<a id="Phnx_Reflection_PropertyFieldInfo_IsProperty_" data-uid="Phnx.Reflection.PropertyFieldInfo.IsProperty*"></a>
   <h4 id="Phnx_Reflection_PropertyFieldInfo_IsProperty" data-uid="Phnx.Reflection.PropertyFieldInfo.IsProperty">IsProperty</h4>
-  <div class="markdown level1 summary"><p>Whether this is a <span class="xref">System.Reflection.PropertyInfo</span></p>
+  <div class="markdown level1 summary"><p>Whether this is a <see cref="!:PropertyInfo"></see></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -344,7 +304,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.MemberInfo</span></td>
+        <td><span class="xref">MemberInfo</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -373,7 +333,7 @@
   </table>
   	<a id="Phnx_Reflection_PropertyFieldInfo_Property_" data-uid="Phnx.Reflection.PropertyFieldInfo.Property*"></a>
   <h4 id="Phnx_Reflection_PropertyFieldInfo_Property" data-uid="Phnx.Reflection.PropertyFieldInfo.Property">Property</h4>
-  <div class="markdown level1 summary"><p>The <span class="xref">System.Reflection.PropertyInfo</span> that this represents. If this represents a <span class="xref">System.Reflection.FieldInfo</span>, this is <span class="xref">null</span></p>
+  <div class="markdown level1 summary"><p>The <see cref="!:PropertyInfo"></see> that this represents. If this represents a <see cref="!:FieldInfo"></see>, this is <span class="xref">null</span></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -388,7 +348,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="xref">PropertyInfo</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -410,7 +370,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -459,40 +419,9 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>The property&apos;s <span class="xref">langword_csharp_get</span> accessor is not found</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Reflection.TargetException</span></td>
-        <td><p>In the .NET for Windows Store apps or the Portable Class Library, catch <span class="xref">System.Exception</span> instead. The member is an instance member but <code data-dev-comment-type="paramref" class="paramref">baseObject</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.MethodAccessException</span></td>
-        <td><p>There was an illegal attempt to access a private or protected method inside a class</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Reflection.TargetInvocationException</span></td>
-        <td><p>An error occurred while retrieving the property value. The <span class="xref">System.Exception.InnerException</span> property indicates the reason for the error</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   	<a id="Phnx_Reflection_PropertyFieldInfo_LoadMember_" data-uid="Phnx.Reflection.PropertyFieldInfo.LoadMember*"></a>
-  <h4 id="Phnx_Reflection_PropertyFieldInfo_LoadMember_System_Reflection_MemberInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo.LoadMember(System.Reflection.MemberInfo)">LoadMember(MemberInfo)</h4>
-  <div class="markdown level1 summary"><p>Loads a <span class="xref">System.Reflection.MemberInfo</span> onto either <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_Property">Property</a> or <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_Field">Field</a> depending on whichever it represents</p>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_LoadMember_MemberInfo_" data-uid="Phnx.Reflection.PropertyFieldInfo.LoadMember(MemberInfo)">LoadMember(MemberInfo)</h4>
+  <div class="markdown level1 summary"><p>Loads a <see cref="!:MemberInfo"></see> onto either <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_Property">Property</a> or <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html#Phnx_Reflection_PropertyFieldInfo_Field">Field</a> depending on whichever it represents</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -508,25 +437,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.MemberInfo</span></td>
+        <td><span class="xref">MemberInfo</span></td>
         <td><span class="parametername">member</span></td>
         <td><p>The member to load</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>The member is not a property or field</p>
 </td>
       </tr>
     </tbody>
@@ -562,43 +475,12 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>The property&apos;s <span class="xref">langword_csharp_set</span> accessor is not found</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Reflection.TargetException</span></td>
-        <td><p>The member is an instance member but <code data-dev-comment-type="paramref" class="paramref">baseObject</code> is <span class="xref">null</span></p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.MethodAccessException</span></td>
-        <td><p>There was an illegal attempt to access a private or protected method inside a class</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Reflection.TargetInvocationException</span></td>
-        <td><p>An error occurred while setting the property value. The <span class="xref">System.Exception.InnerException</span> property indicates the reason for the error</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="operators">
   	Operators
   </h3>
   	<a id="Phnx_Reflection_PropertyFieldInfo_op_Explicit_" data-uid="Phnx.Reflection.PropertyFieldInfo.op_Explicit*"></a>
-  <h4 id="Phnx_Reflection_PropertyFieldInfo_op_Explicit_Phnx_Reflection_PropertyFieldInfo__System_Reflection_FieldInfo" data-uid="Phnx.Reflection.PropertyFieldInfo.op_Explicit(Phnx.Reflection.PropertyFieldInfo)~System.Reflection.FieldInfo">Explicit(PropertyFieldInfo to FieldInfo)</h4>
-  <div class="markdown level1 summary"><p>Converts this <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> to a <span class="xref">System.Reflection.FieldInfo</span></p>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_op_Explicit_Phnx_Reflection_PropertyFieldInfo__FieldInfo" data-uid="Phnx.Reflection.PropertyFieldInfo.op_Explicit(Phnx.Reflection.PropertyFieldInfo)~FieldInfo">Explicit(PropertyFieldInfo to FieldInfo)</h4>
+  <div class="markdown level1 summary"><p>Converts this <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> to a <see cref="!:FieldInfo"></see></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -631,30 +513,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.FieldInfo</span></td>
+        <td><span class="xref">FieldInfo</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.InvalidCastException</span></td>
-        <td><p>The member was not a field</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   	<a id="Phnx_Reflection_PropertyFieldInfo_op_Explicit_" data-uid="Phnx.Reflection.PropertyFieldInfo.op_Explicit*"></a>
-  <h4 id="Phnx_Reflection_PropertyFieldInfo_op_Explicit_Phnx_Reflection_PropertyFieldInfo__System_Reflection_MemberInfo" data-uid="Phnx.Reflection.PropertyFieldInfo.op_Explicit(Phnx.Reflection.PropertyFieldInfo)~System.Reflection.MemberInfo">Explicit(PropertyFieldInfo to MemberInfo)</h4>
-  <div class="markdown level1 summary"><p>Converts this <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> to a <span class="xref">System.Reflection.FieldInfo</span></p>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_op_Explicit_Phnx_Reflection_PropertyFieldInfo__MemberInfo" data-uid="Phnx.Reflection.PropertyFieldInfo.op_Explicit(Phnx.Reflection.PropertyFieldInfo)~MemberInfo">Explicit(PropertyFieldInfo to MemberInfo)</h4>
+  <div class="markdown level1 summary"><p>Converts this <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> to a <see cref="!:FieldInfo"></see></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -687,14 +553,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.MemberInfo</span></td>
+        <td><span class="xref">MemberInfo</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   	<a id="Phnx_Reflection_PropertyFieldInfo_op_Explicit_" data-uid="Phnx.Reflection.PropertyFieldInfo.op_Explicit*"></a>
-  <h4 id="Phnx_Reflection_PropertyFieldInfo_op_Explicit_Phnx_Reflection_PropertyFieldInfo__System_Reflection_PropertyInfo" data-uid="Phnx.Reflection.PropertyFieldInfo.op_Explicit(Phnx.Reflection.PropertyFieldInfo)~System.Reflection.PropertyInfo">Explicit(PropertyFieldInfo to PropertyInfo)</h4>
-  <div class="markdown level1 summary"><p>Converts this <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> to a <span class="xref">System.Reflection.PropertyInfo</span></p>
+  <h4 id="Phnx_Reflection_PropertyFieldInfo_op_Explicit_Phnx_Reflection_PropertyFieldInfo__PropertyInfo" data-uid="Phnx.Reflection.PropertyFieldInfo.op_Explicit(Phnx.Reflection.PropertyFieldInfo)~PropertyInfo">Explicit(PropertyFieldInfo to PropertyInfo)</h4>
+  <div class="markdown level1 summary"><p>Converts this <a class="xref" href="Phnx.Reflection.PropertyFieldInfo.html">PropertyFieldInfo</a> to a <see cref="!:PropertyInfo"></see></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -727,34 +593,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
+        <td><span class="xref">PropertyInfo</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.InvalidCastException</span></td>
-        <td><p>The member was not a property</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
-  </div>
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
   </div>
@@ -767,6 +611,12 @@
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
   </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
 </article>
 					
 					<div class="hidden-sm col-md-2" role="complementary">
@@ -774,7 +624,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Reflection/Phnx.Reflection/PropertyFieldInfo.cs/#L9" class="contribution-link">View Source</a>
+					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Reflection/Phnx.Reflection/PropertyFieldInfo.cs/#L9" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

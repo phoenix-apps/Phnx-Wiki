@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class ApiResponse
  ">
-  <meta name="generator" content="docfx 2.38.1.0">
+  <meta name="generator" content="docfx 2.40.5.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -79,30 +79,6 @@
     <div class="level1"><span class="xref">ApiResponse</span></div>
       <div class="level2"><a class="xref" href="Phnx.Web.Models.ApiResponseJson-1.html">ApiResponseJson&lt;T&gt;</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   
   <h5 class="underline">
   Location
@@ -112,13 +88,13 @@
   <div><strong>Assembly</strong>: Phnx.Web.dll</div>
   
   <h5 id="Phnx_Web_Models_ApiResponse_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class ApiResponse</code></pre>
+    <pre><code class="lang-csharp hljs">public class ApiResponse : object</code></pre>
   <h3 id="constructors">
   	Constructors
   </h3>
   	<a id="Phnx_Web_Models_ApiResponse__ctor_" data-uid="Phnx.Web.Models.ApiResponse.#ctor*"></a>
-  <h4 id="Phnx_Web_Models_ApiResponse__ctor_System_Net_Http_HttpResponseMessage_" data-uid="Phnx.Web.Models.ApiResponse.#ctor(System.Net.Http.HttpResponseMessage)">ApiResponse(HttpResponseMessage)</h4>
-  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Web.Models.ApiResponse.html">ApiResponse</a> from a <span class="xref">System.Net.Http.HttpResponseMessage</span>, copying the relevant values</p>
+  <h4 id="Phnx_Web_Models_ApiResponse__ctor_HttpResponseMessage_" data-uid="Phnx.Web.Models.ApiResponse.#ctor(HttpResponseMessage)">ApiResponse(HttpResponseMessage)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Web.Models.ApiResponse.html">ApiResponse</a> from a <see cref="!:HttpResponseMessage"></see>, copying the relevant values</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -134,7 +110,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Net.Http.HttpResponseMessage</span></td>
+        <td><span class="xref">HttpResponseMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to create the response from</p>
 </td>
@@ -161,7 +137,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Net.Http.Headers.HttpResponseHeaders</span></td>
+        <td><span class="xref">HttpResponseHeaders</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -205,7 +181,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Net.Http.HttpResponseMessage</span></td>
+        <td><span class="xref">HttpResponseMessage</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -227,7 +203,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Net.HttpStatusCode</span></td>
+        <td><span class="xref">HttpStatusCode</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -252,7 +228,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><p>The body of <a class="xref" href="Phnx.Web.Models.ApiResponse.html#Phnx_Web_Models_ApiResponse_Message">Message</a> or <span class="xref">null</span> if <a class="xref" href="Phnx.Web.Models.ApiResponse.html#Phnx_Web_Models_ApiResponse_Message">Message</a> is <span class="xref">null</span></p>
 </td>
       </tr>
@@ -281,12 +257,12 @@
     </tbody>
   </table>
   	<a id="Phnx_Web_Models_ApiResponse_ThrowIfStatusCodeIsNot_" data-uid="Phnx.Web.Models.ApiResponse.ThrowIfStatusCodeIsNot*"></a>
-  <h4 id="Phnx_Web_Models_ApiResponse_ThrowIfStatusCodeIsNot_System_Collections_Generic_IEnumerable_System_Net_HttpStatusCode__" data-uid="Phnx.Web.Models.ApiResponse.ThrowIfStatusCodeIsNot(System.Collections.Generic.IEnumerable{System.Net.HttpStatusCode})">ThrowIfStatusCodeIsNot(IEnumerable&lt;HttpStatusCode&gt;)</h4>
+  <h4 id="Phnx_Web_Models_ApiResponse_ThrowIfStatusCodeIsNot_HttpStatusCode___" data-uid="Phnx.Web.Models.ApiResponse.ThrowIfStatusCodeIsNot(HttpStatusCode[])">ThrowIfStatusCodeIsNot(HttpStatusCode[])</h4>
   <div class="markdown level1 summary"><p>Throw an exception if the <a class="xref" href="Phnx.Web.Models.ApiResponse.html#Phnx_Web_Models_ApiResponse_StatusCode">StatusCode</a> is not one of a range of values</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  	<pre><code class="lang-csharp hljs">public void ThrowIfStatusCodeIsNot(IEnumerable&lt;HttpStatusCode&gt; successCodes)</code></pre>
+  	<pre><code class="lang-csharp hljs">public void ThrowIfStatusCodeIsNot(params HttpStatusCode[] successCodes)</code></pre>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -298,7 +274,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Net.HttpStatusCode</span>&gt;</td>
+        <td><span class="xref">HttpStatusCode</span>[]</td>
         <td><span class="parametername">successCodes</span></td>
         <td><p>The range of values to check</p>
 </td>
@@ -322,12 +298,12 @@
     </tbody>
   </table>
   	<a id="Phnx_Web_Models_ApiResponse_ThrowIfStatusCodeIsNot_" data-uid="Phnx.Web.Models.ApiResponse.ThrowIfStatusCodeIsNot*"></a>
-  <h4 id="Phnx_Web_Models_ApiResponse_ThrowIfStatusCodeIsNot_System_Net_HttpStatusCode___" data-uid="Phnx.Web.Models.ApiResponse.ThrowIfStatusCodeIsNot(System.Net.HttpStatusCode[])">ThrowIfStatusCodeIsNot(HttpStatusCode[])</h4>
+  <h4 id="Phnx_Web_Models_ApiResponse_ThrowIfStatusCodeIsNot_IEnumerable_HttpStatusCode__" data-uid="Phnx.Web.Models.ApiResponse.ThrowIfStatusCodeIsNot(IEnumerable{HttpStatusCode})">ThrowIfStatusCodeIsNot(IEnumerable&lt;HttpStatusCode&gt;)</h4>
   <div class="markdown level1 summary"><p>Throw an exception if the <a class="xref" href="Phnx.Web.Models.ApiResponse.html#Phnx_Web_Models_ApiResponse_StatusCode">StatusCode</a> is not one of a range of values</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  	<pre><code class="lang-csharp hljs">public void ThrowIfStatusCodeIsNot(params HttpStatusCode[] successCodes)</code></pre>
+  	<pre><code class="lang-csharp hljs">public void ThrowIfStatusCodeIsNot(IEnumerable&lt;HttpStatusCode&gt; successCodes)</code></pre>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -339,7 +315,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Net.HttpStatusCode</span>[]</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">HttpStatusCode</span>&gt;</td>
         <td><span class="parametername">successCodes</span></td>
         <td><p>The range of values to check</p>
 </td>
@@ -364,12 +340,6 @@
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
-  </div>
-  <div>
-      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
-  </div>
-  <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
   </div>
   <div>
@@ -381,6 +351,12 @@
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_SingleToIEnumerable__1___0_">ObjectExtensions.SingleToIEnumerable&lt;T&gt;(T)</a>
   </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_DeepCopy__1___0_">ObjectExtensions.DeepCopy&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Serialization.ObjectExtensions.html#Phnx_Serialization_ObjectExtensions_ShallowCopy__1___0_">ObjectExtensions.ShallowCopy&lt;T&gt;(T)</a>
+  </div>
 </article>
 					
 					<div class="hidden-sm col-md-2" role="complementary">
@@ -388,7 +364,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Web/Phnx.Web/Models/ApiResponse.cs/#L13" class="contribution-link">View Source</a>
+					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Web/Phnx.Web/Models/ApiResponse.cs/#L13" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>
