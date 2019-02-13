@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+	<script type="text/javascript" src="../styles/docfx.theme.js"></script>
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Phnx.IO.Json </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="Phnx.IO.Json ">
+  <meta name="generator" content="docfx 2.38.1.0">
+  
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="stylesheet" href="../styles/docfx.vendor.css">
+  <link rel="stylesheet" href="../styles/docfx.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <meta property="docfx:navrel" content="../toc.html">
+  <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+</head>
+	<body data-spy="scroll" data-target="#affix" data-offset="120">
+		<div id="wrapper">
+			<header>
+					
+					<nav class="navbar navbar-light navbar-expand-lg bg-light">
+						
+						<a class="navbar-brand" href="../index.html">
+						  <img id="logo" width="40" height="40" class="svg" src="../logo.png" alt="">
+						</a>
+					
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse" id="navbar">
+							<form class="form-inline" role="search" id="search">
+								<input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+							</form>
+						</div>
+					</nav>
+					
+					<div class="subnav navbar navbar-default">
+					  <div class="hide-when-search" id="breadcrumb">
+					    <ul class="breadcrumb">
+					      <li class="breadcrumb-item"></li>
+					    </ul>
+					  </div>
+					
+					  <img class="js-switch-theme theme-display" id="js-current-theme" data-dark-src="../dark-theme-icon.png" data-light-src="../light-theme-icon.png">
+					  
+					</div>
+			</header>
+			<div class="fake-header"></div>
+			<div role="main" class="hide-when-search">
+					
+					<div class="sidenav hide-when-search">
+					  <a class="btn btn-outline-light toc-toggle" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+					  <div class="sidetoggle collapse" id="sidetoggle">
+					    <div id="sidetoc"></div>
+					  </div>
+					  <hr class="toggle-break">
+					</div>
+				<article class="content wrap" id="_content" data-uid="">
+<h1 id="phnxiojson">Phnx.IO.Json</h1>
+
+<p>This library contains tools to help you stream JSON data</p>
+<h1 id="quick-examples">Quick Examples</h1>
+<p>For a full list of all things possible with Phnx.IO.Json, please check the <a href="https://phoenix-apps.github.io/Phnx-Wiki/api/Phnx.IO.Json.html">API reference guide</a></p>
+<h2 id="json-stream-reader">Json Stream Reader</h2>
+<pre><code class="lang-cs">// Use the stream you want to read from
+byte[] jsonAsBytes = Encoding.UTF8.GetBytes(
+    &quot;{id: 5, value: \&quot;Sample\&quot;}&quot; +
+    &quot;{id: 17, value: \&quot;Sample 2\&quot;}&quot;);
+MemoryStream inMemoryData = new MemoryStream(jsonAsBytes);
+TextReader dataSource = new StreamReader(inMemoryData);
+
+using (JsonStreamReader reader = new JsonStreamReader(dataSource, true))
+{
+    string rawJson = reader.ReadJson(Formatting.Indented);
+
+    /* Output:
+    {
+        id: 5,
+        value: &quot;Sample&quot;
+    }
+    */
+    Console.WriteLine(rawJson);
+
+    rawJson = reader.ReadJson();
+
+    // Output: { id: 17, value: &quot;Sample 2&quot; }
+    Console.WriteLine(rawJson);
+}
+</code></pre><h2 id="json-stream-writer">Json Stream Writer</h2>
+<pre><code class="lang-cs">MemoryStream inMemoryData = new MemoryStream();
+TextReader dataOutput = new StreamReader(inMemoryData);
+
+using (JsonStreamWriter writer = new JsonStreamWriter(dataOutput, true))
+{
+    // Write raw JSON
+    writer.Write(&quot;{id: 5, value: \&quot;Sample\&quot;}&quot;);
+
+    // Write any object
+    writer.Write(new
+    {
+        id = 17,
+        value = &quot;Sample 2&quot;
+    });
+
+    // Auto-flushes data, and disposes the dataOutput stream
+}
+</code></pre></article>
+					
+					<div class="hidden-sm col-md-2" role="complementary">
+					  <div class="sideaffix">
+					    <div class="contribution">
+					      <ul class="nav">
+					      </ul>
+					    </div>
+					    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+					    <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+					    </nav>
+					  </div>
+					</div>
+			</div>
+		</div>
+		<div class="fake-base"></div>
+				
+				<footer>
+				  <div class="grad-bottom"></div>
+				  <div class="footer">
+					<span class="to-top">
+					<a href="#top">Back to top</a>
+					</span>
+					
+					
+				  </div>
+				</footer>
+		
+		
+		<script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+		<script type="text/javascript" src="../styles/docfx.js"></script>
+		<script type="text/javascript" src="../styles/main.js"></script>
+	</body>
+</html>
