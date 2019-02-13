@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class PropertyInfoExtensions
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,13 +70,37 @@
   
   <h1 id="Phnx_Reflection_PropertyInfoExtensions" data-uid="Phnx.Reflection.PropertyInfoExtensions" class="text-break">Class PropertyInfoExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <see cref="!:PropertyInfo"></see></p>
+  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Reflection.PropertyInfo</span></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">PropertyInfoExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   
   <h5 class="underline">
@@ -87,12 +111,12 @@
   <div><strong>Assembly</strong>: Phnx.Reflection.dll</div>
   
   <h5 id="Phnx_Reflection_PropertyInfoExtensions_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public static class PropertyInfoExtensions : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class PropertyInfoExtensions</code></pre>
   <h3 id="methods">
   	Methods
   </h3>
   	<a id="Phnx_Reflection_PropertyInfoExtensions_IsAuto_" data-uid="Phnx.Reflection.PropertyInfoExtensions.IsAuto*"></a>
-  <h4 id="Phnx_Reflection_PropertyInfoExtensions_IsAuto_PropertyInfo_" data-uid="Phnx.Reflection.PropertyInfoExtensions.IsAuto(PropertyInfo)">IsAuto(PropertyInfo)</h4>
+  <h4 id="Phnx_Reflection_PropertyInfoExtensions_IsAuto_System_Reflection_PropertyInfo_" data-uid="Phnx.Reflection.PropertyInfoExtensions.IsAuto(System.Reflection.PropertyInfo)">IsAuto(PropertyInfo)</h4>
   <div class="markdown level1 summary"><p>Get whether this property is an auto property ({ get; set; })</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -109,7 +133,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">PropertyInfo</span></td>
+        <td><span class="xref">System.Reflection.PropertyInfo</span></td>
         <td><span class="parametername">property</span></td>
         <td><p>The property to check</p>
 </td>
@@ -132,6 +156,27 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">property</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>The requested method is non-public and the caller does not have the <span class="xref">System.Security.Permissions.ReflectionPermission</span> to reflect on this non-public method</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
 					
 					<div class="hidden-sm col-md-2" role="complementary">
@@ -139,7 +184,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Reflection/Phnx.Reflection/Extensions/PropertyInfoExtensions.cs/#L11" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Reflection/Phnx.Reflection/Extensions/PropertyInfoExtensions.cs/#L11" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

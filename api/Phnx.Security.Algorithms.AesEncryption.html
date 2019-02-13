@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class AesEncryption
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -92,6 +92,27 @@
     <div>
       <a class="xref" href="Phnx.Security.Algorithms.SymmetricEncryption.html#Phnx_Security_Algorithms_SymmetricEncryption_Decrypt_System_Byte___System_Byte___">SymmetricEncryption.Decrypt(Byte[], Byte[])</a>
     </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   
   <h5 class="underline">
@@ -111,7 +132,7 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  	<pre><code class="lang-csharp hljs">public const int IvBits = null</code></pre>
+  	<pre><code class="lang-csharp hljs">public const int IvBits = 128</code></pre>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -132,7 +153,7 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  	<pre><code class="lang-csharp hljs">public const int KeyBits = null</code></pre>
+  	<pre><code class="lang-csharp hljs">public const int KeyBits = 256</code></pre>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -202,7 +223,7 @@
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Phnx.Security.Algorithms.SymmetricEncryption.html#Phnx_Security_Algorithms_SymmetricEncryption_CreateRandomKey">SymmetricEncryption.CreateRandomKey()</a></div>
   	<a id="Phnx_Security_Algorithms_AesEncryption_Decrypt_" data-uid="Phnx.Security.Algorithms.AesEncryption.Decrypt*"></a>
-  <h4 id="Phnx_Security_Algorithms_AesEncryption_Decrypt_Stream_System_Byte___System_Byte___Stream_" data-uid="Phnx.Security.Algorithms.AesEncryption.Decrypt(Stream,System.Byte[],System.Byte[],Stream)">Decrypt(Stream, Byte[], Byte[], Stream)</h4>
+  <h4 id="Phnx_Security_Algorithms_AesEncryption_Decrypt_System_IO_Stream_System_Byte___System_Byte___System_IO_Stream_" data-uid="Phnx.Security.Algorithms.AesEncryption.Decrypt(System.IO.Stream,System.Byte[],System.Byte[],System.IO.Stream)">Decrypt(Stream, Byte[], Byte[], Stream)</h4>
   <div class="markdown level1 summary"><p>Decrypt data using a key</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -219,7 +240,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">input</span></td>
         <td><p>The stream which contains the data to decrypt</p>
 </td>
@@ -237,7 +258,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">output</span></td>
         <td><p>Where to output the decrypted bytes</p>
 </td>
@@ -245,9 +266,30 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Phnx.Security.Algorithms.SymmetricEncryption.html#Phnx_Security_Algorithms_SymmetricEncryption_Decrypt_Stream_System_Byte___System_Byte___Stream_">SymmetricEncryption.Decrypt(Stream, Byte[], Byte[], Stream)</a></div>
+  <div><a class="xref" href="Phnx.Security.Algorithms.SymmetricEncryption.html#Phnx_Security_Algorithms_SymmetricEncryption_Decrypt_System_IO_Stream_System_Byte___System_Byte___System_IO_Stream_">SymmetricEncryption.Decrypt(Stream, Byte[], Byte[], Stream)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> or <code data-dev-comment-type="paramref" class="paramref">key</code> or <code data-dev-comment-type="paramref" class="paramref">iv</code> or <code data-dev-comment-type="paramref" class="paramref">output</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> does not support read or <code data-dev-comment-type="paramref" class="paramref">output</code> does not support write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_Security_Algorithms_AesEncryption_Encrypt_" data-uid="Phnx.Security.Algorithms.AesEncryption.Encrypt*"></a>
-  <h4 id="Phnx_Security_Algorithms_AesEncryption_Encrypt_Stream_System_Byte___System_Byte___Stream_" data-uid="Phnx.Security.Algorithms.AesEncryption.Encrypt(Stream,System.Byte[],System.Byte[],Stream)">Encrypt(Stream, Byte[], Byte[], Stream)</h4>
+  <h4 id="Phnx_Security_Algorithms_AesEncryption_Encrypt_System_IO_Stream_System_Byte___System_Byte___System_IO_Stream_" data-uid="Phnx.Security.Algorithms.AesEncryption.Encrypt(System.IO.Stream,System.Byte[],System.Byte[],System.IO.Stream)">Encrypt(Stream, Byte[], Byte[], Stream)</h4>
   <div class="markdown level1 summary"><p>Encrypt data using a key</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -264,7 +306,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">input</span></td>
         <td><p>The stream which contains the data to encrypt</p>
 </td>
@@ -282,7 +324,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">output</span></td>
         <td><p>Where to output the encrypted bytes</p>
 </td>
@@ -290,7 +332,28 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Phnx.Security.Algorithms.SymmetricEncryption.html#Phnx_Security_Algorithms_SymmetricEncryption_Encrypt_Stream_System_Byte___System_Byte___Stream_">SymmetricEncryption.Encrypt(Stream, Byte[], Byte[], Stream)</a></div>
+  <div><a class="xref" href="Phnx.Security.Algorithms.SymmetricEncryption.html#Phnx_Security_Algorithms_SymmetricEncryption_Encrypt_System_IO_Stream_System_Byte___System_Byte___System_IO_Stream_">SymmetricEncryption.Encrypt(Stream, Byte[], Byte[], Stream)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> or <code data-dev-comment-type="paramref" class="paramref">key</code> or <code data-dev-comment-type="paramref" class="paramref">iv</code> or <code data-dev-comment-type="paramref" class="paramref">output</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">input</code> does not support read or <code data-dev-comment-type="paramref" class="paramref">output</code> does not support write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryption.html">ISymmetricEncryption</a>
@@ -299,6 +362,30 @@
       <a class="xref" href="Phnx.Security.Algorithms.IEncryption.html">IEncryption</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IEncryptionExtensions.html#Phnx_Security_Algorithms_IEncryptionExtensions_Encrypt_Phnx_Security_Algorithms_IEncryption_System_String_System_Byte___System_Text_Encoding_">IEncryptionExtensions.Encrypt(IEncryption, String, Byte[], Encoding)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IEncryptionExtensions.html#Phnx_Security_Algorithms_IEncryptionExtensions_Decrypt_Phnx_Security_Algorithms_IEncryption_System_Byte___System_Byte___System_Text_Encoding_">IEncryptionExtensions.Decrypt(IEncryption, Byte[], Byte[], Encoding)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_WriteIvHeader_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_IO_Stream_">ISymmetricEncryptionExtensions.WriteIvHeader(ISymmetricEncryption, Byte[], Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_ReadIvHeader_Phnx_Security_Algorithms_ISymmetricEncryption_System_IO_Stream_">ISymmetricEncryptionExtensions.ReadIvHeader(ISymmetricEncryption, Stream)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_Encrypt_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_Byte___System_Byte___">ISymmetricEncryptionExtensions.Encrypt(ISymmetricEncryption, Byte[], Byte[], Byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_Encrypt_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_Int32_System_Int32_System_Byte___System_Byte___">ISymmetricEncryptionExtensions.Encrypt(ISymmetricEncryption, Byte[], Int32, Int32, Byte[], Byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_Decrypt_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_Byte___System_Byte___">ISymmetricEncryptionExtensions.Decrypt(ISymmetricEncryption, Byte[], Byte[], Byte[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.html#Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_Decrypt_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_Int32_System_Int32_System_Byte___System_Byte___">ISymmetricEncryptionExtensions.Decrypt(ISymmetricEncryption, Byte[], Int32, Int32, Byte[], Byte[])</a>
+  </div>
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
   </div>
@@ -324,7 +411,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Security/Phnx.Security/Algorithms/AesEncryption.cs/#L11" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Security/Phnx.Security/Algorithms/AesEncryption.cs/#L11" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

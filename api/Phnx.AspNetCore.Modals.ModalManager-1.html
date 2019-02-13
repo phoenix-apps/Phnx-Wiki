@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class ModalManager&lt;TModal&gt;
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,6 +82,30 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Phnx.AspNetCore.Modals.IModalManager-1.html">IModalManager</a>&lt;TModal&gt;</div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   
   <h5 class="underline">
   Location
@@ -91,7 +115,7 @@
   <div><strong>Assembly</strong>: Phnx.AspNetCore.Modals.dll</div>
   
   <h5 id="Phnx_AspNetCore_Modals_ModalManager_1_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class ModalManager&lt;TModal&gt; : object, IModalManager&lt;TModal&gt; where TModal : IModalViewModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class ModalManager&lt;TModal&gt; : IModalManager&lt;TModal&gt; where TModal : IModalViewModel</code></pre>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -112,8 +136,8 @@
   	Constructors
   </h3>
   	<a id="Phnx_AspNetCore_Modals_ModalManager_1__ctor_" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.#ctor*"></a>
-  <h4 id="Phnx_AspNetCore_Modals_ModalManager_1__ctor_IHttpContextAccessor_" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.#ctor(IHttpContextAccessor)">ModalManager(IHttpContextAccessor)</h4>
-  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.AspNetCore.Modals.ModalManager-1.html">ModalManager&lt;TModal&gt;</a> using the <see cref="!:ISession"></see> to hold the modal data</p>
+  <h4 id="Phnx_AspNetCore_Modals_ModalManager_1__ctor_Microsoft_AspNetCore_Http_IHttpContextAccessor_" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)">ModalManager(IHttpContextAccessor)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.AspNetCore.Modals.ModalManager-1.html">ModalManager&lt;TModal&gt;</a> using the <span class="xref">Microsoft.AspNetCore.Http.ISession</span> to hold the modal data</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -129,7 +153,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IHttpContextAccessor</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Http.IHttpContextAccessor</span></td>
         <td><span class="parametername">contextAccessor</span></td>
         <td><p>The session storage in which all modals are stored</p>
 </td>
@@ -144,7 +168,7 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  	<pre><code class="lang-csharp hljs">public const string SessionModalsKey = null</code></pre>
+  	<pre><code class="lang-csharp hljs">public const string SessionModalsKey = &quot;Modals&quot;</code></pre>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -165,7 +189,7 @@
   </h3>
   	<a id="Phnx_AspNetCore_Modals_ModalManager_1_ContextAccessor_" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.ContextAccessor*"></a>
   <h4 id="Phnx_AspNetCore_Modals_ModalManager_1_ContextAccessor" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.ContextAccessor">ContextAccessor</h4>
-  <div class="markdown level1 summary"><p>The <see cref="!:IHttpContextAccessor"></see> to load the current <a class="xref" href="Phnx.AspNetCore.Modals.ModalManager-1.html#Phnx_AspNetCore_Modals_ModalManager_1_Session">Session</a> from</p>
+  <div class="markdown level1 summary"><p>The <span class="xref">Microsoft.AspNetCore.Http.IHttpContextAccessor</span> to load the current <a class="xref" href="Phnx.AspNetCore.Modals.ModalManager-1.html#Phnx_AspNetCore_Modals_ModalManager_1_Session">Session</a> from</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -180,14 +204,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IHttpContextAccessor</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Http.IHttpContextAccessor</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   	<a id="Phnx_AspNetCore_Modals_ModalManager_1_Session_" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.Session*"></a>
   <h4 id="Phnx_AspNetCore_Modals_ModalManager_1_Session" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.Session">Session</h4>
-  <div class="markdown level1 summary"><p>The current <see cref="!:ISession"></see> to store and load modals</p>
+  <div class="markdown level1 summary"><p>The current <span class="xref">Microsoft.AspNetCore.Http.ISession</span> to store and load modals</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -202,7 +226,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ISession</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Http.ISession</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -217,6 +241,21 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   	<pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><a class="xref" href="Phnx.AspNetCore.Modals.ModalManager-1.html#Phnx_AspNetCore_Modals_ModalManager_1_Session">Session</a> is <span class="xref">null</span></td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_AspNetCore_Modals_ModalManager_1_Get_" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.Get*"></a>
   <h4 id="Phnx_AspNetCore_Modals_ModalManager_1_Get" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.Get">Get()</h4>
   <div class="markdown level1 summary"><p>Get all the modals currently stored in this session</p>
@@ -234,13 +273,38 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;TModal&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;TModal&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><a class="xref" href="Phnx.AspNetCore.Modals.ModalManager-1.html#Phnx_AspNetCore_Modals_ModalManager_1_Session">Session</a> is <span class="xref">null</span></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidCastException</span></td>
+        <td><p>Data stored in session with key <a class="xref" href="Phnx.AspNetCore.Modals.ModalManager-1.html#Phnx_AspNetCore_Modals_ModalManager_1_SessionModalsKey">SessionModalsKey</a> is not of type <span class="xref">System.Collections.Generic.List&lt;T&gt;</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.SerializationException</span></td>
+        <td><p>Data stored in session with key <a class="xref" href="Phnx.AspNetCore.Modals.ModalManager-1.html#Phnx_AspNetCore_Modals_ModalManager_1_SessionModalsKey">SessionModalsKey</a> is not a valid serialized data structure</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_AspNetCore_Modals_ModalManager_1_Set_" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.Set*"></a>
-  <h4 id="Phnx_AspNetCore_Modals_ModalManager_1_Set_List__0__" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.Set(List{`0})">Set(List&lt;TModal&gt;)</h4>
+  <h4 id="Phnx_AspNetCore_Modals_ModalManager_1_Set_System_Collections_Generic_List__0__" data-uid="Phnx.AspNetCore.Modals.ModalManager`1.Set(System.Collections.Generic.List{`0})">Set(List&lt;TModal&gt;)</h4>
   <div class="markdown level1 summary"><p>Set all the modals currently stored in this session</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -257,9 +321,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;TModal&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;TModal&gt;</td>
         <td><span class="parametername">modals</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><a class="xref" href="Phnx.AspNetCore.Modals.ModalManager-1.html#Phnx_AspNetCore_Modals_ModalManager_1_Session">Session</a> is <span class="xref">null</span></td>
       </tr>
     </tbody>
   </table>
@@ -293,7 +372,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/AspNetCore/Modals/Phnx.AspNetCore.Modals/ModalManager.cs/#L13" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/AspNetCore/Modals/Phnx.AspNetCore.Modals/ModalManager.cs/#L14" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

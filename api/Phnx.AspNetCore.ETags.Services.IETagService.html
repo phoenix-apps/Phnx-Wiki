@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Interface IETagService
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -133,6 +133,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>Request ETag is set, and <code data-dev-comment-type="paramref" class="paramref">dataModel</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_AspNetCore_ETags_Services_IETagService_GetWeakETagForModel_" data-uid="Phnx.AspNetCore.ETags.Services.IETagService.GetWeakETagForModel*"></a>
   <h4 id="Phnx_AspNetCore_ETags_Services_IETagService_GetWeakETagForModel_System_Object_" data-uid="Phnx.AspNetCore.ETags.Services.IETagService.GetWeakETagForModel(System.Object)">GetWeakETagForModel(Object)</h4>
   <div class="markdown level1 summary"><p>Generates a weak ETag for <code data-dev-comment-type="paramref" class="paramref">data</code> by reflecting on its members and hashing them</p>
@@ -174,9 +190,25 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">data</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_AspNetCore_ETags_Services_IETagService_TryGetStrongETagForModel_" data-uid="Phnx.AspNetCore.ETags.Services.IETagService.TryGetStrongETagForModel*"></a>
   <h4 id="Phnx_AspNetCore_ETags_Services_IETagService_TryGetStrongETagForModel_System_Object_System_String__" data-uid="Phnx.AspNetCore.ETags.Services.IETagService.TryGetStrongETagForModel(System.Object,System.String@)">TryGetStrongETagForModel(Object, out String)</h4>
-  <div class="markdown level1 summary"><p>Get the strong ETag for <code data-dev-comment-type="paramref" class="paramref">data</code> by loading the value of the first member which has a <see cref="!:ConcurrencyCheckAttribute"></see></p>
+  <div class="markdown level1 summary"><p>Get the strong ETag for <code data-dev-comment-type="paramref" class="paramref">data</code> by loading the value of the first member which has a <span class="xref">System.ComponentModel.DataAnnotations.ConcurrencyCheckAttribute</span></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -221,6 +253,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">data</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
@@ -247,7 +295,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/AspNetCore/ETags/Phnx.AspNetCore.ETags/Services/Interfaces/IETagService.cs/#L9" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/AspNetCore/ETags/Phnx.AspNetCore.ETags/Services/Interfaces/IETagService.cs/#L9" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

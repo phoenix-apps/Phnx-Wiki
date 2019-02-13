@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class Pbkdf2Hash
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,6 +82,30 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Phnx.Security.Algorithms.IHashWithSalt.html">IHashWithSalt</a></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   
   <h5 class="underline">
   Location
@@ -91,7 +115,7 @@
   <div><strong>Assembly</strong>: Phnx.Security.dll</div>
   
   <h5 id="Phnx_Security_Algorithms_Pbkdf2Hash_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class Pbkdf2Hash : object, IHashWithSalt</code></pre>
+    <pre><code class="lang-csharp hljs">public class Pbkdf2Hash : IHashWithSalt</code></pre>
   <h3 id="constructors">
   	Constructors
   </h3>
@@ -110,7 +134,7 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  	<pre><code class="lang-csharp hljs">public const int HashBytesLength = null</code></pre>
+  	<pre><code class="lang-csharp hljs">public const int HashBytesLength = 128</code></pre>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -238,6 +262,11 @@
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">data</code> or <code data-dev-comment-type="paramref" class="paramref">salt</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="Phnx.ArgumentLessThanZeroException.html">ArgumentLessThanZeroException</a></td>
         <td><p><code data-dev-comment-type="paramref" class="paramref">numberOfIterations</code> is less than zero</p>
 </td>
@@ -249,6 +278,9 @@
       <a class="xref" href="Phnx.Security.Algorithms.IHashWithSalt.html">IHashWithSalt</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Security.Algorithms.IHashExtensions.html#Phnx_Security_Algorithms_IHashExtensions_Hash_Phnx_Security_Algorithms_IHashWithSalt_System_String_System_Byte___System_Text_Encoding_System_Int32_">IHashExtensions.Hash(IHashWithSalt, String, Byte[], Encoding, Int32)</a>
+  </div>
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
   </div>
@@ -274,7 +306,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Security/Phnx.Security/Algorithms/Pbkdf2Hash.cs/#L9" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Security/Phnx.Security/Algorithms/Pbkdf2Hash.cs/#L9" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

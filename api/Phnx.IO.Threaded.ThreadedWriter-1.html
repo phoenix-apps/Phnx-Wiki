@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class ThreadedWriter&lt;T&gt;
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,6 +78,34 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ThreadedWriter&lt;T&gt;</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   
   <h5 class="underline">
   Location
@@ -108,7 +136,7 @@
   	Constructors
   </h3>
   	<a id="Phnx_IO_Threaded_ThreadedWriter_1__ctor_" data-uid="Phnx.IO.Threaded.ThreadedWriter`1.#ctor*"></a>
-  <h4 id="Phnx_IO_Threaded_ThreadedWriter_1__ctor_Action__0__" data-uid="Phnx.IO.Threaded.ThreadedWriter`1.#ctor(Action{`0})">ThreadedWriter(Action&lt;T&gt;)</h4>
+  <h4 id="Phnx_IO_Threaded_ThreadedWriter_1__ctor_System_Action__0__" data-uid="Phnx.IO.Threaded.ThreadedWriter`1.#ctor(System.Action{`0})">ThreadedWriter(Action&lt;T&gt;)</h4>
   <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.IO.Threaded.ThreadedWriter-1.html">ThreadedWriter&lt;T&gt;</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -125,7 +153,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">writeFunc</span></td>
         <td><p>The function to use when writing data. This is ran from a different thread to the one that called <a class="xref" href="Phnx.IO.Threaded.ThreadedWriter-1.html#Phnx_IO_Threaded_ThreadedWriter_1_Write__0_">Write(T)</a> requests</p>
 </td>
@@ -133,7 +161,7 @@
     </tbody>
   </table>
   	<a id="Phnx_IO_Threaded_ThreadedWriter_1__ctor_" data-uid="Phnx.IO.Threaded.ThreadedWriter`1.#ctor*"></a>
-  <h4 id="Phnx_IO_Threaded_ThreadedWriter_1__ctor_Action__0__System_Int32_" data-uid="Phnx.IO.Threaded.ThreadedWriter`1.#ctor(Action{`0},System.Int32)">ThreadedWriter(Action&lt;T&gt;, Int32)</h4>
+  <h4 id="Phnx_IO_Threaded_ThreadedWriter_1__ctor_System_Action__0__System_Int32_" data-uid="Phnx.IO.Threaded.ThreadedWriter`1.#ctor(System.Action{`0},System.Int32)">ThreadedWriter(Action&lt;T&gt;, Int32)</h4>
   <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.IO.Threaded.ThreadedWriter-1.html">ThreadedWriter&lt;T&gt;</a> with a maximum queue size</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -150,7 +178,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">writeFunc</span></td>
         <td><p>The function to use when writing data. This is ran from a different thread to the one that called <a class="xref" href="Phnx.IO.Threaded.ThreadedWriter-1.html#Phnx_IO_Threaded_ThreadedWriter_1_Write__0_">Write(T)</a> requests</p>
 </td>
@@ -172,6 +200,11 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">writeFunc</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
       <tr>
         <td><a class="xref" href="Phnx.ArgumentLessThanZeroException.html">ArgumentLessThanZeroException</a></td>
         <td><p><code data-dev-comment-type="paramref" class="paramref">maximumQueueCount</code> is less than zero</p>
@@ -236,6 +269,22 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   	<pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>A writing error occured with one of the queued items</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_IO_Threaded_ThreadedWriter_1_Dispose_" data-uid="Phnx.IO.Threaded.ThreadedWriter`1.Dispose*"></a>
   <h4 id="Phnx_IO_Threaded_ThreadedWriter_1_Dispose_System_Boolean_" data-uid="Phnx.IO.Threaded.ThreadedWriter`1.Dispose(System.Boolean)">Dispose(Boolean)</h4>
   <div class="markdown level1 summary"><p>Diposes this object, ensuring that the writer thread has safely exited. Optionally finishes writing to the output stream any pending output</p>
@@ -257,6 +306,22 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">finishWriting</span></td>
         <td><p>Whether to finish writing to all background threads</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>A writing error occured with one of the queued items</p>
 </td>
       </tr>
     </tbody>
@@ -286,6 +351,31 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>This object was disposed before the write could be queued</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>Writer error</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
@@ -312,7 +402,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/IO/Threaded/Phnx.IO.Threaded/ThreadedWriter.cs/#L12" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/IO/Threaded/Phnx.IO.Threaded/ThreadedWriter.cs/#L12" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

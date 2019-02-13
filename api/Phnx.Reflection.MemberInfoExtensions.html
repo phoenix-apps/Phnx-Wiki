@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class MemberInfoExtensions
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,13 +70,37 @@
   
   <h1 id="Phnx_Reflection_MemberInfoExtensions" data-uid="Phnx.Reflection.MemberInfoExtensions" class="text-break">Class MemberInfoExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <see cref="!:MemberInfo"></see></p>
+  <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.Reflection.MemberInfo</span></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">MemberInfoExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   
   <h5 class="underline">
@@ -87,18 +111,17 @@
   <div><strong>Assembly</strong>: Phnx.Reflection.dll</div>
   
   <h5 id="Phnx_Reflection_MemberInfoExtensions_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public static class MemberInfoExtensions : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class MemberInfoExtensions</code></pre>
   <h3 id="methods">
   	Methods
   </h3>
   	<a id="Phnx_Reflection_MemberInfoExtensions_GetAttribute_" data-uid="Phnx.Reflection.MemberInfoExtensions.GetAttribute*"></a>
-  <h4 id="Phnx_Reflection_MemberInfoExtensions_GetAttribute__1_MemberInfo_" data-uid="Phnx.Reflection.MemberInfoExtensions.GetAttribute``1(MemberInfo)">GetAttribute&lt;T&gt;(MemberInfo)</h4>
+  <h4 id="Phnx_Reflection_MemberInfoExtensions_GetAttribute__1_System_Reflection_MemberInfo_" data-uid="Phnx.Reflection.MemberInfoExtensions.GetAttribute``1(System.Reflection.MemberInfo)">GetAttribute&lt;T&gt;(MemberInfo)</h4>
   <div class="markdown level1 summary"><p>Retrieves a custom attribute of a specified type that is applied to a specified member</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   	<pre><code class="lang-csharp hljs">public static T GetAttribute&lt;T&gt;(this MemberInfo member)
-
     where T : Attribute</code></pre>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,7 +134,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">MemberInfo</span></td>
+        <td><span class="xref">System.Reflection.MemberInfo</span></td>
         <td><span class="parametername">member</span></td>
         <td><p>The member to inspect</p>
 </td>
@@ -150,9 +173,40 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">member</code> is null</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.NotSupportedException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">member</code> is not a constructor, method, property, event, type, or field</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Reflection.AmbiguousMatchException</span></td>
+        <td><p>More than one of the requested attributes was found</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TypeLoadException</span></td>
+        <td><p>A custom attribute type cannot be loaded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_Reflection_MemberInfoExtensions_GetDisplayName_" data-uid="Phnx.Reflection.MemberInfoExtensions.GetDisplayName*"></a>
-  <h4 id="Phnx_Reflection_MemberInfoExtensions_GetDisplayName_MemberInfo_" data-uid="Phnx.Reflection.MemberInfoExtensions.GetDisplayName(MemberInfo)">GetDisplayName(MemberInfo)</h4>
-  <div class="markdown level1 summary"><p>Gets the display name for this member by looking for its <see cref="!:DisplayNameAttribute"></see> and <see cref="!:DisplayAttribute"></see></p>
+  <h4 id="Phnx_Reflection_MemberInfoExtensions_GetDisplayName_System_Reflection_MemberInfo_" data-uid="Phnx.Reflection.MemberInfoExtensions.GetDisplayName(System.Reflection.MemberInfo)">GetDisplayName(MemberInfo)</h4>
+  <div class="markdown level1 summary"><p>Gets the display name for this member by looking for its <span class="xref">System.ComponentModel.DisplayNameAttribute</span> and <span class="xref">System.ComponentModel.DataAnnotations.DisplayAttribute</span></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -168,7 +222,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">MemberInfo</span></td>
+        <td><span class="xref">System.Reflection.MemberInfo</span></td>
         <td><span class="parametername">member</span></td>
         <td><p>The member to get the display name of</p>
 </td>
@@ -198,7 +252,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Reflection/Phnx.Reflection/Extensions/MemberInfoExtensions.cs/#L11" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Reflection/Phnx.Reflection/Extensions/MemberInfoExtensions.cs/#L11" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

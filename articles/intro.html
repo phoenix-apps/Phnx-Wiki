@@ -9,7 +9,7 @@
   <title>Phnx </title>
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Phnx ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -68,32 +68,41 @@
 
 <p><code>Phnx</code> is a framework designed to work with the <code>.NET</code> family of libraries to take common tasks and code, and simplify them into easy to use and implement code. This ranges from simplifying password hashing to creating API requests.</p>
 <p>The framework is split into multiple packages, so that developers can pick and choose which parts of the framework they want to use, without needing to add the entire piece.</p>
+<p>If you don&#39;t want to pick which packages to download, and just want to quickly get started, download the <a href="https://www.nuget.org/packages/Phnx.All/">Phnx.All</a> package. This contains all of the .NET Standard packages including the following:</p>
+<ul>
+<li>Phnx</li>
+<li>Phnx.Benchmark</li>
+<li>Phnx.Collections</li>
+<li>Phnx.Console</li>
+<li>Phnx.Data</li>
+<li>Phnx.Drawing</li>
+<li>Phnx.IO</li>
+<li>Phnx.IO.Json</li>
+<li>Phnx.IO.Threaded</li>
+<li>Phnx.Reflection</li>
+<li>Phnx.Security</li>
+<li>Phnx.Serialization</li>
+<li>Phnx.Web</li>
+</ul>
 <h2 id="compatibility--dependencies">Compatibility &amp; Dependencies</h2>
 <p>All <code>.NET Framework</code> dependant libraries are designed for <code>.NET Framework 4.5</code> or higher.
 All <code>ASP.NET</code> dependant libraries are designed for <code>ASP.NET MVC 5</code> or higher.
 There are no <code>EntityFramework</code> dependant libraries - only <code>EntityFrameworkCore</code>.
 All <code>.NET Core</code>, <code>EntityFrameworkCore</code>, <code>AspNetCore</code> or <code>.NET Standard</code> libraries are targeted at version <code>2.0</code> of their respective libraries.</p>
 <ul>
-<li><p>Projects within a <code>Windows</code> subdirectory have dependencies on the <code>.NET Framework</code></p>
+<li><p>Projects within a <code>Windows</code> project have dependencies on the <code>.NET Framework</code></p>
 </li>
-<li><p>Projects within a <code>Core</code> subdirectory have dependencies on <code>.NET Core</code></p>
+<li><p>Projects within a <code>Core</code> project have dependencies on <code>.NET Core</code></p>
 </li>
-<li><p>Projects within an <code>EFCore</code> subdirectory have dependencies on <code>Microsoft.EntityFrameworkCore</code></p>
+<li><p>Projects within an <code>EFCore</code> project have dependencies on <code>Microsoft.EntityFrameworkCore</code></p>
 </li>
-<li><p>Projects within an <code>AspNet</code> subdirectory have dependencies on <code>ASP.NET MVC 5</code></p>
+<li><p>Projects within an <code>AspNet</code> project have dependencies on <code>ASP.NET MVC 5</code></p>
 </li>
-<li><p>Projects within an <code>AspNetCore</code> subdirectory have dependencies on <code>Microsoft.AspNetCore</code></p>
+<li><p>Projects within an <code>AspNetCore</code> project have dependencies on <code>Microsoft.AspNetCore</code></p>
 </li>
 <li><p>All other projects use <code>.NET Standard</code></p>
 </li>
 </ul>
-<h2 id="help--documentation">Help &amp; Documentation</h2>
-<p>A wiki for this project is maintained on GitHub, in the Wiki tab. This can be found <a href="https://github.com/phoenix-apps/Phnx/wiki">here</a>. This wiki is updated with each release.</p>
-<h2 id="contributing">Contributing</h2>
-<p>We welcome contributions. Please submit a pull request with your changes, and follow the <a href="https://github.com/phoenix-apps/Phnx/blob/master/Styles%20and%20Standards/Documentation%20Language%20Specification.md">Documentation Language Specification</a> when updating software documentation for your changes (where necessary).</p>
-<p>Please do not submit a pull request without an issue attached. If there isn&#39;t an issue reported for the fix (or refactoring) you&#39;re trying to make, please create one. This makes it easier for us to understand the reasons behind your change(s).</p>
-<p>Before getting started, run the <code>build_all_core.cmd</code> (for Windows) or <code>build_all_core.sh</code> (for Linux/Mac OS) to build all standard and core projects. Rerunning this after you&#39;re finished is a good idea, but not necessary as long as the projects you&#39;ve changed build.</p>
-<p>Any additional logic or changes you make should have automated tests that validate their logic. Avoid writing tests that test <em>how</em> your code works (such as calling other methods), but assert that the code produces the result (or exception) you expect.</p>
 </article>
 					
 					<div class="hidden-sm col-md-2" role="complementary">

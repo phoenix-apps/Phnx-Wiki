@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class HttpRequestService
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,6 +82,30 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Phnx.Web.Services.IHttpRequestService.html">IHttpRequestService</a></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   
   <h5 class="underline">
   Location
@@ -91,20 +115,20 @@
   <div><strong>Assembly</strong>: Phnx.Web.dll</div>
   
   <h5 id="Phnx_Web_Services_HttpRequestService_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class HttpRequestService : object, IHttpRequestService</code></pre>
+    <pre><code class="lang-csharp hljs">public class HttpRequestService : IHttpRequestService</code></pre>
   <h3 id="constructors">
   	Constructors
   </h3>
   	<a id="Phnx_Web_Services_HttpRequestService__ctor_" data-uid="Phnx.Web.Services.HttpRequestService.#ctor*"></a>
   <h4 id="Phnx_Web_Services_HttpRequestService__ctor" data-uid="Phnx.Web.Services.HttpRequestService.#ctor">HttpRequestService()</h4>
-  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Web.Services.HttpRequestService.html">HttpRequestService</a> with a new, default <see cref="!:System.Net.Http.HttpClient"></see></p>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Web.Services.HttpRequestService.html">HttpRequestService</a> with a new, default <span class="xref">System.Net.Http.HttpClient</span></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   	<pre><code class="lang-csharp hljs">public HttpRequestService()</code></pre>
   	<a id="Phnx_Web_Services_HttpRequestService__ctor_" data-uid="Phnx.Web.Services.HttpRequestService.#ctor*"></a>
-  <h4 id="Phnx_Web_Services_HttpRequestService__ctor_HttpClient_" data-uid="Phnx.Web.Services.HttpRequestService.#ctor(HttpClient)">HttpRequestService(HttpClient)</h4>
-  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Web.Services.HttpRequestService.html">HttpRequestService</a> with a given <see cref="!:System.Net.Http.HttpClient"></see></p>
+  <h4 id="Phnx_Web_Services_HttpRequestService__ctor_System_Net_Http_HttpClient_" data-uid="Phnx.Web.Services.HttpRequestService.#ctor(System.Net.Http.HttpClient)">HttpRequestService(HttpClient)</h4>
+  <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Web.Services.HttpRequestService.html">HttpRequestService</a> with a given <span class="xref">System.Net.Http.HttpClient</span></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -120,9 +144,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HttpClient</span></td>
+        <td><span class="xref">System.Net.Http.HttpClient</span></td>
         <td><span class="parametername">httpClient</span></td>
         <td><p>The HTTP Client to use</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">httpClient</code> is <span class="xref">null</span></p>
 </td>
       </tr>
     </tbody>
@@ -132,7 +172,7 @@
   </h3>
   	<a id="Phnx_Web_Services_HttpRequestService_HttpClient_" data-uid="Phnx.Web.Services.HttpRequestService.HttpClient*"></a>
   <h4 id="Phnx_Web_Services_HttpRequestService_HttpClient" data-uid="Phnx.Web.Services.HttpRequestService.HttpClient">HttpClient</h4>
-  <div class="markdown level1 summary"><p>The <see cref="!:System.Net.Http.HttpClient"></see> responsible for sending requests</p>
+  <div class="markdown level1 summary"><p>The <span class="xref">System.Net.Http.HttpClient</span> responsible for sending requests</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -147,7 +187,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HttpClient</span></td>
+        <td><span class="xref">System.Net.Http.HttpClient</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -182,8 +222,8 @@
     </tbody>
   </table>
   	<a id="Phnx_Web_Services_HttpRequestService_SendAsync_" data-uid="Phnx.Web.Services.HttpRequestService.SendAsync*"></a>
-  <h4 id="Phnx_Web_Services_HttpRequestService_SendAsync_HttpRequestMessage_" data-uid="Phnx.Web.Services.HttpRequestService.SendAsync(HttpRequestMessage)">SendAsync(HttpRequestMessage)</h4>
-  <div class="markdown level1 summary"><p>Send the <see cref="!:HttpRequestMessage"></see> over HTTP</p>
+  <h4 id="Phnx_Web_Services_HttpRequestService_SendAsync_System_Net_Http_HttpRequestMessage_" data-uid="Phnx.Web.Services.HttpRequestService.SendAsync(System.Net.Http.HttpRequestMessage)">SendAsync(HttpRequestMessage)</h4>
+  <div class="markdown level1 summary"><p>Send the <span class="xref">System.Net.Http.HttpRequestMessage</span> over HTTP</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -199,7 +239,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HttpRequestMessage</span></td>
+        <td><span class="xref">System.Net.Http.HttpRequestMessage</span></td>
         <td><span class="parametername">request</span></td>
         <td><p>The request to send</p>
 </td>
@@ -216,18 +256,44 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">HttpResponseMessage</span>&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Net.Http.HttpResponseMessage</span>&gt;</td>
         <td><p>The response from the foreign URL</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Phnx_Web_Services_HttpRequestService_SendAsync_HttpRequestMessage__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This method will complete when only the response headers have been completely downloaded. Using <see cref="!:HttpContent.ReadAsStringAsync()"></see> will wait until the content body is completely loaded</p>
+  <h5 id="Phnx_Web_Services_HttpRequestService_SendAsync_System_Net_Http_HttpRequestMessage__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method will complete when only the response headers have been completely downloaded. Using <span class="xref">System.Net.Http.HttpContent.ReadAsStringAsync</span> will wait until the content body is completely loaded</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">request</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">request</code> has already been sent</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Net.Http.HttpRequestException</span></td>
+        <td><p>The request failed due to an underlying issue such as network connectivity, DNS failure, server certification validation or timeout</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_Web_Services_HttpRequestService_SendAsync_" data-uid="Phnx.Web.Services.HttpRequestService.SendAsync*"></a>
-  <h4 id="Phnx_Web_Services_HttpRequestService_SendAsync_HttpRequestMessage_HttpClient_" data-uid="Phnx.Web.Services.HttpRequestService.SendAsync(HttpRequestMessage,HttpClient)">SendAsync(HttpRequestMessage, HttpClient)</h4>
-  <div class="markdown level1 summary"><p>Send the <see cref="!:HttpRequestMessage"></see> over HTTP, with a non-default <a class="xref" href="Phnx.Web.Services.HttpRequestService.html#Phnx_Web_Services_HttpRequestService_HttpClient">HttpClient</a></p>
+  <h4 id="Phnx_Web_Services_HttpRequestService_SendAsync_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpClient_" data-uid="Phnx.Web.Services.HttpRequestService.SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpClient)">SendAsync(HttpRequestMessage, HttpClient)</h4>
+  <div class="markdown level1 summary"><p>Send the <span class="xref">System.Net.Http.HttpRequestMessage</span> over HTTP, with a non-default <a class="xref" href="Phnx.Web.Services.HttpRequestService.html#Phnx_Web_Services_HttpRequestService_HttpClient">HttpClient</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -243,13 +309,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HttpRequestMessage</span></td>
+        <td><span class="xref">System.Net.Http.HttpRequestMessage</span></td>
         <td><span class="parametername">request</span></td>
         <td><p>The request to send</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">HttpClient</span></td>
+        <td><span class="xref">System.Net.Http.HttpClient</span></td>
         <td><span class="parametername">httpClient</span></td>
         <td><p>The HTTP Client to use for the request</p>
 </td>
@@ -266,20 +332,67 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">HttpResponseMessage</span>&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Net.Http.HttpResponseMessage</span>&gt;</td>
         <td><p>The response from the foreign URL</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Phnx_Web_Services_HttpRequestService_SendAsync_HttpRequestMessage_HttpClient__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This method will complete when only the response headers have been completely downloaded. Using <see cref="!:HttpContent.ReadAsStringAsync()"></see> will wait until the content body is completely loaded</p>
+  <h5 id="Phnx_Web_Services_HttpRequestService_SendAsync_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpClient__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method will complete when only the response headers have been completely downloaded. Using <span class="xref">System.Net.Http.HttpContent.ReadAsStringAsync</span> will wait until the content body is completely loaded</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">request</code> or <code data-dev-comment-type="paramref" class="paramref">httpClient</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">request</code> has already been sent</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Net.Http.HttpRequestException</span></td>
+        <td><p>The request failed due to an underlying issue such as network connectivity, DNS failure, server certification validation or timeout</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Phnx.Web.Services.IHttpRequestService.html">IHttpRequestService</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Phnx.Web.Services.IHttpRequestServiceExtensions.html#Phnx_Web_Services_IHttpRequestServiceExtensions_GetAsync__1_Phnx_Web_Services_IHttpRequestService_System_String_">IHttpRequestServiceExtensions.GetAsync&lt;T&gt;(IHttpRequestService, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Web.Services.IHttpRequestServiceExtensions.html#Phnx_Web_Services_IHttpRequestServiceExtensions_PostAsync__1_Phnx_Web_Services_IHttpRequestService_System_String_System_Object_">IHttpRequestServiceExtensions.PostAsync&lt;T&gt;(IHttpRequestService, String, Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Web.Services.IHttpRequestServiceExtensions.html#Phnx_Web_Services_IHttpRequestServiceExtensions_PutAsync__1_Phnx_Web_Services_IHttpRequestService_System_String_System_Object_">IHttpRequestServiceExtensions.PutAsync&lt;T&gt;(IHttpRequestService, String, Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Web.Services.IHttpRequestServiceExtensions.html#Phnx_Web_Services_IHttpRequestServiceExtensions_PatchAsync__1_Phnx_Web_Services_IHttpRequestService_System_String_System_Object_">IHttpRequestServiceExtensions.PatchAsync&lt;T&gt;(IHttpRequestService, String, Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Web.Services.IHttpRequestServiceExtensions.html#Phnx_Web_Services_IHttpRequestServiceExtensions_DeleteAsync__1_Phnx_Web_Services_IHttpRequestService_System_String_System_Object_">IHttpRequestServiceExtensions.DeleteAsync&lt;T&gt;(IHttpRequestService, String, Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Web.Services.IHttpRequestServiceExtensions.html#Phnx_Web_Services_IHttpRequestServiceExtensions_SendAsync__1_Phnx_Web_Services_IHttpRequestService_System_String_System_String_System_Object_">IHttpRequestServiceExtensions.SendAsync&lt;T&gt;(IHttpRequestService, String, String, Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Phnx.Web.Services.IHttpRequestServiceExtensions.html#Phnx_Web_Services_IHttpRequestServiceExtensions_SendAsync__1_Phnx_Web_Services_IHttpRequestService_System_String_System_Net_Http_HttpMethod_System_Object_">IHttpRequestServiceExtensions.SendAsync&lt;T&gt;(IHttpRequestService, String, HttpMethod, Object)</a>
+  </div>
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
   </div>
@@ -305,7 +418,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Web/Phnx.Web/Services/HttpRequestService.cs/#L11" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Web/Phnx.Web/Services/HttpRequestService.cs/#L11" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

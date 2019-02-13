@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class ISymmetricEncryptionExtensions
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,6 +78,30 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ISymmetricEncryptionExtensions</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   
   <h5 class="underline">
   Location
@@ -87,7 +111,7 @@
   <div><strong>Assembly</strong>: Phnx.Security.dll</div>
   
   <h5 id="Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public static class ISymmetricEncryptionExtensions : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ISymmetricEncryptionExtensions</code></pre>
   <h3 id="methods">
   	Methods
   </h3>
@@ -146,6 +170,22 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">encryptedData</code> or <code data-dev-comment-type="paramref" class="paramref">key</code> or <code data-dev-comment-type="paramref" class="paramref">iv</code> is <span class="xref">null</span></p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -229,8 +269,18 @@
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">encryptedDataBuffer</code> or <code data-dev-comment-type="paramref" class="paramref">key</code> or <code data-dev-comment-type="paramref" class="paramref">iv</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="Phnx.ArgumentLessThanZeroException.html">ArgumentLessThanZeroException</a></td>
         <td><p><code data-dev-comment-type="paramref" class="paramref">index</code> or <code data-dev-comment-type="paramref" class="paramref">count</code> is less than zero</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">count</code> and <code data-dev-comment-type="paramref" class="paramref">index</code> is greater than the length of <code data-dev-comment-type="paramref" class="paramref">encryptedDataBuffer</code></p>
 </td>
       </tr>
     </tbody>
@@ -290,6 +340,22 @@
       <tr>
         <td><span class="xref">System.Byte</span>[]</td>
         <td><p><code data-dev-comment-type="paramref" class="paramref">data</code> encrypted</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">data</code> or <code data-dev-comment-type="paramref" class="paramref">key</code> or <code data-dev-comment-type="paramref" class="paramref">iv</code> is <span class="xref">null</span></p>
 </td>
       </tr>
     </tbody>
@@ -375,14 +441,24 @@
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">encryption</code> or <code data-dev-comment-type="paramref" class="paramref">sourceBuffer</code> or <code data-dev-comment-type="paramref" class="paramref">key</code> or <code data-dev-comment-type="paramref" class="paramref">iv</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="Phnx.ArgumentLessThanZeroException.html">ArgumentLessThanZeroException</a></td>
         <td><p><code data-dev-comment-type="paramref" class="paramref">index</code> or <code data-dev-comment-type="paramref" class="paramref">count</code> is less than zero</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">count</code> and <code data-dev-comment-type="paramref" class="paramref">index</code> is greater than the length of <code data-dev-comment-type="paramref" class="paramref">sourceBuffer</code></p>
 </td>
       </tr>
     </tbody>
   </table>
   	<a id="Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_ReadIvHeader_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.ReadIvHeader*"></a>
-  <h4 id="Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_ReadIvHeader_Phnx_Security_Algorithms_ISymmetricEncryption_Stream_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.ReadIvHeader(Phnx.Security.Algorithms.ISymmetricEncryption,Stream)">ReadIvHeader(ISymmetricEncryption, Stream)</h4>
+  <h4 id="Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_ReadIvHeader_Phnx_Security_Algorithms_ISymmetricEncryption_System_IO_Stream_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.ReadIvHeader(Phnx.Security.Algorithms.ISymmetricEncryption,System.IO.Stream)">ReadIvHeader(ISymmetricEncryption, Stream)</h4>
   <div class="markdown level1 summary"><p>Reads the IV&apos;s length and IV</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -405,7 +481,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">input</span></td>
         <td><p>The stream to read from</p>
 </td>
@@ -429,7 +505,7 @@
     </tbody>
   </table>
   	<a id="Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_WriteIvHeader_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.WriteIvHeader*"></a>
-  <h4 id="Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_WriteIvHeader_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___Stream_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.WriteIvHeader(Phnx.Security.Algorithms.ISymmetricEncryption,System.Byte[],Stream)">WriteIvHeader(ISymmetricEncryption, Byte[], Stream)</h4>
+  <h4 id="Phnx_Security_Algorithms_ISymmetricEncryptionExtensions_WriteIvHeader_Phnx_Security_Algorithms_ISymmetricEncryption_System_Byte___System_IO_Stream_" data-uid="Phnx.Security.Algorithms.ISymmetricEncryptionExtensions.WriteIvHeader(Phnx.Security.Algorithms.ISymmetricEncryption,System.Byte[],System.IO.Stream)">WriteIvHeader(ISymmetricEncryption, Byte[], Stream)</h4>
   <div class="markdown level1 summary"><p>Saves the IV&apos;s length and IV</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -458,7 +534,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">output</span></td>
         <td><p>The stream to save to</p>
 </td>
@@ -472,7 +548,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Security/Phnx.Security/Algorithms/Interfaces/Extensions/ISymmetricEncryptionExtensions.cs/#L9" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Security/Phnx.Security/Algorithms/Interfaces/Extensions/ISymmetricEncryptionExtensions.cs/#L9" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

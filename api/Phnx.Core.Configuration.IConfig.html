@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Interface IConfig
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -65,10 +65,10 @@
 					  </div>
 					  <hr class="toggle-break">
 					</div>
-				<article class="content wrap" id="_content" data-uid="Phnx.Configuration.IConfig">
+				<article class="content wrap" id="_content" data-uid="Phnx.Core.Configuration.IConfig">
   
   
-  <h1 id="Phnx_Configuration_IConfig" data-uid="Phnx.Configuration.IConfig" class="text-break">Interface IConfig
+  <h1 id="Phnx_Core_Configuration_IConfig" data-uid="Phnx.Core.Configuration.IConfig" class="text-break">Interface IConfig
   </h1>
   <div class="markdown level0 summary"><p>Provides methods for loading from the application configuration, including default values and converting the configuration to the needed types</p>
 </div>
@@ -78,16 +78,16 @@
   Location
   </h5>
   
-  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Configuration.html">Phnx.Configuration</a></div>
-  <div><strong>Assembly</strong>: Phnx.Core.Configuration.dll</div>
+  <div><strong>Namespace</strong>: <a class="xref" href="Phnx.Core.Configuration.html">Phnx.Core.Configuration</a></div>
+  <div><strong>Assembly</strong>: Phnx.Configuration.dll</div>
   
-  <h5 id="Phnx_Configuration_IConfig_syntax">Syntax</h5>
+  <h5 id="Phnx_Core_Configuration_IConfig_syntax">Syntax</h5>
     <pre><code class="lang-csharp hljs">public interface IConfig</code></pre>
   <h3 id="properties">
   	Properties
   </h3>
-  	<a id="Phnx_Configuration_IConfig_Item_" data-uid="Phnx.Configuration.IConfig.Item*"></a>
-  <h4 id="Phnx_Configuration_IConfig_Item_System_String_" data-uid="Phnx.Configuration.IConfig.Item(System.String)">Item[String]</h4>
+  	<a id="Phnx_Core_Configuration_IConfig_Item_" data-uid="Phnx.Core.Configuration.IConfig.Item*"></a>
+  <h4 id="Phnx_Core_Configuration_IConfig_Item_System_String_" data-uid="Phnx.Core.Configuration.IConfig.Item(System.String)">Item[String]</h4>
   <div class="markdown level1 summary"><p>Get a configuration by key as a string</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -130,8 +130,8 @@
   <h3 id="methods">
   	Methods
   </h3>
-  	<a id="Phnx_Configuration_IConfig_Get_" data-uid="Phnx.Configuration.IConfig.Get*"></a>
-  <h4 id="Phnx_Configuration_IConfig_Get__1_System_String_" data-uid="Phnx.Configuration.IConfig.Get``1(System.String)">Get&lt;T&gt;(String)</h4>
+  	<a id="Phnx_Core_Configuration_IConfig_Get_" data-uid="Phnx.Core.Configuration.IConfig.Get*"></a>
+  <h4 id="Phnx_Core_Configuration_IConfig_Get__1_System_String_" data-uid="Phnx.Core.Configuration.IConfig.Get``1(System.String)">Get&lt;T&gt;(String)</h4>
   <div class="markdown level1 summary"><p>Get a configuration by key as <code data-dev-comment-type="typeparamref" class="typeparamref">T</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -187,8 +187,8 @@
       </tr>
     </tbody>
   </table>
-  	<a id="Phnx_Configuration_IConfig_Get_" data-uid="Phnx.Configuration.IConfig.Get*"></a>
-  <h4 id="Phnx_Configuration_IConfig_Get__1_System_String___0_" data-uid="Phnx.Configuration.IConfig.Get``1(System.String,``0)">Get&lt;T&gt;(String, T)</h4>
+  	<a id="Phnx_Core_Configuration_IConfig_Get_" data-uid="Phnx.Core.Configuration.IConfig.Get*"></a>
+  <h4 id="Phnx_Core_Configuration_IConfig_Get__1_System_String___0_" data-uid="Phnx.Core.Configuration.IConfig.Get``1(System.String,``0)">Get&lt;T&gt;(String, T)</h4>
   <div class="markdown level1 summary"><p>Get a configuration by key as <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>. If the configuration is missing, or the conversion fails, it will return <code data-dev-comment-type="paramref" class="paramref">defaultValue</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -250,8 +250,8 @@
       </tr>
     </tbody>
   </table>
-  	<a id="Phnx_Configuration_IConfig_GetConnectionString_" data-uid="Phnx.Configuration.IConfig.GetConnectionString*"></a>
-  <h4 id="Phnx_Configuration_IConfig_GetConnectionString_System_String_" data-uid="Phnx.Configuration.IConfig.GetConnectionString(System.String)">GetConnectionString(String)</h4>
+  	<a id="Phnx_Core_Configuration_IConfig_GetConnectionString_" data-uid="Phnx.Core.Configuration.IConfig.GetConnectionString*"></a>
+  <h4 id="Phnx_Core_Configuration_IConfig_GetConnectionString_System_String_" data-uid="Phnx.Core.Configuration.IConfig.GetConnectionString(System.String)">GetConnectionString(String)</h4>
   <div class="markdown level1 summary"><p>Get a connection string from the configuration</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -291,8 +291,8 @@
       </tr>
     </tbody>
   </table>
-  	<a id="Phnx_Configuration_IConfig_TryGet_" data-uid="Phnx.Configuration.IConfig.TryGet*"></a>
-  <h4 id="Phnx_Configuration_IConfig_TryGet__1_System_String___0__" data-uid="Phnx.Configuration.IConfig.TryGet``1(System.String,``0@)">TryGet&lt;T&gt;(String, out T)</h4>
+  	<a id="Phnx_Core_Configuration_IConfig_TryGet_" data-uid="Phnx.Core.Configuration.IConfig.TryGet*"></a>
+  <h4 id="Phnx_Core_Configuration_IConfig_TryGet__1_System_String___0__" data-uid="Phnx.Core.Configuration.IConfig.TryGet``1(System.String,``0@)">TryGet&lt;T&gt;(String, out T)</h4>
   <div class="markdown level1 summary"><p>Try to get a configuration by key as <code data-dev-comment-type="typeparamref" class="typeparamref">T</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -379,7 +379,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Core/Configuration/Phnx.Core.Configuration/IConfig.cs/#L6" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Core/Configuration/Phnx.Core.Configuration/Interfaces/IConfig.cs/#L6" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

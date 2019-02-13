@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class ETagResponseService
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,6 +82,30 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Phnx.AspNetCore.ETags.Services.IETagResponseService.html">IETagResponseService</a></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   
   <h5 class="underline">
   Location
@@ -91,12 +115,12 @@
   <div><strong>Assembly</strong>: Phnx.AspNetCore.ETags.dll</div>
   
   <h5 id="Phnx_AspNetCore_ETags_Services_ETagResponseService_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class ETagResponseService : object, IETagResponseService</code></pre>
+    <pre><code class="lang-csharp hljs">public class ETagResponseService : IETagResponseService</code></pre>
   <h3 id="constructors">
   	Constructors
   </h3>
   	<a id="Phnx_AspNetCore_ETags_Services_ETagResponseService__ctor_" data-uid="Phnx.AspNetCore.ETags.Services.ETagResponseService.#ctor*"></a>
-  <h4 id="Phnx_AspNetCore_ETags_Services_ETagResponseService__ctor_IActionContextAccessor_Phnx_AspNetCore_ETags_Services_IETagService_" data-uid="Phnx.AspNetCore.ETags.Services.ETagResponseService.#ctor(IActionContextAccessor,Phnx.AspNetCore.ETags.Services.IETagService)">ETagResponseService(IActionContextAccessor, IETagService)</h4>
+  <h4 id="Phnx_AspNetCore_ETags_Services_ETagResponseService__ctor_Microsoft_AspNetCore_Mvc_Infrastructure_IActionContextAccessor_Phnx_AspNetCore_ETags_Services_IETagService_" data-uid="Phnx.AspNetCore.ETags.Services.ETagResponseService.#ctor(Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor,Phnx.AspNetCore.ETags.Services.IETagService)">ETagResponseService(IActionContextAccessor, IETagService)</h4>
   <div class="markdown level1 summary"><p>Create a new ETag response factory</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -113,7 +137,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IActionContextAccessor</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor</span></td>
         <td><span class="parametername">actionContext</span></td>
         <td><p>The action context accessor for writing ETag headers</p>
 </td>
@@ -126,6 +150,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">actionContext</code> or <code data-dev-comment-type="paramref" class="paramref">eTagService</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">
   	Fields
   </h3>
@@ -134,7 +174,7 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  	<pre><code class="lang-csharp hljs">public const string ETagHeaderKey = null</code></pre>
+  	<pre><code class="lang-csharp hljs">public const string ETagHeaderKey = &quot;ETag&quot;</code></pre>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -170,7 +210,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IActionContextAccessor</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -214,7 +254,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IHeaderDictionary</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Http.IHeaderDictionary</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -250,6 +290,22 @@
   <h5 id="Phnx_AspNetCore_ETags_Services_ETagResponseService_AddETag_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>For more information on ETag formatting, see <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag</a></p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">eTag</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_AspNetCore_ETags_Services_ETagResponseService_AddStrongestETagForModel_" data-uid="Phnx.AspNetCore.ETags.Services.ETagResponseService.AddStrongestETagForModel*"></a>
   <h4 id="Phnx_AspNetCore_ETags_Services_ETagResponseService_AddStrongestETagForModel_System_Object_" data-uid="Phnx.AspNetCore.ETags.Services.ETagResponseService.AddStrongestETagForModel(System.Object)">AddStrongestETagForModel(Object)</h4>
   <div class="markdown level1 summary"><p>Add a strong ETag if <code data-dev-comment-type="paramref" class="paramref">savedData</code> supports it, or a weak tag if it does not</p>
@@ -271,6 +327,22 @@
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">savedData</span></td>
         <td><p>The data to add the ETag for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">savedData</code> is <span class="xref">null</span></p>
 </td>
       </tr>
     </tbody>
@@ -300,6 +372,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">savedData</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_AspNetCore_ETags_Services_ETagResponseService_CreateDataHasChangedResponse_" data-uid="Phnx.AspNetCore.ETags.Services.ETagResponseService.CreateDataHasChangedResponse*"></a>
   <h4 id="Phnx_AspNetCore_ETags_Services_ETagResponseService_CreateDataHasChangedResponse" data-uid="Phnx.AspNetCore.ETags.Services.ETagResponseService.CreateDataHasChangedResponse">CreateDataHasChangedResponse()</h4>
   <div class="markdown level1 summary"><p>Create a response describing that the data has been changed</p>
@@ -317,7 +405,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">StatusCodeResult</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.StatusCodeResult</span></td>
         <td><p>A response describing that the data has been changed</p>
 </td>
       </tr>
@@ -340,7 +428,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">StatusCodeResult</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.StatusCodeResult</span></td>
         <td><p>A response describing that the data has not been changed</p>
 </td>
       </tr>
@@ -386,6 +474,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">savedData</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Phnx.AspNetCore.ETags.Services.IETagResponseService.html">IETagResponseService</a>
@@ -416,7 +520,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/AspNetCore/ETags/Phnx.AspNetCore.ETags/Services/ETagResponseService.cs/#L12" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/AspNetCore/ETags/Phnx.AspNetCore.ETags/Services/ETagResponseService.cs/#L12" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

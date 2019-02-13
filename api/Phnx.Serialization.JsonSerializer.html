@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class JsonSerializer
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,6 +82,30 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Phnx.Serialization.ISerializer.html">ISerializer</a></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   
   <h5 class="underline">
   Location
@@ -91,12 +115,12 @@
   <div><strong>Assembly</strong>: Phnx.Serialization.dll</div>
   
   <h5 id="Phnx_Serialization_JsonSerializer_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class JsonSerializer : object, ISerializer</code></pre>
+    <pre><code class="lang-csharp hljs">public class JsonSerializer : ISerializer</code></pre>
   <h3 id="methods">
   	Methods
   </h3>
   	<a id="Phnx_Serialization_JsonSerializer_Deserialize_" data-uid="Phnx.Serialization.JsonSerializer.Deserialize*"></a>
-  <h4 id="Phnx_Serialization_JsonSerializer_Deserialize__1_Stream_" data-uid="Phnx.Serialization.JsonSerializer.Deserialize``1(Stream)">Deserialize&lt;T&gt;(Stream)</h4>
+  <h4 id="Phnx_Serialization_JsonSerializer_Deserialize__1_System_IO_Stream_" data-uid="Phnx.Serialization.JsonSerializer.Deserialize``1(System.IO.Stream)">Deserialize&lt;T&gt;(Stream)</h4>
   <div class="markdown level1 summary"><p>Deserializes the next object from a stream</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -113,7 +137,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">inputStream</span></td>
         <td><p>The stream to deserialize from</p>
 </td>
@@ -148,6 +172,37 @@
       <tr>
         <td><span class="parametername">T</span></td>
         <td><p>The type of object to read</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">inputStream</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">inputStream</code> cannot be read from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidCastException</span></td>
+        <td><p>Object is not of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.SerializationException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">inputStream</code> does not contain a valid JSON object</p>
 </td>
       </tr>
     </tbody>
@@ -209,6 +264,32 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">json</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidCastException</span></td>
+        <td><p>Object is not of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Runtime.Serialization.SerializationException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">json</code> is not a valid JSON object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_Serialization_JsonSerializer_Serialize_" data-uid="Phnx.Serialization.JsonSerializer.Serialize*"></a>
   <h4 id="Phnx_Serialization_JsonSerializer_Serialize__1___0_" data-uid="Phnx.Serialization.JsonSerializer.Serialize``1(``0)">Serialize&lt;T&gt;(T)</h4>
   <div class="markdown level1 summary"><p>Serializes an object to JSON</p>
@@ -266,8 +347,24 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">value</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_Serialization_JsonSerializer_Serialize_" data-uid="Phnx.Serialization.JsonSerializer.Serialize*"></a>
-  <h4 id="Phnx_Serialization_JsonSerializer_Serialize__1___0_Stream_" data-uid="Phnx.Serialization.JsonSerializer.Serialize``1(``0,Stream)">Serialize&lt;T&gt;(T, Stream)</h4>
+  <h4 id="Phnx_Serialization_JsonSerializer_Serialize__1___0_System_IO_Stream_" data-uid="Phnx.Serialization.JsonSerializer.Serialize``1(``0,System.IO.Stream)">Serialize&lt;T&gt;(T, Stream)</h4>
   <div class="markdown level1 summary"><p>Serializes an object and appends it to a stream</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -290,7 +387,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">outputStream</span></td>
         <td><p>The stream to output the serialized data to</p>
 </td>
@@ -309,6 +406,27 @@
       <tr>
         <td><span class="parametername">T</span></td>
         <td><p>The type of object to write</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">value</code> or <code data-dev-comment-type="paramref" class="paramref">outputStream</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">outputStream</code> cannot be written to</p>
 </td>
       </tr>
     </tbody>
@@ -343,7 +461,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Serialization/Phnx.Serialization/JsonSerializer.cs/#L12" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Serialization/Phnx.Serialization/JsonSerializer.cs/#L12" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

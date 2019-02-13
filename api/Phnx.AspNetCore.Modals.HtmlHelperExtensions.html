@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class HtmlHelperExtensions
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -70,13 +70,37 @@
   
   <h1 id="Phnx_AspNetCore_Modals_HtmlHelperExtensions" data-uid="Phnx.AspNetCore.Modals.HtmlHelperExtensions" class="text-break">Class HtmlHelperExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Extensions for <see cref="!:IHtmlHelper"></see> related to modals</p>
+  <div class="markdown level0 summary"><p>Extensions for <span class="xref">Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper</span> related to modals</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">HtmlHelperExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
   </div>
   
   <h5 class="underline">
@@ -87,18 +111,17 @@
   <div><strong>Assembly</strong>: Phnx.AspNetCore.Modals.dll</div>
   
   <h5 id="Phnx_AspNetCore_Modals_HtmlHelperExtensions_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public static class HtmlHelperExtensions : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class HtmlHelperExtensions</code></pre>
   <h3 id="methods">
   	Methods
   </h3>
   	<a id="Phnx_AspNetCore_Modals_HtmlHelperExtensions_RenderModals_" data-uid="Phnx.AspNetCore.Modals.HtmlHelperExtensions.RenderModals*"></a>
-  <h4 id="Phnx_AspNetCore_Modals_HtmlHelperExtensions_RenderModals__1_IHtmlHelper_Phnx_AspNetCore_Modals_IModalManager___0__System_String_System_Boolean_" data-uid="Phnx.AspNetCore.Modals.HtmlHelperExtensions.RenderModals``1(IHtmlHelper,Phnx.AspNetCore.Modals.IModalManager{``0},System.String,System.Boolean)">RenderModals&lt;TModal&gt;(IHtmlHelper, IModalManager&lt;TModal&gt;, String, Boolean)</h4>
+  <h4 id="Phnx_AspNetCore_Modals_HtmlHelperExtensions_RenderModals__1_Microsoft_AspNetCore_Mvc_Rendering_IHtmlHelper_Phnx_AspNetCore_Modals_IModalManager___0__System_String_System_Boolean_" data-uid="Phnx.AspNetCore.Modals.HtmlHelperExtensions.RenderModals``1(Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper,Phnx.AspNetCore.Modals.IModalManager{``0},System.String,System.Boolean)">RenderModals&lt;TModal&gt;(IHtmlHelper, IModalManager&lt;TModal&gt;, String, Boolean)</h4>
   <div class="markdown level1 summary"><p>Render all session modals using a partial view</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   	<pre><code class="lang-csharp hljs">public static IHtmlContent RenderModals&lt;TModal&gt;(this IHtmlHelper helper, IModalManager&lt;TModal&gt; modalManager, string partialViewName, bool clearModalsAfterRendering = true)
-
     where TModal : IModalViewModel</code></pre>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,9 +134,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IHtmlHelper</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper</span></td>
         <td><span class="parametername">helper</span></td>
-        <td><p>The <see cref="!:IHtmlHelper"></see> to extend rendering</p>
+        <td><p>The <span class="xref">Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper</span> to extend rendering</p>
 </td>
       </tr>
       <tr>
@@ -146,7 +169,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IHtmlContent</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Html.IHtmlContent</span></td>
         <td><p>All the modals rendered as HTML</p>
 </td>
       </tr>
@@ -168,6 +191,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">helper</code> or <code data-dev-comment-type="paramref" class="paramref">modalManager</code> or <code data-dev-comment-type="paramref" class="paramref">partialViewName</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
 					
 					<div class="hidden-sm col-md-2" role="complementary">
@@ -175,7 +214,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/AspNetCore/Modals/Phnx.AspNetCore.Modals/Extensions/HtmlHelperExtensions.cs/#L10" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/AspNetCore/Modals/Phnx.AspNetCore.Modals/Extensions/HtmlHelperExtensions.cs/#L10" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

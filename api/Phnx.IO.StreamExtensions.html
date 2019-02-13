@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class StreamExtensions
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -166,13 +166,23 @@
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">stream</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">System.IO.IOException</span></td>
         <td><p>An I/O error occurs</p>
 </td>
       </tr>
       <tr>
+        <td><span class="xref">System.NotSupportedException</span></td>
+        <td><p>Cannot get the current position within <code data-dev-comment-type="paramref" class="paramref">stream</code></p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">System.ObjectDisposedException</span></td>
-        <td><p>Methods were called after the stream was closed</p>
+        <td><p>Methods were called after <code data-dev-comment-type="paramref" class="paramref">stream</code> was closed</p>
 </td>
       </tr>
     </tbody>
@@ -228,13 +238,18 @@
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">reader</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">System.IO.IOException</span></td>
         <td><p>An I/O error occurs</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.ObjectDisposedException</span></td>
-        <td><p><code data-dev-comment-type="paramref" class="paramref">reader</code> is closed</p>
+        <td><p>Methods were called after <code data-dev-comment-type="paramref" class="paramref">reader</code> was closed</p>
 </td>
       </tr>
     </tbody>
@@ -290,13 +305,28 @@
     </thead>
     <tbody>
       <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The sum of offset and count is larger than the buffer length</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">stream</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">System.IO.IOException</span></td>
         <td><p>An I/O error occurs</p>
 </td>
       </tr>
       <tr>
+        <td><span class="xref">System.NotSupportedException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">stream</code> does not support reading</p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">System.ObjectDisposedException</span></td>
-        <td><p>Methods were called after the stream was closed</p>
+        <td><p>Methods were called after <code data-dev-comment-type="paramref" class="paramref">stream</code> was closed</p>
 </td>
       </tr>
     </tbody>
@@ -373,7 +403,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.ObjectDisposedException</span></td>
-        <td><p>Methods were called after the stream was closed</p>
+        <td><p>Methods were called after <code data-dev-comment-type="paramref" class="paramref">stream</code> was closed</p>
 </td>
       </tr>
     </tbody>
@@ -456,7 +486,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.ObjectDisposedException</span></td>
-        <td><p>Methods were called after the stream was closed</p>
+        <td><p>Methods were called after <code data-dev-comment-type="paramref" class="paramref">stream</code> was closed</p>
 </td>
       </tr>
     </tbody>
@@ -488,6 +518,37 @@
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">textToWrite</span></td>
         <td><p>The text to write to the stream</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">stream</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurs</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.NotSupportedException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">stream</code> does not support writing</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>Methods were called after <code data-dev-comment-type="paramref" class="paramref">stream</code> was closed</p>
 </td>
       </tr>
     </tbody>
@@ -529,6 +590,37 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">stream</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.IOException</span></td>
+        <td><p>An I/O error occurs</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.NotSupportedException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">stream</code> does not support writing</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ObjectDisposedException</span></td>
+        <td><p>Methods were called after <code data-dev-comment-type="paramref" class="paramref">stream</code> was closed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
 					
 					<div class="hidden-sm col-md-2" role="complementary">
@@ -536,7 +628,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/IO/IO/Phnx.IO/Extensions/StreamExtensions.cs/#L10" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/IO/IO/Phnx.IO/Extensions/StreamExtensions.cs/#L10" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

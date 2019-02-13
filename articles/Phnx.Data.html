@@ -6,12 +6,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Namespace Phnx.Configuration
- </title>
+  <title>Phnx.Data </title>
   <meta name="viewport" content="width=device-width">
-  <meta name="title" content="Namespace Phnx.Configuration
- ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="title" content="Phnx.Data ">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -65,24 +63,54 @@
 					  </div>
 					  <hr class="toggle-break">
 					</div>
-				<article class="content wrap" id="_content" data-uid="Phnx.Configuration">
-  
-  <h1 id="Phnx_Configuration" data-uid="Phnx.Configuration" class="text-break">Namespace Phnx.Configuration
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="Phnx.Configuration.Config.html">Config</a></h4>
-      <section><p>Loads the application configuration, including default values and converting the configuration to the needed types</p>
-</section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="Phnx.Configuration.IConfig.html">IConfig</a></h4>
-      <section><p>Provides methods for loading from the application configuration, including default values and converting the configuration to the needed types</p>
-</section>
-</article>
+				<article class="content wrap" id="_content" data-uid="">
+<h1 id="phnxdata">Phnx.Data</h1>
+
+<p>This library contains tools to help you manage data sets, particularly at scale. This contains features like lazy loading, repositories, database seeds, and escaping data strings</p>
+<h1 id="quick-examples">Quick Examples</h1>
+<p>For a full list of all things possible with Phnx.Data, please check the <a href="https://phoenix-apps.github.io/Phnx-Wiki/api/Phnx.Data.html">API reference guide</a></p>
+<h2 id="escaped">Escaped</h2>
+<pre><code class="lang-cs">string originalText = &quot;Example data string with an_underscore&quot;;
+
+string escapedText = Escaped.Escape(originalText, &#39;_&#39;, &#39; &#39;);
+
+// Output: Example_ data_ string_ with_ an__underscore
+Console.WriteLine(escapedText);
+
+string unescapedText = Escaped.Unescape(originalText, &#39;_&#39;, &#39; &#39;);
+
+// Output: Example data string with an_underscore
+Console.WriteLine(unescapedText);
+</code></pre><h2 id="lazy-database">Lazy Database</h2>
+<pre><code class="lang-cs">// Set up lazy database with tables, and a 30 seconds maximum lifespan for each cached item
+LazyDatabase database = new LazyDatabase(TimeSpan.FromSeconds(30));
+
+// Adds a table for &lt;Guid&gt; which generates a random GUID each time a record is requested
+database.TryAddTable&lt;int, Guid&gt;(() =&gt; Guid.NewGuid()));
+
+// Output: Total tables configured: 1
+Console.WriteLine(&quot;Total tables configured: &quot; database.TotalTablesCount);
+
+// Calls to the get method for the table on the 1st load
+if (database.TryGet(1, out Guid guidFound))
+{
+    // Output (example): 7ee6b8b0-2c39-4d2c-a0a7-1c9fe62f202f
+    Console.WriteLine(guidFound);
+}
+
+// Loads from cache on subsequent loads
+if (database.TryGet(1, out guidFound))
+{
+    // Output (example): 7ee6b8b0-2c39-4d2c-a0a7-1c9fe62f202f
+    Console.WriteLine(guidFound);
+}
+
+// Updates the entry in the cache to a new guid, resetting the lifespan to 30 seconds for this item
+database.TryAddOrUpdate(1, Guid.NewGuid());
+
+// Clears all of the cache, and all configured tables
+database.Clear();
+</code></pre></article>
 					
 					<div class="hidden-sm col-md-2" role="complementary">
 					  <div class="sideaffix">

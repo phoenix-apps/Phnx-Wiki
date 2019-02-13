@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class ETagRequestService
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,6 +82,30 @@
     <h5>Implements</h5>
     <div><a class="xref" href="Phnx.AspNetCore.ETags.Services.IETagRequestService.html">IETagRequestService</a></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
   
   <h5 class="underline">
   Location
@@ -91,12 +115,12 @@
   <div><strong>Assembly</strong>: Phnx.AspNetCore.ETags.dll</div>
   
   <h5 id="Phnx_AspNetCore_ETags_Services_ETagRequestService_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class ETagRequestService : object, IETagRequestService</code></pre>
+    <pre><code class="lang-csharp hljs">public class ETagRequestService : IETagRequestService</code></pre>
   <h3 id="constructors">
   	Constructors
   </h3>
   	<a id="Phnx_AspNetCore_ETags_Services_ETagRequestService__ctor_" data-uid="Phnx.AspNetCore.ETags.Services.ETagRequestService.#ctor*"></a>
-  <h4 id="Phnx_AspNetCore_ETags_Services_ETagRequestService__ctor_IActionContextAccessor_Phnx_AspNetCore_ETags_Services_IETagService_" data-uid="Phnx.AspNetCore.ETags.Services.ETagRequestService.#ctor(IActionContextAccessor,Phnx.AspNetCore.ETags.Services.IETagService)">ETagRequestService(IActionContextAccessor, IETagService)</h4>
+  <h4 id="Phnx_AspNetCore_ETags_Services_ETagRequestService__ctor_Microsoft_AspNetCore_Mvc_Infrastructure_IActionContextAccessor_Phnx_AspNetCore_ETags_Services_IETagService_" data-uid="Phnx.AspNetCore.ETags.Services.ETagRequestService.#ctor(Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor,Phnx.AspNetCore.ETags.Services.IETagService)">ETagRequestService(IActionContextAccessor, IETagService)</h4>
   <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.AspNetCore.ETags.Services.ETagRequestService.html">ETagRequestService</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -113,7 +137,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IActionContextAccessor</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor</span></td>
         <td><span class="parametername">actionContext</span></td>
         <td><p>The action context for getting the request&apos;s headers</p>
 </td>
@@ -126,6 +150,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">actionContext</code> or <code data-dev-comment-type="paramref" class="paramref">eTagService</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">
   	Fields
   </h3>
@@ -134,7 +174,7 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  	<pre><code class="lang-csharp hljs">public const string IfMatchKey = null</code></pre>
+  	<pre><code class="lang-csharp hljs">public const string IfMatchKey = &quot;If-Match&quot;</code></pre>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -155,7 +195,7 @@
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
-  	<pre><code class="lang-csharp hljs">public const string IfNoneMatchKey = null</code></pre>
+  	<pre><code class="lang-csharp hljs">public const string IfNoneMatchKey = &quot;If-None-Match&quot;</code></pre>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -191,7 +231,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IActionContextAccessor</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Mvc.Infrastructure.IActionContextAccessor</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -235,7 +275,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IHeaderDictionary</span></td>
+        <td><span class="xref">Microsoft.AspNetCore.Http.IHeaderDictionary</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -284,6 +324,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">data</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   	<a id="Phnx_AspNetCore_ETags_Services_ETagRequestService_ShouldGetSingle_" data-uid="Phnx.AspNetCore.ETags.Services.ETagRequestService.ShouldGetSingle*"></a>
   <h4 id="Phnx_AspNetCore_ETags_Services_ETagRequestService_ShouldGetSingle_System_Object_" data-uid="Phnx.AspNetCore.ETags.Services.ETagRequestService.ShouldGetSingle(System.Object)">ShouldGetSingle(Object)</h4>
   <div class="markdown level1 summary"><p>Get whether a saved data model should be returned, or if it should simply give the user </p>
@@ -321,6 +377,22 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>Whether the data model should be loaded</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">savedData</code> is <span class="xref">null</span></p>
 </td>
       </tr>
     </tbody>
@@ -366,6 +438,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">savedData</code> is <span class="xref">null</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Phnx.AspNetCore.ETags.Services.IETagRequestService.html">IETagRequestService</a>
@@ -396,7 +484,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/AspNetCore/ETags/Phnx.AspNetCore.ETags/Services/ETagRequestService.cs/#L10" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/AspNetCore/ETags/Phnx.AspNetCore.ETags/Services/ETagRequestService.cs/#L10" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>

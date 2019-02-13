@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="title" content="Class ApiException
  ">
-  <meta name="generator" content="docfx 2.40.5.0">
+  <meta name="generator" content="docfx 2.38.1.0">
   
   <link rel="shortcut icon" href="../favicon.png">
   <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -76,7 +76,67 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ApiException</span></div>
+    <div class="level1"><span class="xref">System.Exception</span></div>
+    <div class="level2"><span class="xref">System.Net.Http.HttpRequestException</span></div>
+    <div class="level3"><span class="xref">ApiException</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Runtime.Serialization.ISerializable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Exception.GetBaseException()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Data</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HelpLink</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HResult</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.InnerException</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Source</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.StackTrace</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.TargetSite</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.SerializeObjectState</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
   </div>
   
   <h5 class="underline">
@@ -87,12 +147,12 @@
   <div><strong>Assembly</strong>: Phnx.Web.dll</div>
   
   <h5 id="Phnx_Web_ApiException_syntax">Syntax</h5>
-    <pre><code class="lang-csharp hljs">public class ApiException : HttpRequestException</code></pre>
+    <pre><code class="lang-csharp hljs">public class ApiException : HttpRequestException, ISerializable</code></pre>
   <h3 id="constructors">
   	Constructors
   </h3>
   	<a id="Phnx_Web_ApiException__ctor_" data-uid="Phnx.Web.ApiException.#ctor*"></a>
-  <h4 id="Phnx_Web_ApiException__ctor_System_String_HttpStatusCode_HttpResponseHeaders_System_String_" data-uid="Phnx.Web.ApiException.#ctor(System.String,HttpStatusCode,HttpResponseHeaders,System.String)">ApiException(String, HttpStatusCode, HttpResponseHeaders, String)</h4>
+  <h4 id="Phnx_Web_ApiException__ctor_System_String_System_Net_HttpStatusCode_System_Net_Http_Headers_HttpResponseHeaders_System_String_" data-uid="Phnx.Web.ApiException.#ctor(System.String,System.Net.HttpStatusCode,System.Net.Http.Headers.HttpResponseHeaders,System.String)">ApiException(String, HttpStatusCode, HttpResponseHeaders, String)</h4>
   <div class="markdown level1 summary"><p>Create a new <a class="xref" href="Phnx.Web.ApiException.html">ApiException</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -115,13 +175,13 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">HttpStatusCode</span></td>
+        <td><span class="xref">System.Net.HttpStatusCode</span></td>
         <td><span class="parametername">statusCode</span></td>
         <td><p>The HTTP status code that could not be handled</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">HttpResponseHeaders</span></td>
+        <td><span class="xref">System.Net.Http.Headers.HttpResponseHeaders</span></td>
         <td><span class="parametername">headers</span></td>
         <td><p>The HTTP headers contained in the response</p>
 </td>
@@ -198,7 +258,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HttpResponseHeaders</span></td>
+        <td><span class="xref">System.Net.Http.Headers.HttpResponseHeaders</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -226,6 +286,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Exception.Message</span></div>
   	<a id="Phnx_Web_ApiException_StatusCode_" data-uid="Phnx.Web.ApiException.StatusCode*"></a>
   <h4 id="Phnx_Web_ApiException_StatusCode" data-uid="Phnx.Web.ApiException.StatusCode">StatusCode</h4>
   <div class="markdown level1 summary"><p>The status code response that the server gave</p>
@@ -243,11 +305,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HttpStatusCode</span></td>
+        <td><span class="xref">System.Net.HttpStatusCode</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Runtime.Serialization.ISerializable</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Phnx.ObjectExtensions.html#Phnx_ObjectExtensions_Is_System_Object_System_Type_">ObjectExtensions.Is(Object, Type)</a>
@@ -274,7 +340,7 @@
 					    <div class="contribution">
 					      <ul class="nav">
 					        <li>
-					          <a href="https://github.com/org-phnx/Phnx/blob/master/src/Web/Phnx.Web/ApiException.cs/#L11" class="contribution-link">View Source</a>
+					          <a href="https://github.com/phoenix-apps/Phnx/blob/master/src/Web/Phnx.Web/ApiException.cs/#L11" class="contribution-link">View Source</a>
 					        </li>
 					      </ul>
 					    </div>
